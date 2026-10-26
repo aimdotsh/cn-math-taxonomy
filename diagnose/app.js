@@ -215,6 +215,95 @@
     js[2].items.forEach(function (x) { stdById[x.id] = x; });
     const graph = E.buildGraph(topics, deps, questions);
     D = { topics: topics, deps: deps, stdById: stdById, graph: graph, tree: buildTree(topics), aliases: (js[3] && js[3].aliases) || {} };
+    // 物理：天津卷叠加层与易错概念（可选，缺失时不影响诊断）
+    D.tj = null; D.mc = null;
+    if (subject === 'physics') {
+      const opt = async function (u) { try { const r = await fetch(u); return r.ok ? await r.json() : null; } catch (e) { return null; } };
+      const ex = await Promise.all([opt('../data/regions/tianjin-physics.json'), opt('../data/physics-misconceptions.json')]);
+      D.tj = ex[0];
+      if (ex[1]) {
+        const byId = {};
+        (ex[1].misconceptions || []).forEach(function (m) { byId[m.id] = m; });
+        D.mc = { byId: byId, tags: ex[1].choiceTags || {} };
+      }
+    }
+  }
+
+  /* ------------------------------------------------------------ 天津卷 / 易错概念 */
+  const TJ_SCOPES = [['hi', '高频'], ['mid', '高频＋中频']];
+  let tjScope = 'hi';
+  function tjTargets(scope) {
+    if (!D.tj || !D.tj.topics) return [];
+    const levels = scope === 'mid' ? { '高频': 1, '中频': 1 } : { '高频': 1 };
+    const order = {};
+    D.topics.forEach(function (t, i) { order[t.id] = i; });
+    return Object.keys(D.tj.topics).filter(function (id) {
+      return levels[D.tj.topics[id].level] && D.graph.byId[id] && E.isTestable(D.graph, id);
+    }).sort(function (a, b) { return order[a] - order[b]; });
+  }
+  function tjCard() {
+    const box = h('div', { class: 'card', id: 'tj-card' });
+    const fill = function () {
+      while (box.firstChild) box.removeChild(box.firstChild);
+      const ids = tjTargets(tjScope);
+      const label = '天津卷' + (tjScope === 'mid' ? '高频＋中频' : '高频');
+      const years = (D.tj.years || []);
+      box.append(
+        h('h2', { text: '按天津卷考频诊断' }),
+        h('p', { class: 'muted small' }, '只测天津卷 ' + (years.length ? years[0] + '–' + years[years.length - 1] : '') +
+          ' 年反复考的知识点和模型。高频 = 6 年里考 4 年以上，中频 = 2–3 年。考频为 AI 初稿，部分真题来自考生回忆版。'),
+        h('div', { class: 'stage-tabs', role: 'tablist', 'aria-label': '天津卷范围' }, TJ_SCOPES.map(function (it) {
+          return h('button', {
+            type: 'button', class: 'stage-tab' + (tjScope === it[0] ? ' on' : ''), role: 'tab',
+            'aria-selected': tjScope === it[0] ? 'true' : 'false',
+            onclick: function () { tjScope = it[0]; fill(); }
+          }, it[1]);
+        })),
+        h('p', { class: 'muted', id: 'tj-info' }, ids.length ? label + '：' + ids.length + ' 个知识点。' : '没有可诊断的知识点。'),
+        h('div', { class: 'row' },
+          h('button', {
+            class: 'primary', id: 'btn-tj-start', disabled: !ids.length,
+            onclick: function () { if (ids.length) startSession(ids, label + '（整体筛查）', null, 'screen'); }
+          }, '开始天津卷诊断'),
+          h('a', { class: 'muted small', href: '../tianjin/' }, '看天津卷考频图')));
+    };
+    fill();
+    return box;
+  }
+  function mcOf(qid, key) {
+    if (!D.mc || !qid || !key) return null;
+    const t = D.mc.tags[qid];
+    const id = t && t[key];
+    return id ? D.mc.byId[id] || null : null;
+  }
+  function mcBlock(m) {
+    return h('div', { class: 'notice mc-hit' }, h('b', null, '可能的易错概念：'), m.text,
+      m.fix ? h('div', { class: 'small' }, h('b', null, '纠正：'), m.fix) : null);
+  }
+  function mcSummary() {
+    const hits = {};
+    session.answers.forEach(function (a) {
+      if (a.result !== 'wrong') return;
+      const m = mcOf(a.qid, a.text);
+      if (!m) return;
+      if (!hits[m.id]) hits[m.id] = { m: m, n: 0, topics: [] };
+      hits[m.id].n++;
+      if (hits[m.id].topics.indexOf(a.id) < 0) hits[m.id].topics.push(a.id);
+    });
+    return Object.keys(hits).map(function (k) { return hits[k]; }).sort(function (a, b) { return b.n - a.n; });
+  }
+  function mcCard() {
+    const list = mcSummary();
+    if (!list.length) return null;
+    return h('div', { class: 'card', id: 'misconceptions' },
+      h('h2', { text: '暴露出的易错概念（' + list.length + '）' }),
+      h('p', { class: 'muted small' }, '根据选择题里选错的选项推断，同一误区可能在多道题里出现。'),
+      list.map(function (x) {
+        return h('div', { class: 'mc-item' },
+          h('div', null, h('b', null, x.m.text), x.n > 1 ? h('span', { class: 'tag', text: '出现 ' + x.n + ' 次' }) : null),
+          x.m.fix ? h('div', { class: 'small' }, '纠正：' + x.m.fix) : null,
+          h('div', { class: 'muted small' }, '相关知识点：' + x.topics.map(nameOf).join('、')));
+      }));
   }
 
   function buildTree(topics) {
@@ -470,6 +559,7 @@
         h('label', null, '单点 / 整章题量上限（' + LIMIT_MIN + '–' + LIMIT_MAX + '）', limitInput),
         h('span', { class: 'muted small' }, '每个知识点最多问 2 题。到上限后，没测到的标为「未测」。'))));
     page.append(gradeCard());
+    if (subject === 'physics' && D.tj) page.append(tjCard());
     page.append(h('div', { class: 'card' }, browser));
     page.append(h('p', { class: 'muted small' },
       '可以诊断的知识点：' + D.topics.length + ' 个。进度和出过的题只保存在这台浏览器里。'));
@@ -712,6 +802,7 @@
       card.append(
         h('div', { class: 'muted' }, '你的答案：' + (q.type === 'choice' ? answerOfKey(q, ui.answer) : ui.answer)),
         h('div', { class: 'verdict ' + (ok ? 'ok' : 'no') }, ok ? '自动判定：正确' : '自动判定：不正确'),
+        (!ok && q.type === 'choice' && mcOf(q.id, ui.answer)) ? mcBlock(mcOf(q.id, ui.answer)) : null,
         feedbackBlock(q),
         h('div', { class: 'row' },
           h('button', { class: 'primary', id: 'btn-next', onclick: function () { commit(ok ? 'correct' : 'wrong'); } }, '下一题'),
@@ -962,6 +1053,8 @@
         h('button', { onclick: function () { if (confirm('重新开始会清除当前进度，确定吗？')) restart(); } }, '重新开始'),
         session.answers.length ? h('button', { onclick: function () { rebuild(session.answers.slice(0, -1)); } }, '撤销上一题') : null));
     page.append(summaryCard);
+    const mcc = subject === 'physics' ? mcCard() : null;
+    if (mcc) page.append(mcc);
     if (screen) page.append(chaptersCard(chapters, outOfScope));
 
     page.append(h('div', { class: 'card', id: 'roots' },
