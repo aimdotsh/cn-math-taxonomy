@@ -3,7 +3,7 @@
  * 改了 SHELL 或 DATA 列表、或数据结构变了，就把 VERSION 加一。 */
 'use strict';
 
-var VERSION = 'v3';
+var VERSION = 'v4';
 var CACHE = 'cnm-pwa-' + VERSION;
 var SCOPE = self.registration.scope;
 
@@ -45,7 +45,9 @@ var DATA = [
   'data/dependencies.json',
   'data/cn-curriculum-standards.json',
   'data/questions.json',
-  'data/id-aliases.json'
+  'data/id-aliases.json',
+  'data/regions/tianjin-physics.json',
+  'data/physics-misconceptions.json'
 ];
 
 function abs(path) { return new URL(path, SCOPE).href; }

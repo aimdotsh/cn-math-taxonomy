@@ -60093,5 +60093,1661 @@
         "note": "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
       }
     ]
+  },
+  {
+    "id": "cnp_m001",
+    "name": "运动图像法（x-t、v-t、a-t 图像）",
+    "domain": "运动和相互作用",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修一 思想方法 运动图像法",
+    "type": "reasoning",
+    "description": "用 x-t、v-t、a-t 图像描述和分析直线运动：x-t 图像斜率是速度；v-t 图像斜率是加速度、与时间轴围成的面积是位移；a-t 图像面积是速度变化量。天津卷选择题常用图像给条件，关键是先认清纵轴是什么量。",
+    "mastery_criteria": [
+      "能从 x-t、v-t 图像读出速度、加速度和位移",
+      "能用 v-t 图像面积求位移，判断何时离出发点最远、何时返回",
+      "能在 a-t、v-t、x-t 图像之间相互转换"
+    ],
+    "diagnostic_question": {
+      "question": "某物体做直线运动，它的 v-t 图像是一条过原点、斜率为正的倾斜直线。该物体做的是哪种运动？",
+      "answer": "匀加速直线运动"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "method",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B1.1.3",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_graph_xt_path",
+        "text": "把 x-t 或 v-t 图线当成物体的运动轨迹",
+        "fix": "图像只表示一个量随时间变化，直线运动的图线弯曲不等于物体走曲线"
+      },
+      {
+        "id": "mc_graph_vt_sign",
+        "text": "以为 v-t 图线穿过时间轴时加速度方向改变",
+        "fix": "斜率不变加速度就不变；穿过时间轴只表示速度方向改变"
+      },
+      {
+        "id": "mc_graph_area",
+        "text": "求位移时把时间轴下方的面积也当正值相加",
+        "fix": "时间轴下方的面积表示反向位移，求位移要带正负号"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m002",
+    "name": "追及与相遇模型",
+    "domain": "运动和相互作用",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修一 高考模型 追及与相遇模型",
+    "type": "modeling",
+    "description": "两个物体在同一直线上运动，判断能否追上、何时追上、相距最远或最近。核心是「速度相等」这一临界：速度相等时两者距离取极值。刹车类问题要先算停车时间，不能盲目代公式。",
+    "mastery_criteria": [
+      "能用速度相等找到距离的极值时刻并求最大（最小）距离",
+      "能列位移关系求追上的时间",
+      "处理刹车问题时先判断停车时间"
+    ],
+    "diagnostic_question": {
+      "question": "后车速度大于前车，后车开始以恒定加速度减速，前车匀速，两车同向行驶且后车尚未追上前车。两车距离最小的时刻是哪一个？",
+      "answer": "两车速度相等时"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B1.1.3",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_chase_equal_meet",
+        "text": "把「速度相等」和「追上」混为一谈",
+        "fix": "速度相等是距离取极值的时刻；追上要看位移关系"
+      },
+      {
+        "id": "mc_chase_brake_stop",
+        "text": "刹车问题直接代入题给时间，不判断车是否已经停下",
+        "fix": "先算停车时间 t₀ = v₀/a，题给时间超过 t₀ 时按停车时的位移算"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m003",
+    "name": "动态平衡（图解法、相似三角形法）",
+    "domain": "运动和相互作用",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修一 思想方法 动态平衡",
+    "type": "reasoning",
+    "description": "物体在缓慢移动中处于一系列平衡状态，分析各力大小怎样变化。三力平衡中一个力恒定、一个力方向不变时用图解法（矢量三角形）；力的方向都在变而有几何三角形与之相似时用相似三角形法。",
+    "mastery_criteria": [
+      "能用图解法判断三力动态平衡中各力的变化，并找出最小值",
+      "能用相似三角形法处理绳、杆、球面类动态平衡",
+      "知道当变化的力与方向不变的力垂直时取最小值"
+    ],
+    "diagnostic_question": {
+      "question": "重物用两根轻绳 OA、OB 悬挂，OA 与竖直方向成一定角度且方向保持不变。保持结点 O 位置不动，使 OB 从水平方向缓慢转到竖直方向，OB 的拉力怎样变化？",
+      "answer": "先减小后增大"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "method",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B1.2.2",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_dyneq_all_change",
+        "text": "以为动态平衡中各力都会变化，不去找不变的力",
+        "fix": "先找出大小、方向都不变的力和方向不变的力，再画矢量三角形"
+      },
+      {
+        "id": "mc_dyneq_min",
+        "text": "以为方向改变的力一定单调变化",
+        "fix": "方向改变的力在与方向不变的力垂直时最小，常是先减小后增大"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m004",
+    "name": "斜面模型（含摩擦的受力与运动）",
+    "domain": "运动和相互作用",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修一 高考模型 斜面模型",
+    "type": "modeling",
+    "description": "物体在斜面上静止、匀速或加减速。正交分解重力：沿斜面 mg sinθ，垂直斜面 mg cosθ；滑动摩擦力 μmg cosθ。μ 与 tanθ 的大小决定物体能否静止或匀速下滑，是很多题的突破口。",
+    "mastery_criteria": [
+      "会把重力沿斜面和垂直斜面分解并列牛顿第二定律",
+      "会用 μ 与 tanθ 比较判断物体在斜面上的运动状态",
+      "能处理物体沿斜面先上滑后下滑的过程"
+    ],
+    "diagnostic_question": {
+      "question": "物体静止在倾角为 θ 的粗糙斜面上，斜面对物体的作用力（支持力和摩擦力的合力）方向是哪一个？",
+      "answer": "竖直向上"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B1.2.3",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:B1.2.1",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_incline_normal",
+        "text": "以为斜面对物体的支持力等于 mg",
+        "fix": "支持力等于 mg cosθ（无其他垂直斜面的力时）"
+      },
+      {
+        "id": "mc_incline_up_down",
+        "text": "以为物体上滑和下滑的加速度大小相同",
+        "fix": "上滑时摩擦力沿斜面向下，a = g(sinθ + μcosθ)；下滑时 a = g(sinθ − μcosθ)"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m005",
+    "name": "弹簧、轻绳的瞬时加速度（突变）问题",
+    "domain": "运动和相互作用",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修一 高考模型 弹簧、轻绳的瞬时加速度",
+    "type": "modeling",
+    "description": "撤去或剪断某个力的瞬间求加速度。轻弹簧（两端连着物体）形变需要时间，弹力瞬间不变；轻绳、轻杆的弹力可以瞬间突变。先分析剪断前各力，再判断哪些力瞬间保留。",
+    "mastery_criteria": [
+      "知道弹簧弹力不能突变、轻绳弹力可以突变",
+      "能求剪断绳或撤去支撑瞬间各物体的加速度",
+      "能处理叠放、悬挂的多物体突变问题"
+    ],
+    "diagnostic_question": {
+      "question": "质量均为 m 的 A、B 两球用轻弹簧相连，A 用细线挂在天花板上，B 在下方，系统静止。剪断细线的瞬间，A、B 的加速度大小分别是多少？",
+      "answer": "A 为 2g，B 为 0"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B1.2.3",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_instant_spring_jump",
+        "text": "以为剪断瞬间弹簧弹力也立刻变为零或突变",
+        "fix": "两端连物体的轻弹簧，剪断别处的瞬间弹力保持原值"
+      },
+      {
+        "id": "mc_instant_rope_keep",
+        "text": "以为剪断一根绳的瞬间，另一根轻绳的拉力不变",
+        "fix": "轻绳拉力可以突变，要按剪断后的运动状态重新分析"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m006",
+    "name": "传送带模型",
+    "domain": "运动和相互作用",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修一 高考模型 传送带模型",
+    "type": "modeling",
+    "description": "物块在水平或倾斜传送带上运动。关键是比较物块与传送带的速度，判断相对运动方向，从而确定摩擦力方向；物块与传送带共速是转折点，共速后要重新判断摩擦力（倾斜传送带还要比较 μ 与 tanθ）。",
+    "mastery_criteria": [
+      "能根据相对运动方向判断传送带上物块所受摩擦力的方向",
+      "能分段求物块在传送带上的运动时间和位移",
+      "能分析倾斜传送带共速后物块的运动"
+    ],
+    "diagnostic_question": {
+      "question": "把物块轻放在水平向右匀速运动的传送带左端，物块加速的过程中所受摩擦力是哪一个？",
+      "answer": "滑动摩擦力，方向向右"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B1.2.3",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_conveyor_friction_dir",
+        "text": "以为摩擦力方向总与传送带运动方向相反",
+        "fix": "摩擦力方向与物块相对传送带的运动方向相反"
+      },
+      {
+        "id": "mc_conveyor_after_equal",
+        "text": "以为共速后物块一定和传送带一起匀速，或仍保持原加速度",
+        "fix": "共速后重新受力分析：水平带一起匀速；倾斜带若 μ < tanθ 继续以 g(sinθ − μcosθ) 加速"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m007",
+    "name": "板块模型（滑块—木板）",
+    "domain": "运动和相互作用",
+    "grade": 10,
+    "semester": "上",
+    "chapter": "必修一 高考模型 板块模型",
+    "type": "modeling",
+    "description": "滑块在木板上滑动或两者叠放在一起受力。先判断两者是否相对滑动：假设一起运动求共同加速度，与滑块靠最大静摩擦能获得的加速度比较。相对滑动时分别对两物体列方程，速度相等是转折点，相对位移决定摩擦生热。",
+    "mastery_criteria": [
+      "能判断滑块与木板是否发生相对滑动并求临界拉力",
+      "能分别求出滑块和木板的加速度、共同速度和所用时间",
+      "会求相对位移，为摩擦生热计算做准备"
+    ],
+    "diagnostic_question": {
+      "question": "光滑水平面上放着静止的木板，滑块以一定初速度滑上木板左端并在木板上向右滑动。此时木板所受摩擦力的方向是哪一个？",
+      "answer": "向右，与滑块运动方向相同"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B1.2.3",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_board_same_a",
+        "text": "以为滑块和木板总是一起运动、加速度相同",
+        "fix": "先假设相对静止求共同加速度，再与最大静摩擦提供的加速度比较"
+      },
+      {
+        "id": "mc_board_friction_dir",
+        "text": "认为木板受到的摩擦力方向与滑块运动方向相反",
+        "fix": "木板受的摩擦力是滑块对它的反作用力，滑块相对木板向前滑时它向前"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m008",
+    "name": "斜面与平抛的结合",
+    "domain": "运动和相互作用",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修二 高考模型 斜面与平抛的结合",
+    "type": "modeling",
+    "description": "从斜面上平抛或抛向斜面。落在斜面上时，位移方向与水平方向夹角等于斜面倾角 θ，得到 t = 2v₀tanθ/g；速度方向与水平方向夹角 α 满足 tanα = 2tanθ，与初速度无关。",
+    "mastery_criteria": [
+      "会用「位移角等于斜面倾角」求平抛到斜面的时间和距离",
+      "知道 tanα = 2tanθ，落到斜面时速度方向与初速度大小无关",
+      "能处理垂直撞击斜面等变式"
+    ],
+    "diagnostic_question": {
+      "question": "从倾角为 θ 的斜面顶端以不同初速度水平抛出小球，小球都落在斜面上。落到斜面时速度方向与斜面的夹角怎样？",
+      "answer": "都相同，与初速度大小无关"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B2.2.2",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_incprj_angle",
+        "text": "以为初速度越大，落到斜面时速度与斜面的夹角越大",
+        "fix": "tanα = 2tanθ，夹角与初速度无关"
+      },
+      {
+        "id": "mc_incprj_disp_vel",
+        "text": "把位移方向角和速度方向角混为一谈",
+        "fix": "落在斜面上时位移角等于 θ，速度角 α 满足 tanα = 2tanθ"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m009",
+    "name": "竖直面内圆周运动（绳模型与杆模型）",
+    "domain": "运动和相互作用",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修二 高考模型 竖直面内圆周运动",
+    "type": "modeling",
+    "description": "小球在竖直面内做圆周运动。绳（或内轨道）模型只能提供指向圆心的拉力，最高点最小速度 √(gR)；杆（或管道）模型能拉能推，最高点最小速度为 0，v = √(gR) 时杆对球无作用力。常与机械能守恒结合求最低点的力。",
+    "mastery_criteria": [
+      "知道绳模型和杆模型最高点的临界速度",
+      "能在最高点、最低点列向心力方程求绳或杆的作用力",
+      "能结合机械能守恒处理竖直面圆周运动"
+    ],
+    "diagnostic_question": {
+      "question": "用轻绳拴着小球在竖直平面内做圆周运动，绳长为 R。小球恰好能通过最高点时，在最高点的速度是多少？",
+      "answer": "√(gR)"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B2.2.3",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_vc_rope_zero",
+        "text": "以为绳模型最高点的速度可以为零",
+        "fix": "绳只能拉，最高点至少由重力提供向心力，v ≥ √(gR)"
+      },
+      {
+        "id": "mc_vc_rod_min",
+        "text": "以为杆模型最高点杆对球总是拉力",
+        "fix": "v < √(gR) 时杆提供支持力，v > √(gR) 时才是拉力"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m010",
+    "name": "水平面圆周运动的临界问题（转盘、圆锥摆）",
+    "domain": "运动和相互作用",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修二 高考模型 水平面圆周运动的临界问题",
+    "type": "modeling",
+    "description": "物体随水平转盘转动，或圆锥摆、火车转弯等水平面圆周运动。向心力由静摩擦力或几个力的合力提供；转速增大到静摩擦力达到最大时开始滑动，临界角速度 ω = √(μg/r)，与质量无关。",
+    "mastery_criteria": [
+      "能找出水平面圆周运动的向心力来源",
+      "会求转盘上物体恰好不滑动的临界角速度并判断谁先滑动",
+      "能用合力提供向心力分析圆锥摆"
+    ],
+    "diagnostic_question": {
+      "question": "物块随水平转盘一起匀速转动，与转盘没有相对滑动。物块做圆周运动的向心力由什么提供？",
+      "answer": "转盘对物块的静摩擦力"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B2.2.3",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_turn_centrifugal",
+        "text": "以为物体受到「离心力」",
+        "fix": "受力分析中没有离心力，向心力是某个实际力或合力的效果"
+      },
+      {
+        "id": "mc_turn_mass",
+        "text": "以为质量大的物体先滑动",
+        "fix": "临界角速度 √(μg/r) 与质量无关，半径大的先滑动"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m011",
+    "name": "双星与多星模型",
+    "domain": "运动和相互作用",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修二 高考模型 双星与多星模型",
+    "type": "modeling",
+    "description": "两颗星绕连线上某点做匀速圆周运动，彼此间的万有引力提供各自的向心力。两星角速度、周期相同；轨道半径与质量成反比，r₁ = m₂L/(m₁ + m₂)；周期 T = 2π√(L³/(G(m₁ + m₂)))。万有引力公式用两星间距 L，向心力公式用各自的轨道半径。",
+    "mastery_criteria": [
+      "知道双星的角速度、周期相同，半径和线速度与质量成反比",
+      "能区分万有引力中的距离与圆周运动的轨道半径",
+      "会求双星的周期或总质量"
+    ],
+    "diagnostic_question": {
+      "question": "双星系统中，两颗星绕它们连线上的某点做匀速圆周运动。两星的哪个物理量一定相同？",
+      "answer": "角速度（周期）"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B2.2.4",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_ds_radius",
+        "text": "把万有引力公式中的两星距离当成轨道半径",
+        "fix": "引力用 L，向心力用各自的 r，r₁ + r₂ = L"
+      },
+      {
+        "id": "mc_ds_speed",
+        "text": "以为质量大的星线速度大",
+        "fix": "质量大的星轨道半径小，角速度相同，线速度也小"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m012",
+    "name": "卫星变轨与对接",
+    "domain": "运动和相互作用",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修二 高考模型 卫星变轨与对接",
+    "type": "modeling",
+    "description": "卫星在不同轨道间转移。由低圆轨道到高圆轨道要先在切点加速进入椭圆转移轨道，到远地点再加速；反之减速。圆轨道越高速度越小、周期越大；同一点不同轨道上加速度相同（只由万有引力决定）。",
+    "mastery_criteria": [
+      "能判断变轨时点火加速还是减速",
+      "能比较不同圆轨道上的速度、周期、加速度",
+      "知道同一点不同轨道的加速度相同而速度不同"
+    ],
+    "diagnostic_question": {
+      "question": "卫星要从低圆轨道变到高圆轨道，在低圆轨道上应该怎样做？",
+      "answer": "点火加速"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B2.2.5",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:B2.2.4",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_orbit_speedup",
+        "text": "以为到高轨道要减速，或高轨道速度更大",
+        "fix": "低轨道加速做离心运动才能升高；稳定后高轨道速度更小"
+      },
+      {
+        "id": "mc_orbit_accel_point",
+        "text": "以为同一点在不同轨道上加速度不同",
+        "fix": "加速度 a = GM/r² 只与位置有关"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m013",
+    "name": "赤道上的物体、近地卫星与同步卫星的比较",
+    "domain": "运动和相互作用",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修二 高考模型 赤道上的物体、近地卫星与同步卫星的比较",
+    "type": "modeling",
+    "description": "比较赤道上随地球自转的物体、近地卫星和同步卫星。赤道上的物体和同步卫星角速度相同（用 v = ωr、a = ω²r 比较）；近地卫星和同步卫星都只受万有引力（用 v = √(GM/r) 比较）。赤道上的物体靠万有引力与支持力的合力提供向心力，不能套卫星公式。",
+    "mastery_criteria": [
+      "知道赤道上的物体与同步卫星角速度相同",
+      "能分组选用公式比较三者的线速度、角速度、向心加速度",
+      "知道赤道上物体的向心力不等于万有引力"
+    ],
+    "diagnostic_question": {
+      "question": "赤道上随地球自转的物体与地球同步卫星相比，下列哪个物理量相同？",
+      "answer": "角速度"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B2.2.5",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:B2.2.4",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_eq_gravity_only",
+        "text": "以为赤道上的物体也是万有引力完全提供向心力",
+        "fix": "赤道上的物体受万有引力和支持力，二者合力才是向心力，远小于万有引力"
+      },
+      {
+        "id": "mc_eq_same_formula",
+        "text": "用 v = √(GM/r) 去比较赤道上的物体和卫星",
+        "fix": "赤道物体与同步卫星比较用相同的 ω；卫星之间比较才用 √(GM/r)"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m014",
+    "name": "机车启动模型（恒定功率与恒定加速度）",
+    "domain": "能量",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修二 高考模型 机车启动模型",
+    "type": "modeling",
+    "description": "机车以恒定功率或恒定加速度启动。P = Fv：恒定功率启动时速度增大、牵引力减小，做加速度减小的加速运动；恒定加速度启动先匀加速，功率达到额定值后转为恒定功率阶段。最终 F = f 时速度最大，v_max = P/f。",
+    "mastery_criteria": [
+      "能分析两种启动方式中 F、a、v 的变化",
+      "会求最大速度和匀加速阶段的末速度、持续时间",
+      "能用动能定理处理恒定功率阶段的位移"
+    ],
+    "diagnostic_question": {
+      "question": "汽车以额定功率由静止启动，阻力不变。开始一段时间内汽车做什么运动？",
+      "answer": "加速度逐渐减小的加速运动"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B2.1.1",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_vs_const_power_accel",
+        "text": "以为恒定功率启动是匀加速运动",
+        "fix": "P 不变、v 增大则 F 减小，加速度减小"
+      },
+      {
+        "id": "mc_vs_max_speed",
+        "text": "以为匀加速结束时的速度就是最大速度",
+        "fix": "匀加速结束时功率刚达额定值，但 F > f，之后还要加速"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m015",
+    "name": "多过程问题的能量分析（动能定理与机械能守恒的选用）",
+    "domain": "能量",
+    "grade": 11,
+    "semester": "上",
+    "chapter": "必修二 思想方法 多过程问题的能量分析",
+    "type": "reasoning",
+    "description": "物体经历多个运动过程（斜面、水平面、圆轨道、往复运动）。不涉及时间和加速度时优先用动能定理对全程列式；只有重力、弹力做功时可用机械能守恒；摩擦力做功等于 −μmg·路程。圆轨道的临界条件要和能量方程联立。",
+    "mastery_criteria": [
+      "能对多过程问题选择合适的过程和规律（动能定理或机械能守恒）",
+      "知道滑动摩擦力做功与路程有关",
+      "能把竖直圆周运动的临界条件与能量方程结合"
+    ],
+    "diagnostic_question": {
+      "question": "小物块在两侧为光滑曲面、中间为粗糙水平面的轨道上来回运动，最终停下。整个过程中摩擦力做的功与什么有关？",
+      "answer": "与物块在粗糙水平面上经过的总路程有关"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "method",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B2.1.2",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:B2.1.4",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_mpe_friction_path",
+        "text": "以为滑动摩擦力做功只与初末位置的位移有关",
+        "fix": "滑动摩擦力做功等于 −f × 路程"
+      },
+      {
+        "id": "mc_mpe_cons_condition",
+        "text": "有摩擦力做功时仍用机械能守恒",
+        "fix": "机械能守恒只在只有重力、弹力做功时成立，否则用动能定理"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m016",
+    "name": "电场中的图像问题（φ-x、E-x、Ep-x）",
+    "domain": "运动和相互作用",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修三 思想方法 电场中的图像问题",
+    "type": "reasoning",
+    "description": "用图像描述电场：φ-x 图像切线斜率的绝对值是沿 x 方向的场强；E-x 图像与 x 轴围成的面积是电势差；Ep-x 图像斜率的绝对值是静电力。天津卷多选题常用这类图像考电势、场强、电势能的变化，要区分正负电荷。",
+    "mastery_criteria": [
+      "能从 φ-x 图像读出场强大小和方向",
+      "能用 E-x 图像面积求电势差",
+      "能结合电荷正负判断电势能的变化"
+    ],
+    "diagnostic_question": {
+      "question": "静电场中沿 x 轴的电势 φ 随 x 变化的图像，其切线斜率的绝对值表示什么？",
+      "answer": "该点沿 x 方向的电场强度大小"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "method",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B3.1.5",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_fg_phi_slope",
+        "text": "把 φ-x 图像的纵坐标（电势）当成场强，以为电势为零处场强为零",
+        "fix": "场强看切线斜率，电势高低与场强大小没有必然关系"
+      },
+      {
+        "id": "mc_fg_ep_sign",
+        "text": "以为电势降低时任何电荷的电势能都减少",
+        "fix": "Ep = qφ，负电荷在电势低处电势能反而大"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m017",
+    "name": "电容器的动态分析（Q 不变与 U 不变）",
+    "domain": "运动和相互作用",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修三 高考模型 电容器的动态分析",
+    "type": "reasoning",
+    "description": "平行板电容器的动态分析。先分清两类：始终接电源时 U 不变；充电后断开电源时 Q 不变。再用 C = εS/(4πkd)、C = Q/U、E = U/d 依次推导。Q 不变时 E = 4πkQ/(εS)，与板间距离无关。",
+    "mastery_criteria": [
+      "能区分 U 不变和 Q 不变两种情形",
+      "会用三个公式推出 C、Q、U、E 的变化",
+      "知道 Q 不变时改变板距场强不变"
+    ],
+    "diagnostic_question": {
+      "question": "平行板电容器始终与电源相连，增大两板间距离，电容 C 和所带电荷量 Q 怎样变化？",
+      "answer": "C 减小，Q 减小"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B3.1.6",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_cap_U_const",
+        "text": "断开电源后仍以为两板电压不变",
+        "fix": "断开电源后电荷无处可去，Q 不变，U 随 C 变化"
+      },
+      {
+        "id": "mc_cap_E_d",
+        "text": "Q 不变时以为板距增大场强减小",
+        "fix": "E = U/d = Q/(Cd) = 4πkQ/(εS)，与 d 无关"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m018",
+    "name": "带电粒子在交变电场中的运动",
+    "domain": "运动和相互作用",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修三 高考模型 带电粒子在交变电场中的运动",
+    "type": "modeling",
+    "description": "带电粒子在方波等交变电场中运动。先画加速度—时间图，再画速度—时间图：电场反向时加速度反向，但速度不会立刻反向。释放时刻不同，粒子可能一直向前，也可能往复运动；偏转场中交变电压常使离开时竖直速度为零。",
+    "mastery_criteria": [
+      "能由交变电压画出粒子的 a-t、v-t 图像",
+      "能判断不同释放时刻粒子是单向运动还是往复运动",
+      "能求交变电场中粒子的位移和离开时的速度"
+    ],
+    "diagnostic_question": {
+      "question": "平行板间加方波电压：前半个周期为 U₀，后半个周期为 −U₀，周期性变化。t = 0 时一个电子从一块板附近由静止释放（不计重力，板间距离足够大），电子怎样运动？",
+      "answer": "一直向同一方向运动，先加速后减速，周期性重复"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B3.1.5",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_acf_back",
+        "text": "以为电场一反向粒子就立即反向运动",
+        "fix": "电场反向只使加速度反向，粒子先减速，速度减到零后才反向"
+      },
+      {
+        "id": "mc_acf_release",
+        "text": "忽略释放时刻对运动形式的影响",
+        "fix": "t = 0 释放可能单向运动，t = T/4 释放则往复运动，要画 v-t 图判断"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m019",
+    "name": "测量电路的选择（内接外接、限流分压、器材选取）",
+    "domain": "能量",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修三 思想方法 测量电路的选择",
+    "type": "procedural",
+    "description": "伏安法测电阻的电路设计：Rₓ 较小（Rₓ < √(R_V R_A)）用电流表外接，测量值偏小；Rₓ 较大用内接，测量值偏大。要求电压从零开始调节、或滑动变阻器阻值远小于 Rₓ 时用分压式接法。电表量程按「不超量程、指针偏转尽量大」选取。天津卷电学实验高频。",
+    "mastery_criteria": [
+      "会判断电流表内接或外接，并说出误差方向",
+      "会判断滑动变阻器用分压式还是限流式",
+      "能根据电源和待测电阻选择电表量程"
+    ],
+    "diagnostic_question": {
+      "question": "用伏安法测约 5 Ω 的电阻，电压表内阻约 3 kΩ，电流表内阻约 0.1 Ω。应选择哪种接法？",
+      "answer": "电流表外接法"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "method",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B3.X.3",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:B3.2.2",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_cc_inner_outer",
+        "text": "小电阻也用电流表内接法",
+        "fix": "小电阻与电流表内阻可比，内接会把电流表分压算进去，误差大，应外接"
+      },
+      {
+        "id": "mc_cc_divider",
+        "text": "要求电压从零开始调节时仍用限流式接法",
+        "fix": "限流式电压不能调到零，必须用分压式"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m020",
+    "name": "电阻测量的特殊方法（半偏法、等效替代、电桥）",
+    "domain": "能量",
+    "grade": 12,
+    "semester": "上",
+    "chapter": "必修三 思想方法 电阻测量的特殊方法",
+    "type": "procedural",
+    "description": "伏安法以外的测电阻方法：等效替代法（换上电阻箱使电路状态完全相同）、半偏法测电表内阻（并联电阻箱使电流表半偏，测量值偏小）、电桥法（检流计示数为零时 R₁/R₂ = R₃/Rₓ）。关键是弄清每种方法的前提和误差来源。",
+    "mastery_criteria": [
+      "会用等效替代法和电桥法测电阻",
+      "知道半偏法测电流表内阻的步骤和误差方向",
+      "能说明各方法成立的条件"
+    ],
+    "diagnostic_question": {
+      "question": "用等效替代法测电阻，下列操作正确的是哪一个？",
+      "answer": "换上电阻箱后保持滑动变阻器不动，调电阻箱使电流表示数与原来相同"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "method",
+    "standards": [
+      {
+        "id": "cps-hs-2017:B3.X.4",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:B3.2.3",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_rs_equiv",
+        "text": "以为等效替代时可以重新调节电路其他部分",
+        "fix": "替代前后电路其他部分必须保持不变，只换待测元件"
+      },
+      {
+        "id": "mc_rs_halfbias_err",
+        "text": "以为半偏法测得的电流表内阻偏大",
+        "fix": "并联电阻箱后总电流略增大，电阻箱分得电流大于一半，测量值偏小"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m021",
+    "name": "子弹打木块与摩擦生热（动量与能量）",
+    "domain": "能量",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必一 高考模型 子弹打木块与摩擦生热",
+    "type": "modeling",
+    "description": "子弹打木块、滑块在木板上滑到共速等「完全非弹性」相互作用：系统动量守恒，机械能不守恒。系统损失的机械能等于摩擦生热 Q = f·Δx，Δx 是两物体的相对位移，不是对地位移。",
+    "mastery_criteria": [
+      "能对子弹打木块类问题列动量守恒求共同速度",
+      "会求系统损失的机械能",
+      "知道摩擦生热等于摩擦力乘相对位移"
+    ],
+    "diagnostic_question": {
+      "question": "子弹水平射入静止在光滑水平面上的木块并留在其中，在这一过程中，对子弹和木块组成的系统，下列说法正确的是哪一个？",
+      "answer": "动量守恒，机械能不守恒"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S1.1.2",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:S1.1.3",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_bb_energy_cons",
+        "text": "以为子弹打木块过程机械能守恒",
+        "fix": "子弹嵌入木块是完全非弹性碰撞，有大量机械能转化为内能"
+      },
+      {
+        "id": "mc_bb_heat_disp",
+        "text": "求摩擦生热时用子弹或木块的对地位移",
+        "fix": "Q = f·Δx，Δx 是相对位移"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m022",
+    "name": "含弹簧的碰撞模型",
+    "domain": "能量",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必一 高考模型 含弹簧的碰撞模型",
+    "type": "modeling",
+    "description": "两物体通过轻弹簧发生相互作用。系统动量守恒、机械能（动能 + 弹性势能）守恒。弹簧最短（或最长）时两物体速度相同，弹性势能最大；弹簧恢复原长时相当于发生了一次弹性碰撞。",
+    "mastery_criteria": [
+      "知道弹簧最短时两物体共速、弹性势能最大",
+      "会求最大弹性势能",
+      "知道弹簧恢复原长相当于弹性碰撞，并求两物体速度"
+    ],
+    "diagnostic_question": {
+      "question": "光滑水平面上，物块 A 以速度 v₀ 撞向左端连有轻弹簧、原来静止的物块 B。弹簧被压缩到最短时，下列说法正确的是哪一个？",
+      "answer": "A、B 的速度相同"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S1.1.2",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_sc_max_pe",
+        "text": "以为弹簧最短时前面的物体速度为零",
+        "fix": "弹簧最短时两物体速度相同，相对速度为零"
+      },
+      {
+        "id": "mc_sc_restore",
+        "text": "以为弹簧恢复原长时两物体速度相同",
+        "fix": "恢复原长时弹性势能为零，相当于弹性碰撞后的状态，两者速度一般不同"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m023",
+    "name": "人船模型",
+    "domain": "运动和相互作用",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必一 高考模型 人船模型",
+    "type": "modeling",
+    "description": "原来静止的系统内部相互作用，系统动量守恒且总动量为零，两部分的速度、位移都与质量成反比：m₁x₁ = m₂x₂，且 x₁ + x₂ 等于相对位移。人走船动、人停船停，船移动的距离与人走得快慢无关。",
+    "mastery_criteria": [
+      "能用 m₁x₁ = m₂x₂ 求人和船的对地位移",
+      "知道人停船停，位移与速度大小无关",
+      "能把人船模型推广到气球与绳梯、斜面与滑块等情境"
+    ],
+    "diagnostic_question": {
+      "question": "静止在平静水面上的船，人从船头走到船尾后停下（不计水的阻力）。人停下时船怎样？",
+      "answer": "同时停下"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S1.1.1",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_mb_ground_disp",
+        "text": "把人相对船的位移当成人的对地位移",
+        "fix": "人对地位移 + 船对地位移 = 船长（相对位移）"
+      },
+      {
+        "id": "mc_mb_inertia",
+        "text": "以为人停下后船由于惯性继续运动",
+        "fix": "总动量始终为零，人停下的瞬间船也停下"
+      },
+      {
+        "id": "mc_mb_speed",
+        "text": "以为人走得越快，船移动的距离越大",
+        "fix": "位移比只由质量比决定，与速度大小无关"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m024",
+    "name": "动量与能量的多过程综合",
+    "domain": "能量",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必一 思想方法 动量与能量的多过程综合",
+    "type": "reasoning",
+    "description": "包含下滑、碰撞、平抛、圆周、爆炸等多个阶段的综合题（天津卷计算第 10 题的常见形式）。按阶段划分：碰撞、爆炸瞬间用动量守恒；只有重力或弹力做功的阶段用机械能守恒；有摩擦的阶段用动能定理。列动量守恒式前先规定正方向。",
+    "mastery_criteria": [
+      "能把多过程问题按阶段划分并为每个阶段选对规律",
+      "会处理碰撞后粘合、爆炸分裂后平抛等衔接",
+      "列式时规定正方向并注意速度的正负"
+    ],
+    "diagnostic_question": {
+      "question": "物块 A 从光滑弧形轨道上由静止滑下，到水平面后与静止的物块 B 碰撞并粘在一起。关于这个过程，下列说法正确的是哪一个？",
+      "answer": "下滑过程机械能守恒；碰撞过程动量守恒，机械能有损失"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "method",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S1.1.3",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:S1.1.1",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_mec_whole_process",
+        "text": "对包含碰撞的全过程直接用机械能守恒",
+        "fix": "非弹性碰撞瞬间有机械能损失，必须分段处理"
+      },
+      {
+        "id": "mc_mec_direction",
+        "text": "列动量守恒式时不规定正方向，速度方向弄错",
+        "fix": "先规定正方向，反向速度代负值"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m025",
+    "name": "机械波的多解问题",
+    "domain": "运动和相互作用",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必一 高考模型 机械波的多解问题",
+    "type": "reasoning",
+    "description": "已知两个时刻的波形或两个质点的振动情况求波速、周期时，常有多解：传播方向不确定（双向性）、时间间隔内可能多传播了整数个波长（周期性）、两质点间可能相隔整数个波长。写通式时带上 n = 0, 1, 2, …，再用题给限制条件筛选。",
+    "mastery_criteria": [
+      "能说出机械波问题多解的来源（双向性、周期性）",
+      "会写出波速或周期的通式",
+      "能用限制条件（如 T 大于时间间隔）确定具体解"
+    ],
+    "diagnostic_question": {
+      "question": "已知一列简谐横波在 t₁ 和 t₂ 两个时刻的波形图，求波速时为什么常常有多个答案？",
+      "answer": "传播方向可能不确定，时间间隔内还可能多传播了整数个波长"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S1.2.4",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_wm_single",
+        "text": "只考虑一个传播方向或最小的平移距离，得到唯一解",
+        "fix": "方向不确定时两个方向都要考虑，并加上 nλ"
+      },
+      {
+        "id": "mc_wm_period",
+        "text": "把两个时刻的时间间隔直接当成周期或半周期",
+        "fix": "Δt 与 T 的关系由波形平移距离决定：Δt = (n + Δx/λ)T"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m026",
+    "name": "玻璃砖中的折射与全反射（光路几何）",
+    "domain": "运动和相互作用",
+    "grade": 13,
+    "semester": "上",
+    "chapter": "选必一 高考模型 玻璃砖中的折射与全反射",
+    "type": "modeling",
+    "description": "光通过玻璃砖、三棱镜、半圆柱体等发生折射和全反射。画光路图，找法线，入射角和折射角都是光线与法线的夹角；光从光密射向光疏且入射角 ≥ 临界角 C（sinC = 1/n）时全反射。沿半径射向半圆柱圆心的光在曲面上不偏折。",
+    "mastery_criteria": [
+      "会画光路并用 n = sin i / sin r 计算",
+      "会用 sinC = 1/n 判断是否全反射",
+      "能处理半圆形玻璃砖、三棱镜中的几何关系"
+    ],
+    "diagnostic_question": {
+      "question": "发生全反射必须满足的条件是哪一个？",
+      "answer": "光从光密介质射向光疏介质，且入射角大于或等于临界角"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S1.3.1",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:S1.3.2",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_gb_angle",
+        "text": "把光线与界面的夹角当成入射角或折射角",
+        "fix": "入射角、折射角是光线与法线的夹角"
+      },
+      {
+        "id": "mc_gb_tir_dir",
+        "text": "以为光从空气射入玻璃也能发生全反射",
+        "fix": "全反射只发生在光从光密介质射向光疏介质时"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m027",
+    "name": "带电粒子在有界磁场中的运动（找圆心、半径与临界）",
+    "domain": "运动和相互作用",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必二 高考模型 带电粒子在有界磁场中的运动",
+    "type": "modeling",
+    "description": "带电粒子垂直射入有界匀强磁场做圆周运动。三步：找圆心（速度方向的垂线与弦的中垂线的交点）、求半径（r = mv/(qB) 或几何关系）、定时间（t = θT/(2π)，θ 是圆心角）。直线边界进出对称，圆形磁场中沿半径射入必沿半径射出。",
+    "mastery_criteria": [
+      "会找圆心、用几何关系求半径",
+      "会由圆心角求运动时间，知道周期与速度无关",
+      "能分析直线边界、圆形边界中的临界轨迹"
+    ],
+    "diagnostic_question": {
+      "question": "带电粒子从直线边界射入匀强磁场（磁场在边界一侧），入射速度与边界的夹角为 θ，粒子又从同一边界射出。射出时速度与边界的夹角是多少？",
+      "answer": "也是 θ"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S2.1.3",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_bf_center",
+        "text": "找圆心时随意取点，不用速度垂线定圆心",
+        "fix": "圆心在入射、出射速度方向的垂线上，或在弦的中垂线上"
+      },
+      {
+        "id": "mc_bf_time",
+        "text": "以为速度越大，粒子在磁场中运动时间越长",
+        "fix": "周期 T = 2πm/(qB) 与速度无关，时间只取决于圆心角"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m028",
+    "name": "带电粒子在组合场中的运动",
+    "domain": "运动和相互作用",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必二 高考模型 带电粒子在组合场中的运动",
+    "type": "modeling",
+    "description": "粒子依次经过电场和磁场（如先加速或偏转、再进入磁场）。分段处理：电场中用动能定理或类平抛求出口速度的大小和方向；进入磁场时的速度是合速度，用它求半径；洛伦兹力不做功，只改变方向。天津卷计算第 11、12 题的常见题型。",
+    "mastery_criteria": [
+      "能分段处理粒子在电场、磁场中的运动并衔接速度",
+      "会用合速度求粒子进入磁场后的半径",
+      "知道洛伦兹力不做功，速率只在电场中改变"
+    ],
+    "diagnostic_question": {
+      "question": "带电粒子先经电场加速，再垂直进入匀强磁场做圆周运动。下列说法正确的是哪一个？",
+      "answer": "电场力做功改变速率，洛伦兹力不做功"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S2.1.3",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:B3.1.5",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_cf_entry_speed",
+        "text": "粒子从偏转电场进入磁场时只用水平分速度求半径",
+        "fix": "进入磁场的速度是合速度 v = v₀/cosθ"
+      },
+      {
+        "id": "mc_cf_field_work",
+        "text": "以为洛伦兹力也会做功改变速率",
+        "fix": "洛伦兹力始终垂直速度，不做功"
+      },
+      {
+        "id": "mc_cf_r_U",
+        "text": "以为半径与加速电压成正比",
+        "fix": "v = √(2qU/m)，r ∝ √U"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m029",
+    "name": "叠加场的应用（速度选择器、磁流体发电机、霍尔效应、电磁流量计）",
+    "domain": "运动和相互作用",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必二 高考模型 叠加场的应用",
+    "type": "modeling",
+    "description": "电场和磁场叠加在同一区域的现代科技装置：速度选择器（qE = qvB，v = E/B）、磁流体发电机（E = Bdv）、霍尔元件（U_H = Bvd，正负取决于载流子）、电磁流量计。核心都是稳定时电场力与洛伦兹力平衡。天津卷压轴题常以这类装置为情境。",
+    "mastery_criteria": [
+      "知道速度选择器只选择速度，与电性和电荷量无关",
+      "会用电场力与洛伦兹力平衡求磁流体发电机电动势、霍尔电压",
+      "能根据载流子电性判断霍尔元件两侧电势高低"
+    ],
+    "diagnostic_question": {
+      "question": "速度选择器中匀强电场和匀强磁场相互垂直，能沿直线通过的带电粒子满足什么条件（不计重力）？",
+      "answer": "速度 v = E/B，与电性和电荷量无关"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S2.1.2",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:S2.1.3",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_sf_charge_sign",
+        "text": "以为速度选择器只对一种电性的粒子有效",
+        "fix": "正负粒子所受电场力和洛伦兹力都同时反向，仍能平衡"
+      },
+      {
+        "id": "mc_sf_hall_sign",
+        "text": "判断霍尔电势高低时不区分载流子是正电荷还是电子",
+        "fix": "先用左手定则判断载流子偏向哪侧，电子偏向的一侧电势低"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m030",
+    "name": "单杆切割模型（动力学与能量）",
+    "domain": "能量",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必二 高考模型 单杆切割模型",
+    "type": "modeling",
+    "description": "一根导体棒在导轨上切割磁感线：E = BLv，I = E/R，安培力 F = B²L²v/R 随速度变化，所以恒力拉动时做加速度减小的加速运动，最终 F 外 = F 安时达到收尾速度。能量上，外力做功 = 动能增量 + 焦耳热。天津卷计算题高频。",
+    "mastery_criteria": [
+      "能对单杆列 E、I、F安 并分析加速度变化和收尾速度",
+      "会用能量守恒求焦耳热",
+      "能处理倾斜导轨、恒定功率拉动等变式"
+    ],
+    "diagnostic_question": {
+      "question": "光滑水平导轨上的导体棒在恒力 F 作用下由静止开始运动，回路中有电阻，磁场竖直。导体棒怎样运动？",
+      "answer": "加速度逐渐减小的加速运动，最后匀速"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S2.2.2",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_sr_uniform",
+        "text": "以为恒力拉动导体棒时棒做匀加速运动",
+        "fix": "安培力随速度增大，加速度减小，最终匀速"
+      },
+      {
+        "id": "mc_sr_heat",
+        "text": "用 Q = I²Rt 且电流取某一时刻值求焦耳热",
+        "fix": "电流变化时用能量守恒：Q = W外 − ΔEk"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m031",
+    "name": "双杆模型",
+    "domain": "能量",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必二 高考模型 双杆模型",
+    "type": "modeling",
+    "description": "两根导体棒在同一组导轨上，一根运动带动另一根。等宽光滑导轨且无外力时，两棒所受安培力等大反向，系统动量守恒，最终共速；系统损失的动能转化为焦耳热。导轨不等宽时安培力不等，动量不守恒，要分别用动量定理。",
+    "mastery_criteria": [
+      "会用动量守恒求等宽双杆的最终速度",
+      "会用能量守恒求双杆系统的焦耳热",
+      "能判断不等宽或有外力时动量是否守恒"
+    ],
+    "diagnostic_question": {
+      "question": "光滑等宽平行导轨上放着两根相同的导体棒 a、b，处在竖直匀强磁场中。给 a 一个初速度 v₀，b 原来静止，最终两棒怎样运动？",
+      "answer": "以相同速度匀速运动"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S2.2.2",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:S1.1.1",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_dr_final",
+        "text": "以为两根导体棒最终都会静止",
+        "fix": "等宽无外力时最终共速，相对速度为零，电流消失"
+      },
+      {
+        "id": "mc_dr_momentum",
+        "text": "导轨不等宽时仍用系统动量守恒",
+        "fix": "不等宽时两棒安培力大小不等，系统合外力不为零"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m032",
+    "name": "线框穿越磁场",
+    "domain": "运动和相互作用",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必二 高考模型 线框穿越磁场",
+    "type": "modeling",
+    "description": "闭合线框进入、完全在内、离开有界匀强磁场。只有一条边切割（磁通量变化）时才有感应电流；线框完全在均匀磁场中运动时磁通量不变，没有电流。进、出时电流方向相反。通过的电荷量 q = ΔΦ/R，与速度无关。",
+    "mastery_criteria": [
+      "能分段判断线框进出磁场时有无感应电流及其方向",
+      "会求切割时的电流、安培力",
+      "会用 q = ΔΦ/R 求通过的电荷量"
+    ],
+    "diagnostic_question": {
+      "question": "正方形线框匀速穿过一个宽度大于线框边长的匀强磁场区域。线框完全处在磁场中运动时，下列说法正确的是哪一个？",
+      "answer": "线框中没有感应电流"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S2.2.2",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:S2.2.1",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_fc_full_inside",
+        "text": "以为线框完全在磁场中运动时也有感应电流",
+        "fix": "磁通量不变就没有感应电流"
+      },
+      {
+        "id": "mc_fc_dir",
+        "text": "以为线框进入和离开磁场时电流方向相同",
+        "fix": "进入时磁通量增加，离开时减少，电流方向相反"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m033",
+    "name": "导体棒转动切割与线框转动发电",
+    "domain": "能量",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必二 高考模型 导体棒转动切割与线框转动发电",
+    "type": "modeling",
+    "description": "导体棒绕一端在垂直磁场的平面内转动：各点速度不同，用平均速度 ωL/2，E = ½BωL²。线圈在匀强磁场中绕垂直磁场的轴转动产生正弦交流电：Em = NBSω，线圈平面与磁场平行时电动势最大，与磁场垂直（中性面）时为零。天津卷 2025 年压轴为转动切割。",
+    "mastery_criteria": [
+      "会用 E = ½BωL² 求转动切割的电动势",
+      "会求线圈转动发电的峰值 Em = NBSω",
+      "知道中性面和电动势最大的位置"
+    ],
+    "diagnostic_question": {
+      "question": "长为 L 的导体棒绕一端在垂直于匀强磁场 B 的平面内以角速度 ω 匀速转动，棒两端的电动势是多少？",
+      "answer": "½BωL²"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S2.2.2",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:S2.2.4",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_rc_endpoint_speed",
+        "text": "转动切割时用棒端点速度 ωL 代入 E = BLv",
+        "fix": "棒上各点速度从 0 到 ωL 线性分布，应取平均值 ωL/2"
+      },
+      {
+        "id": "mc_rc_peak_position",
+        "text": "以为线圈平面与磁场垂直时电动势最大",
+        "fix": "垂直时磁通量最大，但变化率为零，电动势为零"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m034",
+    "name": "电磁感应中的动量定理（求电荷量、位移、时间）",
+    "domain": "运动和相互作用",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必二 思想方法 电磁感应中的动量定理",
+    "type": "reasoning",
+    "description": "导体棒只在安培力作用下运动时，安培力是变力，不能用匀变速公式。对棒用动量定理：−BLq = mv − mv₀（q = I平均·t 是通过的电荷量），再结合 q = ΔΦ/R = BLx/R，可以求电荷量、位移或时间。",
+    "mastery_criteria": [
+      "会用 BLq 表示安培力的冲量并列动量定理",
+      "会用 q = BLx/R 联立求导体棒的位移",
+      "知道变力问题不能用匀变速运动公式"
+    ],
+    "diagnostic_question": {
+      "question": "导体棒只在安培力作用下沿光滑导轨减速，安培力冲量的大小等于什么？",
+      "answer": "BLq，q 为这段时间通过导体棒的电荷量"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "method",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S2.2.2",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:S1.1.1",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_im_charge",
+        "text": "求安培力冲量时用某一时刻的电流乘时间",
+        "fix": "电流在变，冲量 = B·L·(I平均·t) = BLq"
+      },
+      {
+        "id": "mc_im_avg",
+        "text": "把安培力当恒力，用匀变速运动公式求位移",
+        "fix": "安培力随速度减小，位移要用 q = BLx/R 求"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m035",
+    "name": "理想变压器的动态分析与远距离输电",
+    "domain": "能量",
+    "grade": 14,
+    "semester": "上",
+    "chapter": "选必二 高考模型 理想变压器的动态分析与远距离输电",
+    "type": "reasoning",
+    "description": "理想变压器的动态分析与远距离输电。因果顺序：U₁ 决定 U₂（U₂ = n₂U₁/n₁）；负载决定 I₂；I₂ 决定 I₁（P₁ = P₂）。输电线损耗 P损 = I²R线 = (P/U)²R线，提高输电电压可大幅减小损耗。天津卷选择题每年必考。",
+    "mastery_criteria": [
+      "能按 U₁ → U₂ → I₂ → I₁ 的顺序分析负载或匝数变化",
+      "会计算输电电流、线路损耗和用户电压",
+      "知道提高输电电压对损耗的影响"
+    ],
+    "diagnostic_question": {
+      "question": "理想变压器原线圈电压不变，副线圈所接负载电阻减小，原线圈中的电流怎样变化？",
+      "answer": "增大"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S2.2.5",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_td_cause",
+        "text": "以为原线圈电流不随负载变化，或因果顺序搞反",
+        "fix": "输出决定输入：负载变 → I₂ 变 → I₁ 变"
+      },
+      {
+        "id": "mc_td_line_loss",
+        "text": "用输电电压直接求线路损耗 P = U²/R线",
+        "fix": "损耗用导线上的电流或电压降：P损 = I²R线 = ΔU²/R线"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m036",
+    "name": "气缸活塞模型（气体实验定律与热力学第一定律）",
+    "domain": "能量",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选必三 高考模型 气缸活塞模型",
+    "type": "modeling",
+    "description": "气缸和活塞封闭一定质量的理想气体。先对活塞（或气缸）受力分析求气体压强，再用气体实验定律或状态方程求状态参量，最后用热力学第一定律 ΔU = W + Q 判断吸放热。理想气体内能只由温度决定。天津卷选择题年年考，情境多是水枪、氧气瓶、空气弹簧。",
+    "mastery_criteria": [
+      "会对活塞受力分析求封闭气体压强",
+      "能用气体实验定律求体积、压强或温度",
+      "能用 ΔU = W + Q 判断做功和吸放热，并注意符号"
+    ],
+    "diagnostic_question": {
+      "question": "一定质量的理想气体等温膨胀，下列说法正确的是哪一个？",
+      "answer": "内能不变，气体从外界吸热"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S3.1.6",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:S3.2.1",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_cp_pressure",
+        "text": "不对活塞受力分析，直接把封闭气体压强当成大气压",
+        "fix": "竖直气缸中活塞重力、外力都会影响气体压强"
+      },
+      {
+        "id": "mc_cp_W_sign",
+        "text": "气体膨胀时以为外界对气体做功，或等温膨胀时以为内能增加",
+        "fix": "体积增大气体对外做功 W < 0；理想气体温度不变内能不变"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m037",
+    "name": "玻璃管液柱模型",
+    "domain": "物质",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选必三 高考模型 玻璃管液柱模型",
+    "type": "modeling",
+    "description": "一端封闭的玻璃管中用水银柱封闭气体。用 cmHg 作压强单位最方便：开口向上 p = p₀ + h，开口向下 p = p₀ − h，水平 p = p₀。转动玻璃管或改变温度时，先求出各状态压强，再用玻意耳定律或盖—吕萨克定律求气柱长度（横截面积相同，可用长度代替体积）。",
+    "mastery_criteria": [
+      "会根据开口方向求封闭气体的压强（cmHg）",
+      "会用玻意耳定律求翻转后的气柱长度",
+      "能判断温度变化时是等压还是等容过程"
+    ],
+    "diagnostic_question": {
+      "question": "一端封闭的玻璃管开口向上竖直放置，管中长 h 的水银柱封闭了一段气体，大气压为 p₀（单位 cmHg）。封闭气体的压强是多少？",
+      "answer": "p₀ + h"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S3.1.6",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_lc_pressure_cm",
+        "text": "开口向下时仍用 p₀ + h",
+        "fix": "开口向下时水银柱重力向下，气体压强比大气压小 h"
+      },
+      {
+        "id": "mc_lc_isobaric",
+        "text": "以为温度升高封闭气体压强一定增大",
+        "fix": "开口向上、水银柱可自由移动时，压强由水银柱和大气压决定，保持不变，体积增大"
+      },
+      {
+        "id": "mc_lc_length",
+        "text": "用玻璃管总长代替气柱长度计算",
+        "fix": "玻意耳定律中的 L 是气柱长度"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m038",
+    "name": "能级跃迁与光电效应综合",
+    "domain": "物质",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选必三 高考模型 能级跃迁与光电效应综合",
+    "type": "modeling",
+    "description": "氢原子能级跃迁与光电效应综合：跃迁放出的光子能量 hν = Em − En；一群处于第 n 能级的原子最多发出 C(n,2) 种光；用这些光照射金属时，光子能量大于逸出功才发生光电效应，Ek = hν − W₀。天津卷原子物理选择题的常见组合。",
+    "mastery_criteria": [
+      "会由能级差求光子能量，会求一群原子的谱线条数",
+      "会用 Ek = hν − W₀ 判断能否发生光电效应并求最大初动能",
+      "知道光强影响光电流、频率影响最大初动能"
+    ],
+    "diagnostic_question": {
+      "question": "一群处于 n = 4 能级的氢原子向低能级跃迁，最多能发出几种频率的光？",
+      "answer": "6 种"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S3.3.1",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:S3.4.1",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_lp_count",
+        "text": "一群处于 n 能级的原子以为只能发出 n − 1 种光",
+        "fix": "一群原子可以经各种途径跃迁，最多 C(n,2) 种"
+      },
+      {
+        "id": "mc_lp_intensity",
+        "text": "以为光照强度越大，光电子最大初动能越大",
+        "fix": "最大初动能只由频率和逸出功决定，光强只影响光电子数目"
+      }
+    ]
+  },
+  {
+    "id": "cnp_m039",
+    "name": "核反应方程与核能计算",
+    "domain": "物质",
+    "grade": 15,
+    "semester": "上",
+    "chapter": "选必三 高考模型 核反应方程与核能计算",
+    "type": "modeling",
+    "description": "写核反应方程、计算衰变次数和核能。核反应遵循质量数守恒和电荷数守恒，但质量不守恒，质量亏损对应释放的核能 ΔE = Δmc²（1 u 相当于 931.5 MeV）。求衰变次数时先由质量数变化定 α 次数，再由电荷数定 β 次数。天津卷第 1–3 题常考。",
+    "mastery_criteria": [
+      "会用两个守恒配平核反应方程",
+      "会求一系列衰变中 α、β 衰变的次数",
+      "知道质量亏损与核能的关系，β 衰变的实质"
+    ],
+    "diagnostic_question": {
+      "question": "关于核反应遵循的规律，下列说法正确的是哪一个？",
+      "answer": "质量数守恒、电荷数守恒，但质量不守恒"
+    },
+    "external": false,
+    "subject": "physics",
+    "layer": "model",
+    "standards": [
+      {
+        "id": "cps-hs-2017:S3.3.2",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:S3.3.4",
+        "confidence": "inferred"
+      },
+      {
+        "id": "cps-hs-2017:S3.3.3",
+        "confidence": "inferred"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mc_ne_mass_number",
+        "text": "以为核反应中质量也守恒",
+        "fix": "质量数守恒不等于质量守恒，释放核能伴随质量亏损"
+      },
+      {
+        "id": "mc_ne_beta_source",
+        "text": "以为 β 衰变放出的电子来自核外",
+        "fix": "β 电子来自核内：一个中子转化为一个质子和一个电子"
+      }
+    ]
   }
 ]

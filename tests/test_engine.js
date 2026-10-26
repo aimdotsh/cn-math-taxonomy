@@ -1082,11 +1082,13 @@ test('高中物理：必修一 27、必修二 25、必修三 37、选必一 28�
   vols.forEach((v, i) => {
     assert.strictEqual(sen.filter((t) => t.grade === 10 + i).length, want[i], v);
     const g = E.gradeTargets(RG, v, 'physics');
-    assert.strictEqual(g.ids.length, want[i], v + ' 整册');
+    // 整册诊断还包含该册的「模型与方法」层（cnp_m，天津版扩展）
+    const models = topics.filter((t) => /^cnp_m\d/.test(String(t.id)) && t.grade === 10 + i).length;
+    assert.strictEqual(g.ids.length, want[i] + models, v + ' 整册');
     assert.ok(E.gradeTargets(RG, v, 'english') === null || E.gradeTargets(RG, v, 'english').ids.every((id) => id.startsWith('cne_')));
   });
   assert.strictEqual(E.gradeTargets(RG, '必修一', 'physics').label, '必修一（必修第一册）');
-  assert.strictEqual(E.gradeTargets(RG, '选必三', 'physics').ids.length, 34);
+  assert.strictEqual(E.gradeTargets(RG, '选必三', 'physics').ids.length, 34 + topics.filter((t) => /^cnp_m\d/.test(String(t.id)) && t.grade === 15).length);
   assert.ok(E.gradeTargets(RG, '八上', 'physics').ids.every((id) => /^cnp_\d/.test(id)));
   const rank = new Map(topics.filter((t) => String(t.id).startsWith('cnp_')).map((t) => [t.id, /^cnp_h/.test(t.id) ? 100 + t.grade : t.grade]));
   const order = new Map(sen.map((t, i) => [t.id, i]));

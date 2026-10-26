@@ -1,0 +1,7469 @@
+{
+ "meta": {
+  "title": "天津卷高中物理专题层（试做版）",
+  "textbook": "人教版 2019 必修第一至三册、选择性必修第一至三册（天津使用人教版，章节点沿用上游 cnp_h001–cnp_h177）",
+  "exam": {
+   "exam": "天津市普通高中学业水平等级性考试 物理（天津卷，天津市教育招生考试院自主命题）",
+   "full_score": 100,
+   "duration_min": 60,
+   "default_2020_2025": {
+    "单选": "第1-5题，每题5分，共25分",
+    "多选(不定项)": "第6-8题，每题5分，共15分（2020称‘不定项选择题’）",
+    "实验": "第9题分(1)(2)两小题，通常一力一电，各约6分，共12分",
+    "计算": "第10/11/12题，分值14/16/18，共48分",
+    "第II卷": "本卷共4题，共60分"
+   },
+   "by_year": {
+    "2020": "同上（PDF称‘二、不定项选择题’）",
+    "2021": "同上（PDF：‘本卷共8题，每题5分，共40分’‘本卷共4题，共60分’）",
+    "2022": "同上",
+    "2023": "同上（回忆版把两实验写成9、10题，共13题编号）",
+    "2024": "同上（学科网版标注‘实验题共6空每空2分’‘计算题一般是14+16+18’）",
+    "2025": "单选5题25分+多选3题15分+非选择题4题60分（9(1)6分、9(2)6分、10题14分、11题16分、12题18分）",
+    "2026": "未见官方结构变化报道；考试6月9日8:30-9:30，60分钟100分（来源6617/Neodrop）"
+   },
+   "sources": [
+    "http://www.jdxzz.com/gkzx/2025/1224/10351091.html",
+    "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+    "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html",
+    "https://www.douyin.com/shipin/7509927426290534434",
+    "https://www.zdushi.com/news/show_3830287.html"
+   ]
+  },
+  "exam_notes": [
+   {
+    "text": "题型结构稳定：5单选+3多选+2实验+3计算，60分钟13题（按小题计）；王学森评价‘题量适当、难度适中’，并指出天津卷官方不公开全卷、网传回忆版不准（2023多选题有2题回忆成单答案）",
+    "source_url": "https://www.zdushi.com/news/show_3830287.html"
+   },
+   {
+    "text": "分值：选择8题40分、实验2题（一力一电）各6分共12分、计算3题依次14/16/18共48分；热学、光学、原子物理选择题以记忆为主约15分",
+    "source_url": "https://www.douyin.com/shipin/7509927426290534434"
+   },
+   {
+    "text": "天津考试院对外公布的真题常缺若干选择题：2022缺第2-4题，2024未展示第1、2、5题，网络流传版本为回忆补全",
+    "source_url": "https://www.zxxk.com/soft/48400054.html"
+   },
+   {
+    "text": "第1题常为物理学史/物理学研究方法（2020 α粒子散射实验发现核式结构；2021 理想实验法），据称‘第一道选择题通常会涉及物理史或判断选项对错’",
+    "source_url": "http://www.b9zz.com/xueke/all/75820.html"
+   },
+   {
+    "text": "选择题高度情境化，大量取材国家科技成就与时事：北斗（2020、2023）、复兴号（2020）、新冠测温（2020）、光刻机/天和核心舱/天问一号（2021）、羲和号/冬奥冰壶（2022）、高温超导电动悬浮列车（2023）、钍基熔盐堆/压缩空气储能/电动汽车能量回收（2024）——据各年真题题干归纳",
+    "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/"
+   },
+   {
+    "text": "每年必有：万有引力/卫星（2020-2025每年1题）、机械波图像（每年1题）、热学气体+热力学第一定律（每年1题）、原子物理/光学选择题、变压器或交流电（2020-2023、2025）——据逐题统计",
+    "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/"
+   },
+   {
+    "text": "压轴第12题（18分）几乎都是‘现代科技装置’电磁综合：2020多反射飞行时间质谱仪、2021霍尔元件、2022直流电磁泵、2023信号放大器（电子倍增）、2024电动汽车能量回收发电机、2025导体棒转动切割；2026据视频为含积分思想的压轴（磁聚焦透镜，未证实）",
+    "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/"
+   },
+   {
+    "text": "功与能、动量每年必考，常以计算题第10题出现（碰撞+圆周/抛体），命题趋势是多模型组合（斜面+弹簧+碰撞、传送带+圆周等）、注重实际情境与数学工具（多元方程组、图像分析）",
+    "source_url": "https://www.renrendoc.com/paper/478141741.html"
+   },
+   {
+    "text": "实验题固定两小题‘一力一电’：力学实验在平抛、匀变速（频闪/逐差）、验证动量守恒、验证机械能守恒、探究a-F间轮换；电学实验以测电源电动势内阻（2020/2021/2022/2024）和伏安法测电阻（2023/2025）为主",
+    "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/"
+   },
+   {
+    "text": "2026年备考稿（AI估算性质）称天津卷实验题由验证性向探究性/方案设计转变、整体难度低于全国卷；为估算，非官方数据",
+    "source_url": "https://neodrop.ai/zh-cn/post/7mshuEt7gGi"
+   }
+  ],
+  "weights_basis": "2020–2025 天津卷逐题考点（部分年份题目为回忆版，见 papers[].uncertain）；n_years 为出现年数，avg_score 为年均分值（一题多点时平分）",
+  "status": "AI 生成初稿，未经教师审核",
+  "built": "2026-10-26"
+ },
+ "nodes": [
+  {
+   "id": "cnp_tjm01",
+   "layer": "model",
+   "name": "卫星轨道参量比较",
+   "kind": "模型",
+   "slot": "单选/多选",
+   "description": "万有引力提供向心力，比较不同圆轨道卫星的 v、ω、T、a：高轨低速长周期。天津卷 6 年都考。",
+   "key_steps": [
+    "GMm/r² = mv²/r = mω²r = m(4π²/T²)r = ma",
+    "只看轨道半径 r：r 大则 v、ω、a 小，T 大",
+    "空间站（约 400 km）与静止轨道卫星（约 36000 km）是常见对比"
+   ],
+   "misconceptions": [
+    "cnp_tje05"
+   ]
+  },
+  {
+   "id": "cnp_tjm02",
+   "layer": "model",
+   "name": "卫星变轨与椭圆轨道",
+   "kind": "模型",
+   "slot": "单选",
+   "description": "圆轨道与椭圆转移轨道相切，切点处加速进高轨、减速进低轨；同一点加速度相同；椭圆周期用开普勒第三定律。",
+   "key_steps": [
+    "切点处速度：外轨 > 内轨（同一点）",
+    "同一位置万有引力相同 → 加速度相同",
+    "a³/T² = k，a 为半长轴"
+   ],
+   "misconceptions": [
+    "cnp_tje06"
+   ]
+  },
+  {
+   "id": "cnp_tjm03",
+   "layer": "model",
+   "name": "赤道上的物体与同步卫星对比",
+   "kind": "模型",
+   "slot": "多选",
+   "description": "赤道上随地球自转的物体与同步卫星角速度相同（T 都是 24 h），但赤道物体的向心力只是万有引力的极小一部分，不能用 GM/r² = a。",
+   "key_steps": [
+    "同步卫星与赤道物体：ω 相同，用 a = ω²r、v = ωr 比较",
+    "同步卫星与近地卫星：用万有引力提供向心力比较",
+    "赤道物体：万有引力 ≠ 向心力"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm04",
+   "layer": "model",
+   "name": "波形图与振动图像综合",
+   "kind": "模型",
+   "slot": "单选/多选",
+   "description": "由波形图读 λ、振幅，由振动图像读 T 和某质点的振动方向；用同侧法或“上坡下、下坡上”判断质点振动方向与传播方向。6 年都考。",
+   "key_steps": [
+    "v = λ/T",
+    "波形图看“一群质点某时刻”，振动图像看“一个质点各时刻”",
+    "沿传播方向看：上坡质点向下，下坡质点向上"
+   ],
+   "misconceptions": [
+    "cnp_tje07"
+   ]
+  },
+  {
+   "id": "cnp_tjm05",
+   "layer": "model",
+   "name": "波的叠加与波源起振",
+   "kind": "模型",
+   "slot": "单选/多选",
+   "description": "任一质点开始振动的方向与波源起振方向相同；两列相干波相遇，路程差为波长整数倍处加强（同相波源）。",
+   "key_steps": [
+    "起振方向 = 波源起振方向",
+    "加强点振幅 A₁+A₂，减弱点 |A₁−A₂|",
+    "两列波相向传播时注意各自到达时刻"
+   ],
+   "misconceptions": [
+    "cnp_tje07"
+   ]
+  },
+  {
+   "id": "cnp_tjm06",
+   "layer": "model",
+   "name": "气体容器 + 热力学第一定律",
+   "kind": "模型",
+   "slot": "单选/多选",
+   "description": "水枪、氧气瓶、空气弹簧、储气罐等情境：先判断过程（缓慢=等温，迅速=绝热，体积不变=等容），再用气体实验定律和 ΔU = W + Q。6 年都考。",
+   "key_steps": [
+    "缓慢变化 → 等温，ΔU = 0",
+    "迅速压缩/膨胀 → 绝热，Q = 0",
+    "理想气体内能只看温度",
+    "体积增大气体对外做功 W < 0"
+   ],
+   "misconceptions": [
+    "cnp_tje19"
+   ]
+  },
+  {
+   "id": "cnp_tjm07",
+   "layer": "model",
+   "name": "机车恒功率启动",
+   "kind": "模型",
+   "slot": "多选/计算",
+   "description": "P = Fv 恒定，速度增大则牵引力减小，加速度减小，最终 F = f 时速度最大 vₘ = P/f；位移用动能定理 Pt − fs = ½mv²。",
+   "key_steps": [
+    "P = Fv",
+    "a = (F − f)/m 逐渐减小",
+    "vₘ = P/f",
+    "变力做功用 W = Pt"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm08",
+   "layer": "model",
+   "name": "车厢中物体受力（加速/制动）",
+   "kind": "模型",
+   "slot": "单选",
+   "description": "以加速度 a 运动的车厢里，物体的合力 ma 由板的弹力或摩擦力提供；先找加速度方向，再分解受力。",
+   "key_steps": [
+    "先定加速度方向，再列牛顿第二定律",
+    "竖直方向平衡，水平方向 F合 = ma",
+    "多力情况用正交分解"
+   ],
+   "misconceptions": [
+    "cnp_tje04"
+   ]
+  },
+  {
+   "id": "cnp_tjm45",
+   "layer": "model",
+   "name": "整体法与隔离法（连接体）",
+   "kind": "方法",
+   "slot": "选择/计算",
+   "description": "求系统加速度用整体法，求物体间相互作用力用隔离法；整体加速度相同是使用前提。",
+   "key_steps": [
+    "先整体：a = F/(m₁+m₂)",
+    "再隔离受力少的物体求内力",
+    "加速度不同时只能隔离"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm09",
+   "layer": "model",
+   "name": "冰壶类：多过程匀减速 + 碰撞",
+   "kind": "模型",
+   "slot": "计算第10题",
+   "description": "滑行段用 μmg = ma 或动能定理，碰撞瞬间动量守恒，再分段计算；擦冰改变动摩擦因数。",
+   "key_steps": [
+    "分段：滑行 → 碰撞 → 滑行",
+    "s = v²/(2μg)",
+    "碰撞前后用动量守恒，判断能量是否损失"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm10",
+   "layer": "model",
+   "name": "爆炸/分裂 + 平抛",
+   "kind": "模型",
+   "slot": "计算第10题",
+   "description": "爆炸或弹簧弹开瞬间内力远大于外力，系统动量守恒、动能增加；分开后各自做平抛或竖直上抛。",
+   "key_steps": [
+    "分裂瞬间：0 = m₁v₁ − m₂v₂（或总动量守恒）",
+    "动能增加来自化学能/弹性势能",
+    "之后各自运动：平抛同高同时落地"
+   ],
+   "misconceptions": [
+    "cnp_tje21"
+   ]
+  },
+  {
+   "id": "cnp_tjm11",
+   "layer": "model",
+   "name": "动量定理：冲量与平均作用力",
+   "kind": "模型",
+   "slot": "单选/计算",
+   "description": "F合Δt = Δp，矢量式，先规定正方向；用于求平均冲力、瞬时冲量后的速度、流体冲击力。",
+   "key_steps": [
+    "规定正方向，反弹速度取负",
+    "F合·Δt = mv′ − mv",
+    "延长作用时间可减小冲力"
+   ],
+   "misconceptions": [
+    "cnp_tje21"
+   ]
+  },
+  {
+   "id": "cnp_tjm12",
+   "layer": "model",
+   "name": "完全非弹性碰撞（碰后粘合）",
+   "kind": "模型",
+   "slot": "计算",
+   "description": "碰后共速，动量守恒，动能损失最大；天津卷常与竖直圆周、悬绳小球结合。",
+   "key_steps": [
+    "m₁v₁ = (m₁+m₂)v",
+    "ΔEk = ½m₁v₁² − ½(m₁+m₂)v²",
+    "粘合后再用机械能守恒/圆周临界"
+   ],
+   "misconceptions": [
+    "cnp_tje21"
+   ]
+  },
+  {
+   "id": "cnp_tjm13",
+   "layer": "model",
+   "name": "弹性碰撞：一动碰一静",
+   "kind": "模型",
+   "slot": "选择/计算",
+   "description": "动量守恒 + 动能守恒，v₁′ = (m₁−m₂)v₀/(m₁+m₂)，v₂′ = 2m₁v₀/(m₁+m₂)；等质量交换速度。",
+   "key_steps": [
+    "记住两个结论式",
+    "m₁ = m₂ 交换速度",
+    "m₁ < m₂ 时入射球反弹"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm14",
+   "layer": "model",
+   "name": "竖直面内圆周运动 + 能量（绳/杆模型）",
+   "kind": "模型",
+   "slot": "计算",
+   "description": "绳模型最高点 v ≥ √(gR)，杆模型最高点 v ≥ 0；最高点、最低点用向心力方程，中间用机械能守恒或动能定理。天津卷常与碰撞结合（2020、2024）。",
+   "key_steps": [
+    "绳/轨道内侧：最高点 mg + T = mv²/R，T ≥ 0",
+    "杆/管：最高点最小速度为 0",
+    "最低点到最高点：机械能守恒"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm15",
+   "layer": "model",
+   "name": "平抛运动规律",
+   "kind": "模型",
+   "slot": "选择/实验",
+   "description": "水平匀速、竖直自由落体，时间只由高度决定 t = √(2h/g)；频闪照片用 Δy = gT²。",
+   "key_steps": [
+    "x = v₀t，y = ½gt²",
+    "下落时间只取决于高度",
+    "Δy = gT² 求频闪周期"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm16",
+   "layer": "model",
+   "name": "等势面、轨迹与电势能",
+   "kind": "模型",
+   "slot": "多选第8题",
+   "description": "曲线运动的电场力指向轨迹凹侧且垂直等势面；由力的方向判断电性、做功正负、电势能变化。天津卷 5/6 年考静电场。",
+   "key_steps": [
+    "电场力指向轨迹内侧、沿电场线",
+    "等势面密处场强大",
+    "W电 = qU = −ΔEp"
+   ],
+   "misconceptions": [
+    "cnp_tje12",
+    "cnp_tje13"
+   ]
+  },
+  {
+   "id": "cnp_tjm17",
+   "layer": "model",
+   "name": "φ-x 图像",
+   "kind": "模型",
+   "slot": "多选第8题",
+   "description": "φ-x 图像的斜率表示沿 x 方向的场强；由电势高低和电荷正负判断电势能，再由能量守恒判断动能。",
+   "key_steps": [
+    "E = −Δφ/Δx（斜率）",
+    "Ep = qφ，注意负电荷",
+    "只受电场力：Ek + Ep 守恒"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm18",
+   "layer": "model",
+   "name": "点电荷与均匀带电球壳的电场",
+   "kind": "模型",
+   "slot": "多选",
+   "description": "点电荷 E = kQ/r²；均匀带电球壳外部等效于球心点电荷，内部场强为零。",
+   "key_steps": [
+    "E = kQ/r²",
+    "球壳外：看作点电荷",
+    "球壳内：E = 0"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm19",
+   "layer": "model",
+   "name": "有界磁场中圆周运动（找圆心、定半径、求时间）",
+   "kind": "模型",
+   "slot": "多选/计算",
+   "description": "洛伦兹力提供向心力 r = mv/(qB)；过入射、出射点作速度垂线找圆心，几何关系定半径，圆心角定时间。6 年都考带电粒子在磁场中运动。",
+   "key_steps": [
+    "qvB = mv²/r",
+    "T = 2πm/(qB)，与速度无关",
+    "t = (θ/2π)T",
+    "单边界：入射角等于出射角"
+   ],
+   "misconceptions": [
+    "cnp_tje14"
+   ]
+  },
+  {
+   "id": "cnp_tjm20",
+   "layer": "model",
+   "name": "组合场：电场加速 + 磁场偏转",
+   "kind": "模型",
+   "slot": "计算第11题",
+   "description": "先在电场中加速 qU = ½mv²（或类平抛），再进入磁场做圆周运动；圆形磁场中沿半径射入必沿半径射出。",
+   "key_steps": [
+    "qU = ½mv²",
+    "进入磁场时的速度大小和方向是衔接点",
+    "圆形磁场：径向进、径向出"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm21",
+   "layer": "model",
+   "name": "叠加场：速度选择器",
+   "kind": "模型",
+   "slot": "计算",
+   "description": "电场力与洛伦兹力平衡 qE = qvB，只有 v = E/B 的粒子做匀速直线运动；撤去一个场后变为类平抛或圆周运动（2024）。",
+   "key_steps": [
+    "qE = qvB → v = E/B",
+    "与电荷量、电性、质量无关",
+    "撤磁场 → 类平抛；撤电场 → 圆周"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm22",
+   "layer": "model",
+   "name": "质谱仪",
+   "kind": "模型",
+   "slot": "计算第12题",
+   "description": "加速 qU = ½mv²，偏转 r = mv/(qB)，得 r = (1/B)√(2mU/q)；同位素质量越大半径越大。天津 2020 考了飞行时间质谱仪。",
+   "key_steps": [
+    "r = (1/B)√(2mU/q)",
+    "同电荷同电压：r ∝ √m",
+    "飞行时间型：t ∝ √m"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm23",
+   "layer": "model",
+   "name": "霍尔元件",
+   "kind": "模型",
+   "slot": "计算第12题",
+   "description": "载流子受洛伦兹力偏转，两侧积累电荷形成霍尔电场，稳定时 qE = qvB，U_H = Bvd；载流子是电子还是空穴决定哪侧电势高。天津 2021 压轴。",
+   "key_steps": [
+    "稳定条件 qU/d = qvB",
+    "U_H = Bvd，结合 I = nqSv",
+    "电子聚集侧电势低"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm24",
+   "layer": "model",
+   "name": "安培力作用于导电液体（电磁泵）",
+   "kind": "模型",
+   "slot": "计算第12题",
+   "description": "导电液体通电后在磁场中受安培力 F = BIL，与液柱重力或压强差平衡；用电阻定律求液体电阻。天津 2022 压轴。",
+   "key_steps": [
+    "F = BIL，方向用左手定则",
+    "液柱平衡：BIL = ΔpS 或 = mg",
+    "R = ρL/S"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm25",
+   "layer": "model",
+   "name": "感生电动势：线框在变化磁场中",
+   "kind": "模型",
+   "slot": "计算第10题",
+   "description": "B 随时间变化，E = NΔB/Δt·S（S 为有磁场的面积）；电流恒定时安培力随 B 变化，可与重力平衡求时刻（2020、2023）。",
+   "key_steps": [
+    "E = N·(ΔB/Δt)·S有效",
+    "B 均匀变化 → 电流恒定",
+    "F = BIL 随 B 变化"
+   ],
+   "misconceptions": [
+    "cnp_tje16"
+   ]
+  },
+  {
+   "id": "cnp_tjm26",
+   "layer": "model",
+   "name": "单杆切割（导轨，收尾速度）",
+   "kind": "模型",
+   "slot": "单选/计算",
+   "description": "E = BLv，I = E/R，F安 = B²L²v/R 随速度增大；加速度减小，最终受力平衡匀速。位移/电荷量/焦耳热用动量定理与能量守恒。",
+   "key_steps": [
+    "F安 = B²L²v/R",
+    "收尾：F外（或 mg sinθ）= B²L²vₘ/R",
+    "电荷量 q = BLx/R",
+    "焦耳热 = 外力做功 − 动能"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm27",
+   "layer": "model",
+   "name": "恒功率拉导体棒",
+   "kind": "模型",
+   "slot": "计算",
+   "description": "拉力功率 P 恒定，F = P/v；最大速度时 P/vₘ = B²L²vₘ/R。与机车恒功率启动同构（2021）。",
+   "key_steps": [
+    "F = P/v",
+    "vₘ² = PR/(B²L²)",
+    "能量：Pt = ½mv² + Q"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm28",
+   "layer": "model",
+   "name": "导体棒转动切割",
+   "kind": "模型",
+   "slot": "计算第12题",
+   "description": "长 L 的导体棒绕一端以 ω 转动，E = ½BL²ω（相当于用中点速度）；天津 2025 压轴。",
+   "key_steps": [
+    "E = ½BωL²",
+    "等效于中点速度 v = ωL/2",
+    "可与电路、能量结合"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm29",
+   "layer": "model",
+   "name": "电磁感应中的电荷量",
+   "kind": "模型",
+   "slot": "计算",
+   "description": "q = IΔt = NΔΦ/R，与运动快慢无关；与动量定理结合 BLq = mΔv 求位移或速度。",
+   "key_steps": [
+    "q = NΔΦ/R",
+    "BL·q = m·Δv（安培力冲量）",
+    "与时间、速度变化快慢无关"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm30",
+   "layer": "model",
+   "name": "交流电的产生与四值",
+   "kind": "模型",
+   "slot": "单选/计算",
+   "description": "线框转动 Em = NBSω，中性面磁通量最大、电动势为零；电表读有效值，正弦交流电有效值 = 峰值/√2；求电荷量用平均值。",
+   "key_steps": [
+    "Em = NBSω",
+    "中性面：Φ 最大，e = 0",
+    "有效值 E = Em/√2，电表、功率用有效值",
+    "电荷量用平均值"
+   ],
+   "misconceptions": [
+    "cnp_tje18"
+   ]
+  },
+  {
+   "id": "cnp_tjm31",
+   "layer": "model",
+   "name": "线框转动发电与能量回收",
+   "kind": "模型",
+   "slot": "计算第12题",
+   "description": "发电机/电动机能量转化，电磁制动把动能转化为电能；天津 2024 压轴还用到匀减速与等比数列。",
+   "key_steps": [
+    "e = Em sin ωt，电流方向用右手定则",
+    "制动：动能 → 电能",
+    "反复过程用数列求和"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm32",
+   "layer": "model",
+   "name": "理想变压器动态分析",
+   "kind": "模型",
+   "slot": "多选第6题",
+   "description": "U₁/U₂ = n₁/n₂，U₂ 由 U₁ 和匝数比决定；P₁ = P₂，I₁ 由负载决定。分清不变量再推。6 年都考。",
+   "key_steps": [
+    "电压：原决定副",
+    "电流、功率：副决定原",
+    "负载电阻减小 → I₂ 增大 → I₁ 增大"
+   ],
+   "misconceptions": [
+    "cnp_tje17"
+   ]
+  },
+  {
+   "id": "cnp_tjm33",
+   "layer": "model",
+   "name": "远距离输电",
+   "kind": "模型",
+   "slot": "多选",
+   "description": "升压—输电线—降压三段；线损 P损 = I线²R线 = (P/U)²R线，提高输电电压可大幅减小损耗；用户增多时线损增大、用户电压降低。",
+   "key_steps": [
+    "I线 = P输/U输",
+    "P损 = I线²R线",
+    "U降入 = U升出 − I线R线"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm34",
+   "layer": "model",
+   "name": "光的性质综合辨析",
+   "kind": "模型",
+   "slot": "单选",
+   "description": "折射（频率不变，波长、速度变）、干涉（双缝、薄膜）、衍射、偏振（横波）、光电效应（粒子性）放在一题里辨析。6 年都考。",
+   "key_steps": [
+    "进入介质：f 不变，v = c/n，λ = λ₀/n",
+    "偏振说明光是横波",
+    "油膜彩色是薄膜干涉",
+    "光电效应说明粒子性"
+   ],
+   "misconceptions": [
+    "cnp_tje08"
+   ]
+  },
+  {
+   "id": "cnp_tjm35",
+   "layer": "model",
+   "name": "双缝干涉条纹间距",
+   "kind": "模型",
+   "slot": "单选/实验",
+   "description": "Δx = (L/d)λ；红光波长长条纹宽，紫光窄。",
+   "key_steps": [
+    "Δx = Lλ/d",
+    "增大 L 或 λ、减小 d → 条纹变宽"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm36",
+   "layer": "model",
+   "name": "光电效应方程与图像",
+   "kind": "模型",
+   "slot": "单选/多选",
+   "description": "Ek = hν − W₀，eUc = Ek；Ek-ν 图像斜率为 h，横截距为截止频率；光强只影响光电流（光子数）。",
+   "key_steps": [
+    "Ekm = hν − W₀",
+    "eUc = Ekm",
+    "Ek-ν 图：斜率 h，横截距 νc"
+   ],
+   "misconceptions": [
+    "cnp_tje09"
+   ]
+  },
+  {
+   "id": "cnp_tjm37",
+   "layer": "model",
+   "name": "能级跃迁与谱线",
+   "kind": "模型",
+   "slot": "单选/多选",
+   "description": "跃迁放出或吸收光子能量 hν = Em − En；一群处于 n 能级的原子最多辐射 C(n,2) 种谱线；吸收光子必须恰好等于能级差（电离除外）。",
+   "key_steps": [
+    "hν = Em − En",
+    "谱线种数 C(n,2) = n(n−1)/2",
+    "吸收光子须恰好等于能级差"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm38",
+   "layer": "model",
+   "name": "核反应方程、衰变与质能方程",
+   "kind": "模型",
+   "slot": "单选第1–3题",
+   "description": "质量数、电荷数守恒配平；α 衰变质量数减 4，β 衰变本质是中子变质子；半衰期由核本身决定；ΔE = Δmc²。天津卷 5/6 年考。",
+   "key_steps": [
+    "质量数守恒、电荷数守恒",
+    "α：A−4，Z−2；β：Z+1",
+    "半衰期不受温度、压强、化学状态影响",
+    "ΔE = Δmc²，1 u 对应 931.5 MeV"
+   ],
+   "misconceptions": [
+    "cnp_tje10",
+    "cnp_tje11"
+   ]
+  },
+  {
+   "id": "cnp_tjm39",
+   "layer": "model",
+   "name": "实验：测电源电动势和内阻",
+   "kind": "实验",
+   "slot": "实验9(2)",
+   "description": "U = E − Ir，U-I 图像纵截距为 E、斜率绝对值为 r；电流表相对电源外接时 E、r 测量值都偏小；常串联定值电阻使电压表示数变化明显。天津 6 年考了 4 次。",
+   "key_steps": [
+    "U-I 图：纵截距 E，|斜率| r",
+    "两组数据联立求 E、r",
+    "电流表外接（相对电源）：E测 < E真，r测 < r真",
+    "内阻小时串联保护电阻"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm40",
+   "layer": "model",
+   "name": "实验：伏安法测电阻",
+   "kind": "实验",
+   "slot": "实验9(2)",
+   "description": "Rx 较小（Rx ≪ RV）用外接法，测量值偏小；Rx 较大用内接法，测量值偏大；需要从零调节或滑变阻值远小于 Rx 时用分压接法；欧姆表粗测。",
+   "key_steps": [
+    "外接：R测 < R真（适合小电阻）",
+    "内接：R测 > R真（适合大电阻）",
+    "判据：Rx² 与 RA·RV 比较",
+    "分压：电压从零调起"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm41",
+   "layer": "model",
+   "name": "实验：研究平抛运动（频闪/挡板）",
+   "kind": "实验",
+   "slot": "实验9(1)",
+   "description": "斜槽不必光滑但末端水平，每次从同一位置静止释放；频闪照片用 Δy = gT² 求 T，再由水平间距求 v₀。天津 2020、2025 考。",
+   "key_steps": [
+    "末端水平、同位置静止释放",
+    "Δy = gT²",
+    "v₀ = Δx/T"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm42",
+   "layer": "model",
+   "name": "实验：纸带/频闪与逐差法",
+   "kind": "实验",
+   "slot": "实验9(1)",
+   "description": "Δx = aT²，逐差法 a = [(x₃+x₄) − (x₁+x₂)]/(4T²)；探究 a-F 关系需补偿阻力：不挂槽码轻推小车点迹均匀。",
+   "key_steps": [
+    "逐差法减小偶然误差",
+    "中间时刻瞬时速度 = 平均速度",
+    "补偿阻力判据：点迹均匀"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm43",
+   "layer": "model",
+   "name": "实验：验证动量守恒/机械能守恒",
+   "kind": "实验",
+   "slot": "实验9(1)",
+   "description": "斜槽碰撞：入射球质量大于被碰球，用水平位移代替速度；气垫导轨 + 光电门：v = d/Δt，连接体系统验证 ΔEp = ΔEk（2022、2023）。",
+   "key_steps": [
+    "m₁ > m₂，防止入射球反弹",
+    "落点距离代替速度：m₁·OP = m₁·OM + m₂·ON",
+    "光电门：v = d/Δt"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tjm44",
+   "layer": "model",
+   "name": "微元法与数列求和（压轴数学工具）",
+   "kind": "方法",
+   "slot": "计算第12题",
+   "description": "变力、变速过程把时间切成小段累加（如 Σ BLvΔt = BLx），反复过程用等比数列求和；天津压轴常用（2024 等比数列，2026 疑似积分思想）。",
+   "key_steps": [
+    "ΣFΔt = Δp，ΣvΔt = x",
+    "反复碰撞/往返：等比数列 S = a₁/(1−q)",
+    "注意首项和公比的物理含义"
+   ],
+   "misconceptions": []
+  },
+  {
+   "id": "cnp_tje01",
+   "layer": "misconception",
+   "name": "超重时重力变大",
+   "wrong_idea": "电梯加速上升时，人的重力变大了",
+   "correct": "超重只是支持力（视重）大于重力，重力 mg 不变",
+   "models": []
+  },
+  {
+   "id": "cnp_tje02",
+   "layer": "misconception",
+   "name": "力是维持运动的原因",
+   "wrong_idea": "没有力推，物体就会停下",
+   "correct": "力是改变运动状态的原因，物体不受力时保持原有运动状态",
+   "models": []
+  },
+  {
+   "id": "cnp_tje03",
+   "layer": "misconception",
+   "name": "速度大则加速度大",
+   "wrong_idea": "速度越大，加速度就越大",
+   "correct": "加速度反映速度变化的快慢，与速度大小无关",
+   "models": []
+  },
+  {
+   "id": "cnp_tje04",
+   "layer": "misconception",
+   "name": "摩擦力方向总与运动方向相反",
+   "wrong_idea": "摩擦力总是阻碍物体运动",
+   "correct": "摩擦力阻碍的是相对运动（趋势），可以与运动方向相同",
+   "models": [
+    "cnp_tjm08"
+   ]
+  },
+  {
+   "id": "cnp_tje05",
+   "layer": "misconception",
+   "name": "卫星轨道越高速度越大",
+   "wrong_idea": "轨道高的卫星“跑得更快”",
+   "correct": "圆轨道上 v = √(GM/r)，轨道越高速度越小（但发射需要的能量更大）",
+   "models": [
+    "cnp_tjm01"
+   ]
+  },
+  {
+   "id": "cnp_tje06",
+   "layer": "misconception",
+   "name": "同轨追及只需直接加速",
+   "wrong_idea": "同一轨道上后面的卫星加速就能追上前面的",
+   "correct": "加速会离心进入更高轨道、周期变长，反而更慢；应先减速到低轨再加速",
+   "models": [
+    "cnp_tjm02"
+   ]
+  },
+  {
+   "id": "cnp_tje07",
+   "layer": "misconception",
+   "name": "介质质点随波迁移",
+   "wrong_idea": "波传过去，质点也跟着往前跑",
+   "correct": "质点只在平衡位置附近振动，传播的是振动形式和能量",
+   "models": [
+    "cnp_tjm04",
+    "cnp_tjm05"
+   ]
+  },
+  {
+   "id": "cnp_tje08",
+   "layer": "misconception",
+   "name": "光进入介质频率改变",
+   "wrong_idea": "光从空气进入水中，频率和颜色都会变",
+   "correct": "频率由光源决定，进入介质频率不变，速度和波长变小",
+   "models": [
+    "cnp_tjm34"
+   ]
+  },
+  {
+   "id": "cnp_tje09",
+   "layer": "misconception",
+   "name": "光越强光电子初动能越大",
+   "wrong_idea": "增强光照强度，光电子最大初动能增大",
+   "correct": "最大初动能只由频率决定 Ek = hν − W₀，光强只影响光电子数目",
+   "models": [
+    "cnp_tjm36"
+   ]
+  },
+  {
+   "id": "cnp_tje10",
+   "layer": "misconception",
+   "name": "半衰期可以被外界条件改变",
+   "wrong_idea": "加热、加压或化合可以加快放射性衰变",
+   "correct": "半衰期由原子核内部决定，与温度、压强、化学状态无关",
+   "models": [
+    "cnp_tjm38"
+   ]
+  },
+  {
+   "id": "cnp_tje11",
+   "layer": "misconception",
+   "name": "β 射线来自核外电子",
+   "wrong_idea": "β 衰变放出的电子是原子核外的电子",
+   "correct": "β 电子来自核内：中子转化为质子时放出电子",
+   "models": [
+    "cnp_tjm38"
+   ]
+  },
+  {
+   "id": "cnp_tje12",
+   "layer": "misconception",
+   "name": "场强为零处电势为零",
+   "wrong_idea": "电场强度为零的地方电势一定为零",
+   "correct": "电势的零点人为选取，场强与电势没有直接对应关系",
+   "models": [
+    "cnp_tjm16"
+   ]
+  },
+  {
+   "id": "cnp_tje13",
+   "layer": "misconception",
+   "name": "电场线就是运动轨迹",
+   "wrong_idea": "带电粒子一定沿电场线运动",
+   "correct": "电场线是受力方向；只有电场线为直线且初速度为零或沿电场线时轨迹才与之重合",
+   "models": [
+    "cnp_tjm16"
+   ]
+  },
+  {
+   "id": "cnp_tje14",
+   "layer": "misconception",
+   "name": "洛伦兹力对粒子做功",
+   "wrong_idea": "洛伦兹力能使粒子加速",
+   "correct": "洛伦兹力始终垂直速度，不做功，只改变速度方向",
+   "models": [
+    "cnp_tjm19"
+   ]
+  },
+  {
+   "id": "cnp_tje15",
+   "layer": "misconception",
+   "name": "感应电流磁场总与原磁场反向",
+   "wrong_idea": "感应电流的磁场方向总和原磁场相反",
+   "correct": "“增反减同”：原磁通量减小时，感应电流磁场与原磁场同向",
+   "models": []
+  },
+  {
+   "id": "cnp_tje16",
+   "layer": "misconception",
+   "name": "磁通量越大电动势越大",
+   "wrong_idea": "磁通量大，感应电动势就大",
+   "correct": "感应电动势取决于磁通量的变化率 ΔΦ/Δt",
+   "models": [
+    "cnp_tjm25",
+    "cnp_tjm30"
+   ]
+  },
+  {
+   "id": "cnp_tje17",
+   "layer": "misconception",
+   "name": "副线圈电压随负载变化",
+   "wrong_idea": "副线圈接的用电器越多，副线圈电压越低",
+   "correct": "理想变压器 U₂ 只由 U₁ 和匝数比决定，与负载无关",
+   "models": [
+    "cnp_tjm32"
+   ]
+  },
+  {
+   "id": "cnp_tje18",
+   "layer": "misconception",
+   "name": "交流电表读的是峰值",
+   "wrong_idea": "交流电压表显示的是最大值",
+   "correct": "交流电表读数是有效值；用电器铭牌、保险丝也按有效值",
+   "models": [
+    "cnp_tjm30"
+   ]
+  },
+  {
+   "id": "cnp_tje19",
+   "layer": "misconception",
+   "name": "气体对外做功内能一定减少",
+   "wrong_idea": "气体膨胀对外做功，内能一定减少",
+   "correct": "ΔU = W + Q，还要看吸放热；等温膨胀时吸热等于对外做功，内能不变",
+   "models": [
+    "cnp_tjm06"
+   ]
+  },
+  {
+   "id": "cnp_tje20",
+   "layer": "misconception",
+   "name": "温度高的物体内能一定大",
+   "wrong_idea": "温度越高的物体内能越大",
+   "correct": "内能与物质的量、温度、体积都有关；温度只决定分子平均动能",
+   "models": []
+  },
+  {
+   "id": "cnp_tje21",
+   "layer": "misconception",
+   "name": "动量守恒则机械能守恒",
+   "wrong_idea": "系统动量守恒，机械能也一定守恒",
+   "correct": "动量守恒看外力，机械能守恒看做功；碰撞粘合、爆炸动量守恒但机械能不守恒",
+   "models": [
+    "cnp_tjm10",
+    "cnp_tjm12"
+   ]
+  },
+  {
+   "id": "cnp_tje22",
+   "layer": "misconception",
+   "name": "作用力与反作用力相互抵消",
+   "wrong_idea": "相互作用力大小相等方向相反，所以可以抵消",
+   "correct": "作用力与反作用力作用在两个物体上，不能抵消；平衡力作用在同一物体上",
+   "models": []
+  }
+ ],
+ "edges": [
+  {
+   "topicId": "cnp_tjm01",
+   "prerequisiteId": "cnp_h043",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「人造卫星的运行规律」"
+  },
+  {
+   "topicId": "cnp_tjm01",
+   "prerequisiteId": "cnp_h040",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「万有引力定律」"
+  },
+  {
+   "topicId": "cnp_tjm01",
+   "prerequisiteId": "cnp_h034",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「向心力」"
+  },
+  {
+   "topicId": "cnp_tjm02",
+   "prerequisiteId": "cnp_h039",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「行星的运动」"
+  },
+  {
+   "topicId": "cnp_tjm02",
+   "prerequisiteId": "cnp_h043",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「人造卫星的运行规律」"
+  },
+  {
+   "topicId": "cnp_tjm02",
+   "prerequisiteId": "cnp_h051",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「机械能守恒定律」"
+  },
+  {
+   "topicId": "cnp_tjm02",
+   "prerequisiteId": "cnp_tjm01",
+   "strength": "hard",
+   "kind": "model_pre",
+   "reason": "先掌握模型「卫星轨道参量比较」"
+  },
+  {
+   "topicId": "cnp_tjm03",
+   "prerequisiteId": "cnp_h043",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「人造卫星的运行规律」"
+  },
+  {
+   "topicId": "cnp_tjm03",
+   "prerequisiteId": "cnp_h033",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「圆周运动的描述」"
+  },
+  {
+   "topicId": "cnp_tjm03",
+   "prerequisiteId": "cnp_h036",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「向心加速度」"
+  },
+  {
+   "topicId": "cnp_tjm03",
+   "prerequisiteId": "cnp_tjm01",
+   "strength": "soft",
+   "kind": "model_pre",
+   "reason": "先掌握模型「卫星轨道参量比较」"
+  },
+  {
+   "topicId": "cnp_tjm04",
+   "prerequisiteId": "cnp_h105",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「波的描述」"
+  },
+  {
+   "topicId": "cnp_tjm04",
+   "prerequisiteId": "cnp_h106",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「波的图像与振动图像」"
+  },
+  {
+   "topicId": "cnp_tjm04",
+   "prerequisiteId": "cnp_h098",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「简谐运动」"
+  },
+  {
+   "topicId": "cnp_tjm05",
+   "prerequisiteId": "cnp_h108",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「波的干涉」"
+  },
+  {
+   "topicId": "cnp_tjm05",
+   "prerequisiteId": "cnp_h104",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「波的形成」"
+  },
+  {
+   "topicId": "cnp_tjm05",
+   "prerequisiteId": "cnp_tjm04",
+   "strength": "soft",
+   "kind": "model_pre",
+   "reason": "先掌握模型「波形图与振动图像综合」"
+  },
+  {
+   "topicId": "cnp_tjm06",
+   "prerequisiteId": "cnp_h152",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「气体的等温变化」"
+  },
+  {
+   "topicId": "cnp_tjm06",
+   "prerequisiteId": "cnp_h153",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「气体的等压变化和等容变化」"
+  },
+  {
+   "topicId": "cnp_tjm06",
+   "prerequisiteId": "cnp_h154",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「理想气体状态方程」"
+  },
+  {
+   "topicId": "cnp_tjm06",
+   "prerequisiteId": "cnp_h159",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「热力学第一定律」"
+  },
+  {
+   "topicId": "cnp_tjm07",
+   "prerequisiteId": "cnp_h046",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「功率」"
+  },
+  {
+   "topicId": "cnp_tjm07",
+   "prerequisiteId": "cnp_h023",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「牛顿第二定律」"
+  },
+  {
+   "topicId": "cnp_tjm07",
+   "prerequisiteId": "cnp_h050",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「动能定理」"
+  },
+  {
+   "topicId": "cnp_tjm08",
+   "prerequisiteId": "cnp_h023",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「牛顿第二定律」"
+  },
+  {
+   "topicId": "cnp_tjm08",
+   "prerequisiteId": "cnp_h019",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「共点力的平衡」"
+  },
+  {
+   "topicId": "cnp_tjm08",
+   "prerequisiteId": "cnp_h011",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「弹力与胡克定律」"
+  },
+  {
+   "topicId": "cnp_tjm08",
+   "prerequisiteId": "cnp_tjm45",
+   "strength": "soft",
+   "kind": "model_pre",
+   "reason": "先掌握模型「整体法与隔离法（连接体）」"
+  },
+  {
+   "topicId": "cnp_tjm45",
+   "prerequisiteId": "cnp_h026",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「连接体问题与整体法、隔离法」"
+  },
+  {
+   "topicId": "cnp_tjm45",
+   "prerequisiteId": "cnp_h023",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「牛顿第二定律」"
+  },
+  {
+   "topicId": "cnp_tjm09",
+   "prerequisiteId": "cnp_h007",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「匀变速直线运动的位移与时间的关系」"
+  },
+  {
+   "topicId": "cnp_tjm09",
+   "prerequisiteId": "cnp_h014",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「滑动摩擦力」"
+  },
+  {
+   "topicId": "cnp_tjm09",
+   "prerequisiteId": "cnp_h096",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「碰撞问题的分析」"
+  },
+  {
+   "topicId": "cnp_tjm09",
+   "prerequisiteId": "cnp_tjm11",
+   "strength": "soft",
+   "kind": "model_pre",
+   "reason": "先掌握模型「动量定理：冲量与平均作用力」"
+  },
+  {
+   "topicId": "cnp_tjm10",
+   "prerequisiteId": "cnp_h093",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「动量守恒定律」"
+  },
+  {
+   "topicId": "cnp_tjm10",
+   "prerequisiteId": "cnp_h097",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「反冲现象与火箭」"
+  },
+  {
+   "topicId": "cnp_tjm10",
+   "prerequisiteId": "cnp_h031",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「平抛运动的规律」"
+  },
+  {
+   "topicId": "cnp_tjm10",
+   "prerequisiteId": "cnp_tjm11",
+   "strength": "soft",
+   "kind": "model_pre",
+   "reason": "先掌握模型「动量定理：冲量与平均作用力」"
+  },
+  {
+   "topicId": "cnp_tjm11",
+   "prerequisiteId": "cnp_h091",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「冲量」"
+  },
+  {
+   "topicId": "cnp_tjm11",
+   "prerequisiteId": "cnp_h092",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「动量定理」"
+  },
+  {
+   "topicId": "cnp_tjm12",
+   "prerequisiteId": "cnp_h096",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「碰撞问题的分析」"
+  },
+  {
+   "topicId": "cnp_tjm12",
+   "prerequisiteId": "cnp_h093",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「动量守恒定律」"
+  },
+  {
+   "topicId": "cnp_tjm12",
+   "prerequisiteId": "cnp_tjm11",
+   "strength": "soft",
+   "kind": "model_pre",
+   "reason": "先掌握模型「动量定理：冲量与平均作用力」"
+  },
+  {
+   "topicId": "cnp_tjm13",
+   "prerequisiteId": "cnp_h095",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「弹性碰撞和非弹性碰撞」"
+  },
+  {
+   "topicId": "cnp_tjm13",
+   "prerequisiteId": "cnp_h093",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「动量守恒定律」"
+  },
+  {
+   "topicId": "cnp_tjm13",
+   "prerequisiteId": "cnp_tjm12",
+   "strength": "soft",
+   "kind": "model_pre",
+   "reason": "先掌握模型「完全非弹性碰撞（碰后粘合）」"
+  },
+  {
+   "topicId": "cnp_tjm14",
+   "prerequisiteId": "cnp_h037",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「生活中的圆周运动」"
+  },
+  {
+   "topicId": "cnp_tjm14",
+   "prerequisiteId": "cnp_h034",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「向心力」"
+  },
+  {
+   "topicId": "cnp_tjm14",
+   "prerequisiteId": "cnp_h051",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「机械能守恒定律」"
+  },
+  {
+   "topicId": "cnp_tjm14",
+   "prerequisiteId": "cnp_tjm12",
+   "strength": "soft",
+   "kind": "model_pre",
+   "reason": "先掌握模型「完全非弹性碰撞（碰后粘合）」"
+  },
+  {
+   "topicId": "cnp_tjm15",
+   "prerequisiteId": "cnp_h031",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「平抛运动的规律」"
+  },
+  {
+   "topicId": "cnp_tjm15",
+   "prerequisiteId": "cnp_h029",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「运动的合成与分解」"
+  },
+  {
+   "topicId": "cnp_tjm16",
+   "prerequisiteId": "cnp_h061",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「等势面」"
+  },
+  {
+   "topicId": "cnp_tjm16",
+   "prerequisiteId": "cnp_h058",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「电势能」"
+  },
+  {
+   "topicId": "cnp_tjm16",
+   "prerequisiteId": "cnp_h059",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「电势」"
+  },
+  {
+   "topicId": "cnp_tjm16",
+   "prerequisiteId": "cnp_h056",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「电场线与电场的叠加」"
+  },
+  {
+   "topicId": "cnp_tjm17",
+   "prerequisiteId": "cnp_h062",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「电势差与电场强度的关系」"
+  },
+  {
+   "topicId": "cnp_tjm17",
+   "prerequisiteId": "cnp_h058",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「电势能」"
+  },
+  {
+   "topicId": "cnp_tjm17",
+   "prerequisiteId": "cnp_tjm16",
+   "strength": "soft",
+   "kind": "model_pre",
+   "reason": "先掌握模型「等势面、轨迹与电势能」"
+  },
+  {
+   "topicId": "cnp_tjm18",
+   "prerequisiteId": "cnp_h054",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「库仑定律」"
+  },
+  {
+   "topicId": "cnp_tjm18",
+   "prerequisiteId": "cnp_h055",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「电场强度」"
+  },
+  {
+   "topicId": "cnp_tjm19",
+   "prerequisiteId": "cnp_h121",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「带电粒子在匀强磁场中的运动」"
+  },
+  {
+   "topicId": "cnp_tjm19",
+   "prerequisiteId": "cnp_h120",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「洛伦兹力」"
+  },
+  {
+   "topicId": "cnp_tjm20",
+   "prerequisiteId": "cnp_h065",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「带电粒子在电场中的加速」"
+  },
+  {
+   "topicId": "cnp_tjm20",
+   "prerequisiteId": "cnp_h066",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「带电粒子在电场中的偏转」"
+  },
+  {
+   "topicId": "cnp_tjm20",
+   "prerequisiteId": "cnp_h121",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「带电粒子在匀强磁场中的运动」"
+  },
+  {
+   "topicId": "cnp_tjm20",
+   "prerequisiteId": "cnp_tjm19",
+   "strength": "hard",
+   "kind": "model_pre",
+   "reason": "先掌握模型「有界磁场中圆周运动（找圆心、定半径、求时间）」"
+  },
+  {
+   "topicId": "cnp_tjm21",
+   "prerequisiteId": "cnp_h120",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「洛伦兹力」"
+  },
+  {
+   "topicId": "cnp_tjm21",
+   "prerequisiteId": "cnp_h055",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「电场强度」"
+  },
+  {
+   "topicId": "cnp_tjm21",
+   "prerequisiteId": "cnp_tjm19",
+   "strength": "soft",
+   "kind": "model_pre",
+   "reason": "先掌握模型「有界磁场中圆周运动（找圆心、定半径、求时间）」"
+  },
+  {
+   "topicId": "cnp_tjm22",
+   "prerequisiteId": "cnp_h122",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「质谱仪」"
+  },
+  {
+   "topicId": "cnp_tjm22",
+   "prerequisiteId": "cnp_h065",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「带电粒子在电场中的加速」"
+  },
+  {
+   "topicId": "cnp_tjm22",
+   "prerequisiteId": "cnp_tjm20",
+   "strength": "hard",
+   "kind": "model_pre",
+   "reason": "先掌握模型「组合场：电场加速 + 磁场偏转」"
+  },
+  {
+   "topicId": "cnp_tjm23",
+   "prerequisiteId": "cnp_h120",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「洛伦兹力」"
+  },
+  {
+   "topicId": "cnp_tjm23",
+   "prerequisiteId": "cnp_h067",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「电源和电流」"
+  },
+  {
+   "topicId": "cnp_tjm23",
+   "prerequisiteId": "cnp_tjm21",
+   "strength": "hard",
+   "kind": "model_pre",
+   "reason": "先掌握模型「叠加场：速度选择器」"
+  },
+  {
+   "topicId": "cnp_tjm24",
+   "prerequisiteId": "cnp_h118",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「安培力」"
+  },
+  {
+   "topicId": "cnp_tjm24",
+   "prerequisiteId": "cnp_h069",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「电阻定律与电阻率」"
+  },
+  {
+   "topicId": "cnp_tjm25",
+   "prerequisiteId": "cnp_h126",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「法拉第电磁感应定律」"
+  },
+  {
+   "topicId": "cnp_tjm25",
+   "prerequisiteId": "cnp_h118",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「安培力」"
+  },
+  {
+   "topicId": "cnp_tjm25",
+   "prerequisiteId": "cnp_h125",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「楞次定律」"
+  },
+  {
+   "topicId": "cnp_tjm26",
+   "prerequisiteId": "cnp_h127",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「导体切割磁感线时的感应电动势」"
+  },
+  {
+   "topicId": "cnp_tjm26",
+   "prerequisiteId": "cnp_h128",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「电磁感应中的电路、能量与动力学问题」"
+  },
+  {
+   "topicId": "cnp_tjm26",
+   "prerequisiteId": "cnp_h023",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「牛顿第二定律」"
+  },
+  {
+   "topicId": "cnp_tjm26",
+   "prerequisiteId": "cnp_h125",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「楞次定律」"
+  },
+  {
+   "topicId": "cnp_tjm27",
+   "prerequisiteId": "cnp_h127",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「导体切割磁感线时的感应电动势」"
+  },
+  {
+   "topicId": "cnp_tjm27",
+   "prerequisiteId": "cnp_h046",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「功率」"
+  },
+  {
+   "topicId": "cnp_tjm27",
+   "prerequisiteId": "cnp_tjm26",
+   "strength": "hard",
+   "kind": "model_pre",
+   "reason": "先掌握模型「单杆切割（导轨，收尾速度）」"
+  },
+  {
+   "topicId": "cnp_tjm27",
+   "prerequisiteId": "cnp_tjm07",
+   "strength": "soft",
+   "kind": "model_pre",
+   "reason": "先掌握模型「机车恒功率启动」"
+  },
+  {
+   "topicId": "cnp_tjm28",
+   "prerequisiteId": "cnp_h127",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「导体切割磁感线时的感应电动势」"
+  },
+  {
+   "topicId": "cnp_tjm28",
+   "prerequisiteId": "cnp_h033",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「圆周运动的描述」"
+  },
+  {
+   "topicId": "cnp_tjm28",
+   "prerequisiteId": "cnp_tjm26",
+   "strength": "soft",
+   "kind": "model_pre",
+   "reason": "先掌握模型「单杆切割（导轨，收尾速度）」"
+  },
+  {
+   "topicId": "cnp_tjm29",
+   "prerequisiteId": "cnp_h126",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「法拉第电磁感应定律」"
+  },
+  {
+   "topicId": "cnp_tjm29",
+   "prerequisiteId": "cnp_h092",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「动量定理」"
+  },
+  {
+   "topicId": "cnp_tjm29",
+   "prerequisiteId": "cnp_tjm25",
+   "strength": "soft",
+   "kind": "model_pre",
+   "reason": "先掌握模型「感生电动势：线框在变化磁场中」"
+  },
+  {
+   "topicId": "cnp_tjm29",
+   "prerequisiteId": "cnp_tjm26",
+   "strength": "soft",
+   "kind": "model_pre",
+   "reason": "先掌握模型「单杆切割（导轨，收尾速度）」"
+  },
+  {
+   "topicId": "cnp_tjm30",
+   "prerequisiteId": "cnp_h131",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「交变电流的产生」"
+  },
+  {
+   "topicId": "cnp_tjm30",
+   "prerequisiteId": "cnp_h132",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「交变电流的描述」"
+  },
+  {
+   "topicId": "cnp_tjm31",
+   "prerequisiteId": "cnp_h136",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「发电机与电动机的能量转化」"
+  },
+  {
+   "topicId": "cnp_tjm31",
+   "prerequisiteId": "cnp_h131",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「交变电流的产生」"
+  },
+  {
+   "topicId": "cnp_tjm31",
+   "prerequisiteId": "cnp_tjm30",
+   "strength": "hard",
+   "kind": "model_pre",
+   "reason": "先掌握模型「交流电的产生与四值」"
+  },
+  {
+   "topicId": "cnp_tjm31",
+   "prerequisiteId": "cnp_tjm44",
+   "strength": "soft",
+   "kind": "model_pre",
+   "reason": "先掌握模型「微元法与数列求和（压轴数学工具）」"
+  },
+  {
+   "topicId": "cnp_tjm32",
+   "prerequisiteId": "cnp_h133",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「变压器」"
+  },
+  {
+   "topicId": "cnp_tjm32",
+   "prerequisiteId": "cnp_h080",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「闭合电路的动态分析与功率」"
+  },
+  {
+   "topicId": "cnp_tjm33",
+   "prerequisiteId": "cnp_h135",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「电能的输送」"
+  },
+  {
+   "topicId": "cnp_tjm33",
+   "prerequisiteId": "cnp_h133",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「变压器」"
+  },
+  {
+   "topicId": "cnp_tjm33",
+   "prerequisiteId": "cnp_tjm32",
+   "strength": "hard",
+   "kind": "model_pre",
+   "reason": "先掌握模型「理想变压器动态分析」"
+  },
+  {
+   "topicId": "cnp_tjm34",
+   "prerequisiteId": "cnp_h110",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「光的折射」"
+  },
+  {
+   "topicId": "cnp_tjm34",
+   "prerequisiteId": "cnp_h113",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「光的干涉」"
+  },
+  {
+   "topicId": "cnp_tjm34",
+   "prerequisiteId": "cnp_h115",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「光的衍射」"
+  },
+  {
+   "topicId": "cnp_tjm34",
+   "prerequisiteId": "cnp_h116",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「光的偏振」"
+  },
+  {
+   "topicId": "cnp_tjm34",
+   "prerequisiteId": "cnp_h164",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「光电效应现象」"
+  },
+  {
+   "topicId": "cnp_tjm35",
+   "prerequisiteId": "cnp_h113",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「光的干涉」"
+  },
+  {
+   "topicId": "cnp_tjm35",
+   "prerequisiteId": "cnp_h114",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「实验：用双缝干涉测量光的波长」"
+  },
+  {
+   "topicId": "cnp_tjm35",
+   "prerequisiteId": "cnp_tjm34",
+   "strength": "soft",
+   "kind": "model_pre",
+   "reason": "先掌握模型「光的性质综合辨析」"
+  },
+  {
+   "topicId": "cnp_tjm36",
+   "prerequisiteId": "cnp_h165",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「爱因斯坦光电效应方程」"
+  },
+  {
+   "topicId": "cnp_tjm36",
+   "prerequisiteId": "cnp_h164",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「光电效应现象」"
+  },
+  {
+   "topicId": "cnp_tjm37",
+   "prerequisiteId": "cnp_h168",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「玻尔的原子模型与能级」"
+  },
+  {
+   "topicId": "cnp_tjm37",
+   "prerequisiteId": "cnp_h167",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「氢原子光谱」"
+  },
+  {
+   "topicId": "cnp_tjm38",
+   "prerequisiteId": "cnp_h172",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「原子核的衰变」"
+  },
+  {
+   "topicId": "cnp_tjm38",
+   "prerequisiteId": "cnp_h173",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「半衰期」"
+  },
+  {
+   "topicId": "cnp_tjm38",
+   "prerequisiteId": "cnp_h175",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「核力与结合能」"
+  },
+  {
+   "topicId": "cnp_tjm38",
+   "prerequisiteId": "cnp_h176",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「核裂变与核聚变」"
+  },
+  {
+   "topicId": "cnp_tjm39",
+   "prerequisiteId": "cnp_h081",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「实验：电池电动势和内阻的测量」"
+  },
+  {
+   "topicId": "cnp_tjm39",
+   "prerequisiteId": "cnp_h079",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「闭合电路的欧姆定律」"
+  },
+  {
+   "topicId": "cnp_tjm40",
+   "prerequisiteId": "cnp_h068",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「欧姆定律与伏安特性曲线」"
+  },
+  {
+   "topicId": "cnp_tjm40",
+   "prerequisiteId": "cnp_h071",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「实验：导体电阻率的测量」"
+  },
+  {
+   "topicId": "cnp_tjm40",
+   "prerequisiteId": "cnp_h073",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「电表的改装」"
+  },
+  {
+   "topicId": "cnp_tjm40",
+   "prerequisiteId": "cnp_h074",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「实验：练习使用多用电表」"
+  },
+  {
+   "topicId": "cnp_tjm41",
+   "prerequisiteId": "cnp_h030",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「实验：探究平抛运动的特点」"
+  },
+  {
+   "topicId": "cnp_tjm41",
+   "prerequisiteId": "cnp_h031",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「平抛运动的规律」"
+  },
+  {
+   "topicId": "cnp_tjm41",
+   "prerequisiteId": "cnp_tjm15",
+   "strength": "hard",
+   "kind": "model_pre",
+   "reason": "先掌握模型「平抛运动规律」"
+  },
+  {
+   "topicId": "cnp_tjm42",
+   "prerequisiteId": "cnp_h005",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「实验：探究小车速度随时间变化的规律」"
+  },
+  {
+   "topicId": "cnp_tjm42",
+   "prerequisiteId": "cnp_h022",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「实验：探究加速度与力、质量的关系」"
+  },
+  {
+   "topicId": "cnp_tjm43",
+   "prerequisiteId": "cnp_h094",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「实验：验证动量守恒定律」"
+  },
+  {
+   "topicId": "cnp_tjm43",
+   "prerequisiteId": "cnp_h052",
+   "strength": "hard",
+   "kind": "applies",
+   "reason": "模型用到「实验：验证机械能守恒定律」"
+  },
+  {
+   "topicId": "cnp_tjm44",
+   "prerequisiteId": "cnp_h128",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「电磁感应中的电路、能量与动力学问题」"
+  },
+  {
+   "topicId": "cnp_tjm44",
+   "prerequisiteId": "cnp_h092",
+   "strength": "soft",
+   "kind": "applies",
+   "reason": "模型用到「动量定理」"
+  },
+  {
+   "topicId": "cnp_tje01",
+   "prerequisiteId": "cnp_h027",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「超重和失重」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje02",
+   "prerequisiteId": "cnp_h020",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「牛顿第一定律」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje03",
+   "prerequisiteId": "cnp_h004",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「加速度」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje04",
+   "prerequisiteId": "cnp_h013",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「静摩擦力」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje04",
+   "prerequisiteId": "cnp_h014",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「滑动摩擦力」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje05",
+   "prerequisiteId": "cnp_h043",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「人造卫星的运行规律」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje06",
+   "prerequisiteId": "cnp_h043",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「人造卫星的运行规律」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje07",
+   "prerequisiteId": "cnp_h104",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「波的形成」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje08",
+   "prerequisiteId": "cnp_h110",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「光的折射」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje09",
+   "prerequisiteId": "cnp_h165",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「爱因斯坦光电效应方程」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje10",
+   "prerequisiteId": "cnp_h173",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「半衰期」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje11",
+   "prerequisiteId": "cnp_h172",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「原子核的衰变」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje12",
+   "prerequisiteId": "cnp_h059",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「电势」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje12",
+   "prerequisiteId": "cnp_h055",
+   "strength": "soft",
+   "kind": "misconception_of",
+   "reason": "「电场强度」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje13",
+   "prerequisiteId": "cnp_h056",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「电场线与电场的叠加」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje14",
+   "prerequisiteId": "cnp_h120",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「洛伦兹力」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje15",
+   "prerequisiteId": "cnp_h125",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「楞次定律」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje16",
+   "prerequisiteId": "cnp_h126",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「法拉第电磁感应定律」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje16",
+   "prerequisiteId": "cnp_h086",
+   "strength": "soft",
+   "kind": "misconception_of",
+   "reason": "「磁通量」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje17",
+   "prerequisiteId": "cnp_h133",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「变压器」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje18",
+   "prerequisiteId": "cnp_h132",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「交变电流的描述」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje19",
+   "prerequisiteId": "cnp_h159",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「热力学第一定律」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje20",
+   "prerequisiteId": "cnp_h149",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「分子势能与内能」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje20",
+   "prerequisiteId": "cnp_h148",
+   "strength": "soft",
+   "kind": "misconception_of",
+   "reason": "「分子动能与温度」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje21",
+   "prerequisiteId": "cnp_h093",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「动量守恒定律」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje21",
+   "prerequisiteId": "cnp_h051",
+   "strength": "soft",
+   "kind": "misconception_of",
+   "reason": "「机械能守恒定律」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje22",
+   "prerequisiteId": "cnp_h015",
+   "strength": "hard",
+   "kind": "misconception_of",
+   "reason": "「牛顿第三定律」中的常见误区"
+  },
+  {
+   "topicId": "cnp_tje22",
+   "prerequisiteId": "cnp_h019",
+   "strength": "soft",
+   "kind": "misconception_of",
+   "reason": "「共点力的平衡」中的常见误区"
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnp_tjm01_q1",
+   "topicId": "cnp_tjm01",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "两颗绕地球做匀速圆周运动的卫星，轨道半径之比 r₁∶r₂ = 1∶4，则周期之比 T₁∶T₂ 的比值是多少？（只填数值）",
+   "answer": "0.125",
+   "explanation": "由 T ∝ r^(3/2)，T₁/T₂ = (1/4)^(3/2) = 1/8 = 0.125。",
+   "verify": "(1/4)**1.5"
+  },
+  {
+   "id": "cnp_tjm01_q2",
+   "topicId": "cnp_tjm01",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "中国空间站轨道高度约 400 km，地球静止轨道卫星高度约 36000 km。下列说法正确的是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "静止轨道卫星的线速度比空间站的大"
+    },
+    {
+     "key": "B",
+     "text": "静止轨道卫星的角速度比空间站的大"
+    },
+    {
+     "key": "C",
+     "text": "空间站的向心加速度比静止轨道卫星的大"
+    },
+    {
+     "key": "D",
+     "text": "两者的运行周期相同"
+    }
+   ],
+   "answer": "C",
+   "explanation": "轨道半径越小，a、v、ω 越大，T 越小。空间站轨道半径小，向心加速度更大。",
+   "verify": "\"空间站的向心加速度比静止轨道卫星的大\""
+  },
+  {
+   "id": "cnp_tjm02_q1",
+   "topicId": "cnp_tjm02",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "某探测器椭圆轨道的半长轴是某圆轨道半径的 4 倍（绕同一中心天体），则椭圆轨道周期是圆轨道周期的多少倍？（只填数值）",
+   "answer": "8",
+   "explanation": "开普勒第三定律 a³/T² 相同，T 比 = 4^(3/2) = 8。",
+   "verify": "4**1.5"
+  },
+  {
+   "id": "cnp_tjm02_q2",
+   "topicId": "cnp_tjm02",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "卫星从低圆轨道经椭圆转移轨道进入高圆轨道，在低圆轨道与椭圆轨道的切点处应怎样操作？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "点火减速"
+    },
+    {
+     "key": "B",
+     "text": "点火加速"
+    },
+    {
+     "key": "C",
+     "text": "不需要改变速度"
+    },
+    {
+     "key": "D",
+     "text": "先减速再加速"
+    }
+   ],
+   "answer": "B",
+   "explanation": "要从低轨进入椭圆轨道（离心），需在切点加速，使所需向心力大于万有引力。",
+   "verify": "\"点火加速\""
+  },
+  {
+   "id": "cnp_tjm03_q1",
+   "topicId": "cnp_tjm03",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "若同步卫星的轨道半径为地球半径的 7 倍，则同步卫星与赤道上随地球自转的物体的向心加速度之比是多少？（只填数值）",
+   "answer": "7",
+   "explanation": "两者角速度相同，a = ω²r ∝ r，比值为 7。",
+   "verify": "7"
+  },
+  {
+   "id": "cnp_tjm03_q2",
+   "topicId": "cnp_tjm03",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "地球赤道上随地球自转的物体与地球同步卫星相比，相同的物理量是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "角速度"
+    },
+    {
+     "key": "B",
+     "text": "线速度"
+    },
+    {
+     "key": "C",
+     "text": "向心加速度"
+    },
+    {
+     "key": "D",
+     "text": "所受万有引力全部提供向心力"
+    }
+   ],
+   "answer": "A",
+   "explanation": "同步卫星周期等于地球自转周期，两者角速度相同；r 不同，所以 v、a 不同。",
+   "verify": "\"角速度\""
+  },
+  {
+   "id": "cnp_tjm04_q1",
+   "topicId": "cnp_tjm04",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "一列简谐横波的波长为 4 m，周期为 0.5 s，则波速为多少 m/s？（只填数值）",
+   "answer": "8",
+   "explanation": "v = λ/T = 4/0.5 = 8 m/s。",
+   "verify": "4/0.5"
+  },
+  {
+   "id": "cnp_tjm04_q2",
+   "topicId": "cnp_tjm04",
+   "type": "choice",
+   "difficulty": "standard",
+   "prompt": "一列简谐横波沿 x 轴正方向传播，某时刻 x = 1 m 处质点位于平衡位置，x = 2 m 处恰为波峰。此时 x = 1 m 处质点的振动方向是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "沿 y 轴正方向"
+    },
+    {
+     "key": "B",
+     "text": "沿 x 轴正方向"
+    },
+    {
+     "key": "C",
+     "text": "瞬时静止"
+    },
+    {
+     "key": "D",
+     "text": "沿 y 轴负方向"
+    }
+   ],
+   "answer": "D",
+   "explanation": "沿传播方向（+x）看，x = 1 m 到 2 m 是“上坡”，上坡的质点向下运动，即沿 y 轴负方向。",
+   "verify": "\"沿 y 轴负方向\""
+  },
+  {
+   "id": "cnp_tjm05_q1",
+   "topicId": "cnp_tjm05",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "振幅分别为 3 cm 和 5 cm 的两列同频相干波叠加，振动加强点的振幅为多少 cm？（只填数值）",
+   "answer": "8",
+   "explanation": "加强点振幅等于两振幅之和 3 + 5 = 8 cm。",
+   "verify": "3+5"
+  },
+  {
+   "id": "cnp_tjm05_q2",
+   "topicId": "cnp_tjm05",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "波源开始振动时向上运动，波传到某质点时，该质点开始振动的方向是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "向下"
+    },
+    {
+     "key": "B",
+     "text": "取决于该质点到波源的距离"
+    },
+    {
+     "key": "C",
+     "text": "向上"
+    },
+    {
+     "key": "D",
+     "text": "取决于波速大小"
+    }
+   ],
+   "answer": "C",
+   "explanation": "介质中每个质点都重复波源的振动，开始振动方向与波源起振方向相同。",
+   "verify": "\"向上\""
+  },
+  {
+   "id": "cnp_tjm06_q1",
+   "topicId": "cnp_tjm06",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "储气罐中气体压强为 2 atm、体积 3 L，保持温度不变，压强降到 1.5 atm 时体积为多少 L？（只填数值）",
+   "answer": "4",
+   "explanation": "玻意耳定律 p₁V₁ = p₂V₂，V₂ = 2×3/1.5 = 4 L。",
+   "verify": "2*3/1.5"
+  },
+  {
+   "id": "cnp_tjm06_q2",
+   "topicId": "cnp_tjm06",
+   "type": "choice",
+   "difficulty": "standard",
+   "prompt": "气缸内理想气体被迅速压缩（来不及与外界换热），下列说法正确的是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "气体内能不变"
+    },
+    {
+     "key": "B",
+     "text": "气体内能增加，温度升高"
+    },
+    {
+     "key": "C",
+     "text": "气体放热，内能减少"
+    },
+    {
+     "key": "D",
+     "text": "气体温度降低"
+    }
+   ],
+   "answer": "B",
+   "explanation": "迅速压缩可看作绝热，Q = 0，外界对气体做功 W > 0，ΔU > 0，温度升高。",
+   "verify": "\"气体内能增加，温度升高\""
+  },
+  {
+   "id": "cnp_tjm07_q1",
+   "topicId": "cnp_tjm07",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "汽车额定功率 60 kW，行驶中所受阻力恒为 3000 N，则最大速度为多少 m/s？（只填数值）",
+   "answer": "20",
+   "explanation": "vₘ = P/f = 60000/3000 = 20 m/s。",
+   "verify": "60000/3000"
+  },
+  {
+   "id": "cnp_tjm07_q2",
+   "topicId": "cnp_tjm07",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "汽车以恒定功率从静止启动，在达到最大速度之前，下列说法正确的是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "加速度保持不变"
+    },
+    {
+     "key": "B",
+     "text": "加速度逐渐减小"
+    },
+    {
+     "key": "C",
+     "text": "牵引力逐渐增大"
+    },
+    {
+     "key": "D",
+     "text": "做匀加速直线运动"
+    }
+   ],
+   "answer": "B",
+   "explanation": "P 不变，v 增大，F = P/v 减小，a = (F − f)/m 减小。",
+   "verify": "\"加速度逐渐减小\""
+  },
+  {
+   "id": "cnp_tjm08_q1",
+   "topicId": "cnp_tjm08",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "小车载着质量 50 kg 的重物在光滑底板上靠紧后侧板，小车以 2 m/s² 的加速度向前加速，后侧板对重物的弹力为多少 N？（只填数值）",
+   "answer": "100",
+   "explanation": "水平方向只有后侧板弹力，F = ma = 50×2 = 100 N。",
+   "verify": "50*2"
+  },
+  {
+   "id": "cnp_tjm08_q2",
+   "topicId": "cnp_tjm08",
+   "type": "choice",
+   "difficulty": "standard",
+   "prompt": "小车载着重物由匀速前进变为向前加速，重物靠紧后侧板且底板光滑，后侧板对重物的弹力怎样变化？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "减小"
+    },
+    {
+     "key": "B",
+     "text": "不变"
+    },
+    {
+     "key": "C",
+     "text": "变为零"
+    },
+    {
+     "key": "D",
+     "text": "增大"
+    }
+   ],
+   "answer": "D",
+   "explanation": "匀速时水平方向合力为零（弹力为零或不变），加速时需要向前的合力 ma，由后侧板提供，弹力增大。",
+   "verify": "\"增大\""
+  },
+  {
+   "id": "cnp_tjm45_q1",
+   "topicId": "cnp_tjm45",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "光滑水平面上，质量 2 kg 的物块 A 与 1 kg 的物块 B 用轻绳相连，用 12 N 的水平力拉 A，则绳对 B 的拉力为多少 N？（只填数值）",
+   "answer": "4",
+   "explanation": "整体 a = 12/3 = 4 m/s²，隔离 B：T = 1×4 = 4 N。",
+   "verify": "1*12/3"
+  },
+  {
+   "id": "cnp_tjm45_q2",
+   "topicId": "cnp_tjm45",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "求连接体中两物体之间的相互作用力，通常的步骤是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "只能对整体列方程"
+    },
+    {
+     "key": "B",
+     "text": "先隔离求加速度，再整体求内力"
+    },
+    {
+     "key": "C",
+     "text": "先整体求加速度，再隔离一个物体求内力"
+    },
+    {
+     "key": "D",
+     "text": "直接用两物体重力之差"
+    }
+   ],
+   "answer": "C",
+   "explanation": "内力在整体中抵消，必须隔离出来才能求。",
+   "verify": "\"先整体求加速度，再隔离一个物体求内力\""
+  },
+  {
+   "id": "cnp_tjm09_q1",
+   "topicId": "cnp_tjm09",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "冰壶以 2 m/s 的初速度在冰面上滑行，动摩擦因数为 0.02，滑行到停止的距离为多少 m？（g 取 10 m/s²，只填数值）",
+   "answer": "10",
+   "explanation": "a = μg = 0.2 m/s²，s = v²/(2a) = 4/0.4 = 10 m。",
+   "verify": "2**2/(2*0.02*10)"
+  },
+  {
+   "id": "cnp_tjm09_q2",
+   "topicId": "cnp_tjm09",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "运动员在冰壶前方擦冰，主要效果是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "增大动摩擦因数，使冰壶停得更快"
+    },
+    {
+     "key": "B",
+     "text": "改变冰壶质量"
+    },
+    {
+     "key": "C",
+     "text": "使冰壶受到向前的推力"
+    },
+    {
+     "key": "D",
+     "text": "减小动摩擦因数，使冰壶滑得更远"
+    }
+   ],
+   "answer": "D",
+   "explanation": "擦冰使冰面形成水膜，μ 减小，减速度减小，滑行距离增大。",
+   "verify": "\"减小动摩擦因数，使冰壶滑得更远\""
+  },
+  {
+   "id": "cnp_tjm10_q1",
+   "topicId": "cnp_tjm10",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "静止的 3 kg 物体炸成 1 kg 和 2 kg 两块，1 kg 块速度为 8 m/s，则 2 kg 块速度大小为多少 m/s？（只填数值）",
+   "answer": "4",
+   "explanation": "动量守恒：1×8 = 2×v，v = 4 m/s。",
+   "verify": "1*8/2"
+  },
+  {
+   "id": "cnp_tjm10_q2",
+   "topicId": "cnp_tjm10",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "关于物体爆炸瞬间的系统，下列说法正确的是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "动量守恒，总动能不变"
+    },
+    {
+     "key": "B",
+     "text": "动量不守恒，总动能增加"
+    },
+    {
+     "key": "C",
+     "text": "动量与动能都不变"
+    },
+    {
+     "key": "D",
+     "text": "动量守恒，总动能增加"
+    }
+   ],
+   "answer": "D",
+   "explanation": "内力远大于外力，动量守恒；炸药化学能转化为动能，动能增加。",
+   "verify": "\"动量守恒，总动能增加\""
+  },
+  {
+   "id": "cnp_tjm11_q1",
+   "topicId": "cnp_tjm11",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "质量 0.5 kg 的球以 6 m/s 垂直撞墙，以 4 m/s 反弹，作用时间 0.1 s，墙对球的平均作用力大小为多少 N？（忽略重力，只填数值）",
+   "answer": "50",
+   "explanation": "取反弹方向为正：F·0.1 = 0.5×4 − 0.5×(−6) = 5，F = 50 N。",
+   "verify": "0.5*(4+6)/0.1"
+  },
+  {
+   "id": "cnp_tjm11_q2",
+   "topicId": "cnp_tjm11",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "跳远运动员落入沙坑、人从高处跳下屈膝着地，主要目的是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "减小动量变化量"
+    },
+    {
+     "key": "B",
+     "text": "延长作用时间，减小冲击力"
+    },
+    {
+     "key": "C",
+     "text": "减小冲量"
+    },
+    {
+     "key": "D",
+     "text": "增大作用力"
+    }
+   ],
+   "answer": "B",
+   "explanation": "动量变化量一定，延长作用时间 Δt，平均力 F = Δp/Δt 减小。",
+   "verify": "\"延长作用时间，减小冲击力\""
+  },
+  {
+   "id": "cnp_tjm12_q1",
+   "topicId": "cnp_tjm12",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "质量 2 kg、速度 3 m/s 的物块与静止的 1 kg 物块碰后粘在一起，碰撞中损失的动能为多少 J？（只填数值）",
+   "answer": "3",
+   "explanation": "共速 v = 6/3 = 2 m/s，损失 = ½×2×9 − ½×3×4 = 9 − 6 = 3 J。",
+   "verify": "0.5*2*9-0.5*3*2**2"
+  },
+  {
+   "id": "cnp_tjm12_q2",
+   "topicId": "cnp_tjm12",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "在质量和初速度相同的条件下，哪种碰撞系统损失的动能最多？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "弹性碰撞"
+    },
+    {
+     "key": "B",
+     "text": "完全非弹性碰撞"
+    },
+    {
+     "key": "C",
+     "text": "非弹性碰撞（碰后分开）"
+    },
+    {
+     "key": "D",
+     "text": "三种一样多"
+    }
+   ],
+   "answer": "B",
+   "explanation": "碰后共速时动能损失最大。",
+   "verify": "\"完全非弹性碰撞\""
+  },
+  {
+   "id": "cnp_tjm13_q1",
+   "topicId": "cnp_tjm13",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "质量 1 kg、速度 6 m/s 的小球与静止的 2 kg 小球发生弹性正碰，碰后 2 kg 小球的速度为多少 m/s？（只填数值）",
+   "answer": "4",
+   "explanation": "v₂′ = 2m₁v₀/(m₁+m₂) = 2×1×6/3 = 4 m/s。",
+   "verify": "2*1*6/(1+2)"
+  },
+  {
+   "id": "cnp_tjm13_q2",
+   "topicId": "cnp_tjm13",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "两个质量相等的小球发生弹性正碰，其中一个原来静止，碰后的情况是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "两球交换速度"
+    },
+    {
+     "key": "B",
+     "text": "两球以相同速度一起运动"
+    },
+    {
+     "key": "C",
+     "text": "入射球反弹，原速率不变"
+    },
+    {
+     "key": "D",
+     "text": "两球都静止"
+    }
+   ],
+   "answer": "A",
+   "explanation": "等质量弹性正碰，代入公式得 v₁′ = 0，v₂′ = v₀，交换速度。",
+   "verify": "\"两球交换速度\""
+  },
+  {
+   "id": "cnp_tjm14_q1",
+   "topicId": "cnp_tjm14",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "用长 0.5 m 的轻绳拴小球在竖直面内做圆周运动，要使小球恰能通过最高点，它在最低点的速度至少为多少 m/s？（g 取 10 m/s²，只填数值）",
+   "answer": "5",
+   "explanation": "最高点 v = √(gR)，机械能守恒 v低² = v高² + 4gR = 5gR = 25，v低 = 5 m/s。",
+   "verify": "sqrt(5*10*0.5)"
+  },
+  {
+   "id": "cnp_tjm14_q2",
+   "topicId": "cnp_tjm14",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "小球固定在轻杆一端，在竖直面内做圆周运动，它通过最高点的最小速度是多少？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "√(gR)"
+    },
+    {
+     "key": "B",
+     "text": "√(2gR)"
+    },
+    {
+     "key": "C",
+     "text": "0"
+    },
+    {
+     "key": "D",
+     "text": "√(5gR)"
+    }
+   ],
+   "answer": "C",
+   "explanation": "轻杆可以提供支持力，最高点速度可以为 0。",
+   "verify": "\"0\""
+  },
+  {
+   "id": "cnp_tjm15_q1",
+   "topicId": "cnp_tjm15",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "物体从 5 m 高处水平抛出，初速度 4 m/s，水平射程为多少 m？（g 取 10 m/s²，只填数值）",
+   "answer": "4",
+   "explanation": "t = √(2h/g) = 1 s，x = v₀t = 4 m。",
+   "verify": "4*sqrt(2*5/10)"
+  },
+  {
+   "id": "cnp_tjm15_q2",
+   "topicId": "cnp_tjm15",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "从同一高度以不同初速度水平抛出两个小球（不计空气阻力），下列说法正确的是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "初速度大的先落地"
+    },
+    {
+     "key": "B",
+     "text": "初速度小的先落地"
+    },
+    {
+     "key": "C",
+     "text": "质量大的先落地"
+    },
+    {
+     "key": "D",
+     "text": "两球同时落地"
+    }
+   ],
+   "answer": "D",
+   "explanation": "平抛下落时间只由高度决定，与初速度和质量无关。",
+   "verify": "\"两球同时落地\""
+  },
+  {
+   "id": "cnp_tjm16_q1",
+   "topicId": "cnp_tjm16",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "电荷量 −2×10⁻⁶ C 的点电荷从电势 10 V 的 A 点移到电势 4 V 的 B 点，电场力做功为多少 ×10⁻⁵ J？（只填数值，可为负）",
+   "answer": "-1.2",
+   "explanation": "W = q(φA − φB) = −2×10⁻⁶×6 = −1.2×10⁻⁵ J。",
+   "verify": "-2e-6*(10-4)/1e-5"
+  },
+  {
+   "id": "cnp_tjm16_q2",
+   "topicId": "cnp_tjm16",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "只受电场力的带电粒子在电场中做曲线运动，它所受电场力的方向是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "沿轨迹的切线方向"
+    },
+    {
+     "key": "B",
+     "text": "指向轨迹弯曲的外侧"
+    },
+    {
+     "key": "C",
+     "text": "与速度方向始终相同"
+    },
+    {
+     "key": "D",
+     "text": "指向轨迹弯曲的内侧"
+    }
+   ],
+   "answer": "D",
+   "explanation": "曲线运动的合力指向轨迹凹侧。",
+   "verify": "\"指向轨迹弯曲的内侧\""
+  },
+  {
+   "id": "cnp_tjm17_q1",
+   "topicId": "cnp_tjm17",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "在 φ-x 图像中，从 x = 0 到 x = 0.2 m 电势由 8 V 均匀降到 2 V，该区间沿 x 方向的场强大小为多少 V/m？（只填数值）",
+   "answer": "30",
+   "explanation": "E = Δφ/Δx = 6/0.2 = 30 V/m。",
+   "verify": "(8-2)/0.2"
+  },
+  {
+   "id": "cnp_tjm17_q2",
+   "topicId": "cnp_tjm17",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "φ-x 图像上某点切线斜率的物理意义是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "该点的电势能"
+    },
+    {
+     "key": "B",
+     "text": "该点沿 x 方向的电场强度"
+    },
+    {
+     "key": "C",
+     "text": "该点的电荷量"
+    },
+    {
+     "key": "D",
+     "text": "该点的电场力做功"
+    }
+   ],
+   "answer": "B",
+   "explanation": "U = Ed，斜率 Δφ/Δx 即场强（大小）。",
+   "verify": "\"该点沿 x 方向的电场强度\""
+  },
+  {
+   "id": "cnp_tjm18_q1",
+   "topicId": "cnp_tjm18",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "电荷量 4×10⁻⁹ C 的点电荷在距离 0.3 m 处产生的场强大小为多少 N/C？（k = 9×10⁹ N·m²/C²，只填数值）",
+   "answer": "400",
+   "explanation": "E = kQ/r² = 9×10⁹×4×10⁻⁹/0.09 = 400 N/C。",
+   "verify": "9e9*4e-9/0.3**2"
+  },
+  {
+   "id": "cnp_tjm18_q2",
+   "topicId": "cnp_tjm18",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "均匀带电金属球壳内部（空腔中）的场强是多少？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "与球心距离成正比"
+    },
+    {
+     "key": "B",
+     "text": "为零"
+    },
+    {
+     "key": "C",
+     "text": "与球心距离平方成反比"
+    },
+    {
+     "key": "D",
+     "text": "等于球壳表面的场强"
+    }
+   ],
+   "answer": "B",
+   "explanation": "由对称性和叠加原理，均匀带电球壳内部场强为零。",
+   "verify": "\"为零\""
+  },
+  {
+   "id": "cnp_tjm19_q1",
+   "topicId": "cnp_tjm19",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "比荷 q/m = 1×10⁸ C/kg 的粒子以 2×10⁶ m/s 垂直进入 B = 0.1 T 的匀强磁场，轨道半径为多少 m？（只填数值）",
+   "answer": "0.2",
+   "explanation": "r = mv/(qB) = 2×10⁶/(10⁸×0.1) = 0.2 m。",
+   "verify": "2e6/(1e8*0.1)"
+  },
+  {
+   "id": "cnp_tjm19_q2",
+   "topicId": "cnp_tjm19",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "同一粒子以不同速度进入同一匀强磁场，它在磁场中运动的时间由什么决定？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "速度大小"
+    },
+    {
+     "key": "B",
+     "text": "轨道半径"
+    },
+    {
+     "key": "C",
+     "text": "轨迹对应的圆心角"
+    },
+    {
+     "key": "D",
+     "text": "入射点位置"
+    }
+   ],
+   "answer": "C",
+   "explanation": "周期 T 与速度无关，t = (θ/2π)T，只由圆心角决定。",
+   "verify": "\"轨迹对应的圆心角\""
+  },
+  {
+   "id": "cnp_tjm20_q1",
+   "topicId": "cnp_tjm20",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "比荷为 2×10⁶ C/kg 的带正电粒子由静止经 100 V 电压加速，获得的速度为多少 ×10⁴ m/s？（只填数值）",
+   "answer": "2",
+   "explanation": "v = √(2qU/m) = √(2×2×10⁶×100) = 2×10⁴ m/s。",
+   "verify": "sqrt(2*2e6*100)/1e4"
+  },
+  {
+   "id": "cnp_tjm20_q2",
+   "topicId": "cnp_tjm20",
+   "type": "choice",
+   "difficulty": "standard",
+   "prompt": "带电粒子沿半径方向射入圆形匀强磁场区域，它射出磁场时的速度方向是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "与入射方向相同"
+    },
+    {
+     "key": "B",
+     "text": "沿磁场边界切线方向"
+    },
+    {
+     "key": "C",
+     "text": "指向圆心"
+    },
+    {
+     "key": "D",
+     "text": "沿半径方向背离圆心"
+    }
+   ],
+   "answer": "D",
+   "explanation": "几何关系：沿半径射入的粒子，出射速度反向延长线过圆心，即沿半径方向射出。",
+   "verify": "\"沿半径方向背离圆心\""
+  },
+  {
+   "id": "cnp_tjm21_q1",
+   "topicId": "cnp_tjm21",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "速度选择器中电场强度 1×10⁴ V/m，磁感应强度 0.2 T，能匀速通过的粒子速度为多少 ×10⁴ m/s？（只填数值）",
+   "answer": "5",
+   "explanation": "v = E/B = 10⁴/0.2 = 5×10⁴ m/s。",
+   "verify": "1e4/0.2/1e4"
+  },
+  {
+   "id": "cnp_tjm21_q2",
+   "topicId": "cnp_tjm21",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "速度选择器能选出的粒子速度与下列哪个因素有关？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "电场强度与磁感应强度"
+    },
+    {
+     "key": "B",
+     "text": "粒子的电荷量"
+    },
+    {
+     "key": "C",
+     "text": "粒子的电性"
+    },
+    {
+     "key": "D",
+     "text": "粒子的质量"
+    }
+   ],
+   "answer": "A",
+   "explanation": "v = E/B，只由两个场决定。",
+   "verify": "\"电场强度与磁感应强度\""
+  },
+  {
+   "id": "cnp_tjm22_q1",
+   "topicId": "cnp_tjm22",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "两种同位素离子电荷量相同，质量之比 1∶4，经同一电压加速后进入同一质谱仪磁场，轨道半径之比 r₂/r₁ 为多少？（只填数值）",
+   "answer": "2",
+   "explanation": "r ∝ √m，r₂/r₁ = √4 = 2。",
+   "verify": "sqrt(4)"
+  },
+  {
+   "id": "cnp_tjm22_q2",
+   "topicId": "cnp_tjm22",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "在质谱仪中，电荷量相同的同位素离子，轨道半径越大说明什么？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "质量越大"
+    },
+    {
+     "key": "B",
+     "text": "质量越小"
+    },
+    {
+     "key": "C",
+     "text": "速度越大的一定质量越小"
+    },
+    {
+     "key": "D",
+     "text": "电荷量越大"
+    }
+   ],
+   "answer": "A",
+   "explanation": "r = (1/B)√(2mU/q)，q、U、B 相同时 r 随 m 增大。",
+   "verify": "\"质量越大\""
+  },
+  {
+   "id": "cnp_tjm23_q1",
+   "topicId": "cnp_tjm23",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "霍尔元件中载流子定向移动速度 2 m/s，磁感应强度 0.5 T，元件宽度 0.01 m，稳定时霍尔电压为多少 mV？（只填数值）",
+   "answer": "10",
+   "explanation": "U = Bvd = 0.5×2×0.01 = 0.01 V = 10 mV。",
+   "verify": "0.5*2*0.01*1000"
+  },
+  {
+   "id": "cnp_tjm23_q2",
+   "topicId": "cnp_tjm23",
+   "type": "choice",
+   "difficulty": "standard",
+   "prompt": "载流子为电子的霍尔元件，判断两侧电势高低的方法是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "电流流入的一侧电势高"
+    },
+    {
+     "key": "B",
+     "text": "用左手定则判断电子受力方向，电子聚集的一侧电势低"
+    },
+    {
+     "key": "C",
+     "text": "两侧电势始终相等"
+    },
+    {
+     "key": "D",
+     "text": "电子聚集的一侧电势高"
+    }
+   ],
+   "answer": "B",
+   "explanation": "电子带负电，聚集侧带负电，电势低；注意左手定则中四指指向电流方向（与电子运动方向相反）。",
+   "verify": "\"用左手定则判断电子受力方向，电子聚集的一侧电势低\""
+  },
+  {
+   "id": "cnp_tjm24_q1",
+   "topicId": "cnp_tjm24",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "电磁泵中导电液体通有 20 A 电流，磁感应强度 0.5 T，液体中通电长度 0.1 m，液体受到的安培力为多少 N？（只填数值）",
+   "answer": "1",
+   "explanation": "F = BIL = 0.5×20×0.1 = 1 N。",
+   "verify": "0.5*20*0.1"
+  },
+  {
+   "id": "cnp_tjm24_q2",
+   "topicId": "cnp_tjm24",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "要使电磁泵中的导电液体受力方向反向，可以怎样做？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "同时改变电流方向和磁场方向"
+    },
+    {
+     "key": "B",
+     "text": "增大电流"
+    },
+    {
+     "key": "C",
+     "text": "只改变电流方向"
+    },
+    {
+     "key": "D",
+     "text": "增大磁感应强度"
+    }
+   ],
+   "answer": "C",
+   "explanation": "F 的方向由 I 和 B 的方向共同决定，只改变其中一个才反向。",
+   "verify": "\"只改变电流方向\""
+  },
+  {
+   "id": "cnp_tjm25_q1",
+   "topicId": "cnp_tjm25",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "10 匝线圈中磁场的面积为 0.04 m²，磁感应强度以 0.5 T/s 均匀增大，感应电动势为多少 V？（只填数值）",
+   "answer": "0.2",
+   "explanation": "E = NSΔB/Δt = 10×0.04×0.5 = 0.2 V。",
+   "verify": "10*0.04*0.5"
+  },
+  {
+   "id": "cnp_tjm25_q2",
+   "topicId": "cnp_tjm25",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "穿过闭合线框的磁场均匀增大时，线框中的感应电流怎样？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "逐渐增大"
+    },
+    {
+     "key": "B",
+     "text": "大小恒定"
+    },
+    {
+     "key": "C",
+     "text": "逐渐减小"
+    },
+    {
+     "key": "D",
+     "text": "为零"
+    }
+   ],
+   "answer": "B",
+   "explanation": "ΔB/Δt 恒定，E 恒定，电流恒定。",
+   "verify": "\"大小恒定\""
+  },
+  {
+   "id": "cnp_tjm26_q1",
+   "topicId": "cnp_tjm26",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "水平光滑导轨间距 1 m，磁感应强度 0.5 T，回路总电阻 1 Ω，用 0.5 N 的恒力拉导体棒，棒的最大速度为多少 m/s？（只填数值）",
+   "answer": "2",
+   "explanation": "vₘ = FR/(B²L²) = 0.5×1/0.25 = 2 m/s。",
+   "verify": "0.5*1/(0.5**2*1**2)"
+  },
+  {
+   "id": "cnp_tjm26_q2",
+   "topicId": "cnp_tjm26",
+   "type": "choice",
+   "difficulty": "standard",
+   "prompt": "导体棒从静止释放沿光滑倾斜导轨下滑（导轨接电阻，磁场垂直导轨平面），棒的运动是哪一种？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "加速度逐渐减小的加速运动，最后匀速"
+    },
+    {
+     "key": "B",
+     "text": "匀加速直线运动"
+    },
+    {
+     "key": "C",
+     "text": "先加速后减速"
+    },
+    {
+     "key": "D",
+     "text": "加速度逐渐增大的加速运动"
+    }
+   ],
+   "answer": "A",
+   "explanation": "速度增大，安培力增大，合力减小，a 减小，直到 mg sinθ = F安 后匀速。",
+   "verify": "\"加速度逐渐减小的加速运动，最后匀速\""
+  },
+  {
+   "id": "cnp_tjm27_q1",
+   "topicId": "cnp_tjm27",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "以恒定功率 4 W 拉导体棒在水平光滑导轨上运动，B = 1 T，导轨间距 1 m，回路总电阻 1 Ω，棒的最大速度为多少 m/s？（只填数值）",
+   "answer": "2",
+   "explanation": "P/vₘ = B²L²vₘ/R，vₘ² = PR/(B²L²) = 4，vₘ = 2 m/s。",
+   "verify": "sqrt(4*1/(1*1))"
+  },
+  {
+   "id": "cnp_tjm27_q2",
+   "topicId": "cnp_tjm27",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "恒功率拉动导体棒达到最大速度时，满足的条件是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "拉力等于安培力"
+    },
+    {
+     "key": "B",
+     "text": "拉力为零"
+    },
+    {
+     "key": "C",
+     "text": "安培力为零"
+    },
+    {
+     "key": "D",
+     "text": "拉力等于重力"
+    }
+   ],
+   "answer": "A",
+   "explanation": "最大速度时加速度为零，水平方向拉力与安培力平衡。",
+   "verify": "\"拉力等于安培力\""
+  },
+  {
+   "id": "cnp_tjm28_q1",
+   "topicId": "cnp_tjm28",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "长 0.4 m 的导体棒绕一端在 B = 0.5 T 的匀强磁场中以 50 rad/s 转动（转动平面垂直磁场），感应电动势为多少 V？（只填数值）",
+   "answer": "2",
+   "explanation": "E = ½BL²ω = 0.5×0.5×0.16×50 = 2 V。",
+   "verify": "0.5*0.5*0.4**2*50"
+  },
+  {
+   "id": "cnp_tjm28_q2",
+   "topicId": "cnp_tjm28",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "导体棒绕一端转动切割磁感线，计算电动势时可以把它等效为哪种情况？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "以棒中点的线速度平动切割"
+    },
+    {
+     "key": "B",
+     "text": "以棒端点的线速度平动切割"
+    },
+    {
+     "key": "C",
+     "text": "以转轴处的速度切割"
+    },
+    {
+     "key": "D",
+     "text": "电动势为零"
+    }
+   ],
+   "answer": "A",
+   "explanation": "各点速度沿棒线性分布，平均速度为中点速度 ωL/2。",
+   "verify": "\"以棒中点的线速度平动切割\""
+  },
+  {
+   "id": "cnp_tjm29_q1",
+   "topicId": "cnp_tjm29",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "单匝线圈磁通量变化 0.02 Wb，回路电阻 0.5 Ω，通过导线截面的电荷量为多少 C？（只填数值）",
+   "answer": "0.04",
+   "explanation": "q = ΔΦ/R = 0.02/0.5 = 0.04 C。",
+   "verify": "0.02/0.5"
+  },
+  {
+   "id": "cnp_tjm29_q2",
+   "topicId": "cnp_tjm29",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "把线圈从磁场中快速拉出和缓慢拉出，通过导线截面的电荷量相比怎样？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "快速拉出时多"
+    },
+    {
+     "key": "B",
+     "text": "缓慢拉出时多"
+    },
+    {
+     "key": "C",
+     "text": "相等"
+    },
+    {
+     "key": "D",
+     "text": "无法比较"
+    }
+   ],
+   "answer": "C",
+   "explanation": "q = ΔΦ/R，只与磁通量变化量和电阻有关。",
+   "verify": "\"相等\""
+  },
+  {
+   "id": "cnp_tjm30_q1",
+   "topicId": "cnp_tjm30",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "100 匝矩形线框面积 0.02 m²，在 B = 0.5 T 的匀强磁场中以 100 rad/s 匀速转动，感应电动势峰值为多少 V？（只填数值）",
+   "answer": "100",
+   "explanation": "Em = NBSω = 100×0.5×0.02×100 = 100 V。",
+   "verify": "100*0.5*0.02*100"
+  },
+  {
+   "id": "cnp_tjm30_q2",
+   "topicId": "cnp_tjm30",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "线框转到中性面（线框平面与磁场垂直）时，下列说法正确的是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "磁通量为零，感应电动势最大"
+    },
+    {
+     "key": "B",
+     "text": "磁通量最大，感应电动势为零"
+    },
+    {
+     "key": "C",
+     "text": "磁通量与电动势都最大"
+    },
+    {
+     "key": "D",
+     "text": "磁通量与电动势都为零"
+    }
+   ],
+   "answer": "B",
+   "explanation": "中性面处线框各边速度平行于磁感线，不切割，e = 0，而磁通量最大。",
+   "verify": "\"磁通量最大，感应电动势为零\""
+  },
+  {
+   "id": "cnp_tjm31_q1",
+   "topicId": "cnp_tjm31",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "电动汽车以 20 m/s 行驶时启动能量回收，质量 1000 kg，若动能的 30% 转化为电能，回收的电能为多少 ×10⁴ J？（只填数值）",
+   "answer": "6",
+   "explanation": "Ek = ½×1000×400 = 2×10⁵ J，30% 为 6×10⁴ J。",
+   "verify": "0.5*1000*20**2*0.3/1e4"
+  },
+  {
+   "id": "cnp_tjm31_q2",
+   "topicId": "cnp_tjm31",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "电动汽车制动时进行能量回收，此时电动机工作在什么状态？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "作为电动机，消耗电能"
+    },
+    {
+     "key": "B",
+     "text": "不工作"
+    },
+    {
+     "key": "C",
+     "text": "作为发电机，把动能转化为电能"
+    },
+    {
+     "key": "D",
+     "text": "把电能转化为内能"
+    }
+   ],
+   "answer": "C",
+   "explanation": "线圈切割磁感线产生感应电流给电池充电，相当于发电机。",
+   "verify": "\"作为发电机，把动能转化为电能\""
+  },
+  {
+   "id": "cnp_tjm32_q1",
+   "topicId": "cnp_tjm32",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "理想变压器原、副线圈匝数比 10∶1，原线圈接 220 V 交流电，副线圈电压为多少 V？（只填数值）",
+   "answer": "22",
+   "explanation": "U₂ = U₁n₂/n₁ = 22 V。",
+   "verify": "220/10"
+  },
+  {
+   "id": "cnp_tjm32_q2",
+   "topicId": "cnp_tjm32",
+   "type": "choice",
+   "difficulty": "standard",
+   "prompt": "理想变压器原线圈电压不变，副线圈并联的用电器增多，原线圈中的电流怎样变化？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "增大"
+    },
+    {
+     "key": "B",
+     "text": "减小"
+    },
+    {
+     "key": "C",
+     "text": "不变"
+    },
+    {
+     "key": "D",
+     "text": "先增大后减小"
+    }
+   ],
+   "answer": "A",
+   "explanation": "并联用电器增多，副线圈总电阻减小，I₂ 增大，P₂ 增大，P₁ = P₂ 增大，I₁ 增大。",
+   "verify": "\"增大\""
+  },
+  {
+   "id": "cnp_tjm33_q1",
+   "topicId": "cnp_tjm33",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "输送功率 100 kW，输电电压 10 kV，输电线总电阻 10 Ω，线路损耗功率为多少 W？（只填数值）",
+   "answer": "1000",
+   "explanation": "I = P/U = 10 A，P损 = I²R = 100×10 = 1000 W。",
+   "verify": "(100e3/10e3)**2*10"
+  },
+  {
+   "id": "cnp_tjm33_q2",
+   "topicId": "cnp_tjm33",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "输送功率不变，把输电电压提高到原来的 2 倍，输电线损耗功率变为原来的多少？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "1/4"
+    },
+    {
+     "key": "B",
+     "text": "1/2"
+    },
+    {
+     "key": "C",
+     "text": "2 倍"
+    },
+    {
+     "key": "D",
+     "text": "4 倍"
+    }
+   ],
+   "answer": "A",
+   "explanation": "I 变为原来的 1/2，P损 = I²R 变为 1/4。",
+   "verify": "\"1/4\""
+  },
+  {
+   "id": "cnp_tjm34_q1",
+   "topicId": "cnp_tjm34",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "真空中波长 600 nm 的光进入折射率 1.5 的液体，在液体中的波长为多少 nm？（只填数值）",
+   "answer": "400",
+   "explanation": "λ = λ₀/n = 600/1.5 = 400 nm。",
+   "verify": "600/1.5"
+  },
+  {
+   "id": "cnp_tjm34_q2",
+   "topicId": "cnp_tjm34",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "能说明光是横波的现象是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "光的干涉"
+    },
+    {
+     "key": "B",
+     "text": "光的偏振"
+    },
+    {
+     "key": "C",
+     "text": "光的衍射"
+    },
+    {
+     "key": "D",
+     "text": "光的全反射"
+    }
+   ],
+   "answer": "B",
+   "explanation": "只有横波才有偏振现象；干涉、衍射是所有波共有的。",
+   "verify": "\"光的偏振\""
+  },
+  {
+   "id": "cnp_tjm35_q1",
+   "topicId": "cnp_tjm35",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "双缝间距 0.5 mm，屏到双缝 1 m，用 500 nm 的光照射，相邻亮条纹间距为多少 mm？（只填数值）",
+   "answer": "1",
+   "explanation": "Δx = Lλ/d = 1×500×10⁻⁹/(0.5×10⁻³) = 1×10⁻³ m = 1 mm。",
+   "verify": "1*500e-9/0.5e-3*1000"
+  },
+  {
+   "id": "cnp_tjm35_q2",
+   "topicId": "cnp_tjm35",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "其他条件不变，把绿光换成红光做双缝干涉实验，条纹间距怎样变化？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "变大"
+    },
+    {
+     "key": "B",
+     "text": "变小"
+    },
+    {
+     "key": "C",
+     "text": "不变"
+    },
+    {
+     "key": "D",
+     "text": "条纹消失"
+    }
+   ],
+   "answer": "A",
+   "explanation": "红光波长比绿光长，Δx ∝ λ。",
+   "verify": "\"变大\""
+  },
+  {
+   "id": "cnp_tjm36_q1",
+   "topicId": "cnp_tjm36",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "某金属逸出功 2.5 eV，用光子能量 4.0 eV 的光照射，遏止电压为多少 V？（只填数值）",
+   "answer": "1.5",
+   "explanation": "Ek = 4.0 − 2.5 = 1.5 eV，Uc = Ek/e = 1.5 V。",
+   "verify": "4.0-2.5"
+  },
+  {
+   "id": "cnp_tjm36_q2",
+   "topicId": "cnp_tjm36",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "光电子最大初动能 Ek 与入射光频率 ν 的关系图像，其斜率表示什么？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "逸出功"
+    },
+    {
+     "key": "B",
+     "text": "截止频率"
+    },
+    {
+     "key": "C",
+     "text": "光电流"
+    },
+    {
+     "key": "D",
+     "text": "普朗克常量"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Ek = hν − W₀，斜率为 h。",
+   "verify": "\"普朗克常量\""
+  },
+  {
+   "id": "cnp_tjm37_q1",
+   "topicId": "cnp_tjm37",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "一群处于 n = 4 能级的氢原子向低能级跃迁，最多能辐射几种频率的光？（只填数值）",
+   "answer": "6",
+   "explanation": "C(4,2) = 6。",
+   "verify": "comb(4,2)"
+  },
+  {
+   "id": "cnp_tjm37_q2",
+   "topicId": "cnp_tjm37",
+   "type": "choice",
+   "difficulty": "standard",
+   "prompt": "处于基态的氢原子吸收光子发生跃迁（不电离），对光子能量的要求是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "大于两能级的能量差即可"
+    },
+    {
+     "key": "B",
+     "text": "小于两能级的能量差"
+    },
+    {
+     "key": "C",
+     "text": "恰好等于两能级的能量差"
+    },
+    {
+     "key": "D",
+     "text": "任意能量都可以"
+    }
+   ],
+   "answer": "C",
+   "explanation": "原子能级是分立的，吸收光子跃迁时光子能量必须恰好等于能级差。",
+   "verify": "\"恰好等于两能级的能量差\""
+  },
+  {
+   "id": "cnp_tjm38_q1",
+   "topicId": "cnp_tjm38",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "²³⁸U 经一系列 α、β 衰变变成 ²⁰⁶Pb，共发生了几次 α 衰变？（只填数值）",
+   "answer": "8",
+   "explanation": "质量数减少 32，只有 α 衰变改变质量数，每次减 4，32/4 = 8 次。",
+   "verify": "(238-206)//4"
+  },
+  {
+   "id": "cnp_tjm38_q2",
+   "topicId": "cnp_tjm38",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "β 衰变中放出的电子来自哪里？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "原子核内一个中子转化为一个质子和一个电子"
+    },
+    {
+     "key": "B",
+     "text": "原子的核外电子被电离"
+    },
+    {
+     "key": "C",
+     "text": "原子核内一个质子转化为一个中子"
+    },
+    {
+     "key": "D",
+     "text": "原子核放出一个氦核"
+    }
+   ],
+   "answer": "A",
+   "explanation": "β 衰变的本质：核内中子 → 质子 + 电子，电子被释放。",
+   "verify": "\"原子核内一个中子转化为一个质子和一个电子\""
+  },
+  {
+   "id": "cnp_tjm39_q1",
+   "topicId": "cnp_tjm39",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "测电源电动势时，电流 0.4 A 对应路端电压 1.3 V，电流 0.8 A 对应 1.1 V，电源电动势为多少 V？（只填数值）",
+   "answer": "1.5",
+   "explanation": "r = (1.3 − 1.1)/(0.8 − 0.4) = 0.5 Ω，E = 1.3 + 0.4×0.5 = 1.5 V。",
+   "verify": "1.3+0.4*(1.3-1.1)/(0.8-0.4)"
+  },
+  {
+   "id": "cnp_tjm39_q2",
+   "topicId": "cnp_tjm39",
+   "type": "choice",
+   "difficulty": "standard",
+   "prompt": "用电压表直接并在电源两端、电流表测干路电流（电流表相对电源外接）测电动势和内阻，系统误差使测量值怎样？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "电动势和内阻都偏大"
+    },
+    {
+     "key": "B",
+     "text": "电动势准确，内阻偏大"
+    },
+    {
+     "key": "C",
+     "text": "电动势偏大，内阻偏小"
+    },
+    {
+     "key": "D",
+     "text": "电动势和内阻都偏小"
+    }
+   ],
+   "answer": "D",
+   "explanation": "电压表分流，电流表读数小于真实干路电流，等效电源为电源与电压表并联，E测 < E真，r测 < r真。",
+   "verify": "\"电动势和内阻都偏小\""
+  },
+  {
+   "id": "cnp_tjm40_q1",
+   "topicId": "cnp_tjm40",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "伏安法测电阻，电压表示数 2.0 V，电流表示数 0.25 A，电阻测量值为多少 Ω？（只填数值）",
+   "answer": "8",
+   "explanation": "R = U/I = 2.0/0.25 = 8 Ω。",
+   "verify": "2.0/0.25"
+  },
+  {
+   "id": "cnp_tjm40_q2",
+   "topicId": "cnp_tjm40",
+   "type": "choice",
+   "difficulty": "standard",
+   "prompt": "待测电阻远小于电压表内阻时，应采用的接法和测量值的偏差是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "电流表内接，测量值偏大"
+    },
+    {
+     "key": "B",
+     "text": "电流表外接，测量值偏大"
+    },
+    {
+     "key": "C",
+     "text": "电流表内接，测量值偏小"
+    },
+    {
+     "key": "D",
+     "text": "电流表外接，测量值偏小"
+    }
+   ],
+   "answer": "D",
+   "explanation": "外接时电压表分流，I测偏大，R测 = U/I测 偏小；Rx 远小于 RV 时分流影响小。",
+   "verify": "\"电流表外接，测量值偏小\""
+  },
+  {
+   "id": "cnp_tjm41_q1",
+   "topicId": "cnp_tjm41",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "平抛频闪照片中相邻两段竖直位移之差为 0.1 m，相邻两点水平间距 0.15 m，平抛初速度为多少 m/s？（g 取 10 m/s²，只填数值）",
+   "answer": "1.5",
+   "explanation": "T = √(Δy/g) = 0.1 s，v₀ = 0.15/0.1 = 1.5 m/s。",
+   "verify": "0.15/sqrt(0.1/10)"
+  },
+  {
+   "id": "cnp_tjm41_q2",
+   "topicId": "cnp_tjm41",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "研究平抛运动实验中，关于斜槽的要求正确的是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "斜槽必须光滑，末端可以不水平"
+    },
+    {
+     "key": "B",
+     "text": "斜槽必须光滑且末端水平"
+    },
+    {
+     "key": "C",
+     "text": "斜槽不必光滑，但末端必须水平"
+    },
+    {
+     "key": "D",
+     "text": "每次释放位置可以不同"
+    }
+   ],
+   "answer": "C",
+   "explanation": "只要每次从同一位置静止释放，摩擦对每次初速度影响相同；末端水平才能保证平抛。",
+   "verify": "\"斜槽不必光滑，但末端必须水平\""
+  },
+  {
+   "id": "cnp_tjm42_q1",
+   "topicId": "cnp_tjm42",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "纸带上连续四段位移依次为 1.0 cm、1.4 cm、1.8 cm、2.2 cm，相邻计数点时间间隔 0.1 s，用逐差法求得加速度为多少 m/s²？（只填数值）",
+   "answer": "0.4",
+   "explanation": "a = [(1.8+2.2) − (1.0+1.4)]×10⁻²/(4×0.01) = 0.4 m/s²。",
+   "verify": "((1.8+2.2)-(1.0+1.4))/100/(4*0.1**2)"
+  },
+  {
+   "id": "cnp_tjm42_q2",
+   "topicId": "cnp_tjm42",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "探究加速度与力的关系时，判断阻力已补偿好的依据是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "挂上槽码后小车能运动"
+    },
+    {
+     "key": "B",
+     "text": "小车静止在木板上不动"
+    },
+    {
+     "key": "C",
+     "text": "不挂槽码，轻推小车后纸带上点迹间隔均匀"
+    },
+    {
+     "key": "D",
+     "text": "纸带点迹越来越密"
+    }
+   ],
+   "answer": "C",
+   "explanation": "补偿好时小车重力沿斜面的分力与摩擦力平衡，轻推后匀速。",
+   "verify": "\"不挂槽码，轻推小车后纸带上点迹间隔均匀\""
+  },
+  {
+   "id": "cnp_tjm43_q1",
+   "topicId": "cnp_tjm43",
+   "type": "numeric",
+   "difficulty": "basic",
+   "prompt": "光电门挡光片宽 5 mm，挡光时间 2.5 ms，滑块通过光电门的速度为多少 m/s？（只填数值）",
+   "answer": "2",
+   "explanation": "v = d/Δt = 5×10⁻³/2.5×10⁻³ = 2 m/s。",
+   "verify": "5e-3/2.5e-3"
+  },
+  {
+   "id": "cnp_tjm43_q2",
+   "topicId": "cnp_tjm43",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "用斜槽做验证动量守恒实验，入射小球与被碰小球的质量关系应是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "入射球质量大于被碰球质量"
+    },
+    {
+     "key": "B",
+     "text": "入射球质量小于被碰球质量"
+    },
+    {
+     "key": "C",
+     "text": "两球质量必须相等"
+    },
+    {
+     "key": "D",
+     "text": "对质量没有要求"
+    }
+   ],
+   "answer": "A",
+   "explanation": "m₁ > m₂ 才能保证碰后入射球不反弹，继续向前做平抛。",
+   "verify": "\"入射球质量大于被碰球质量\""
+  },
+  {
+   "id": "cnp_tjm44_q1",
+   "topicId": "cnp_tjm44",
+   "type": "numeric",
+   "difficulty": "standard",
+   "prompt": "物块第一段滑行 6 m，之后每次往返后的滑行距离都是前一段的 1/4，无限次后总路程为多少 m？（只填数值）",
+   "answer": "8",
+   "explanation": "等比数列求和 S = 6/(1 − 1/4) = 8 m。",
+   "verify": "Fraction(6)/(1-Fraction(1,4))"
+  },
+  {
+   "id": "cnp_tjm44_q2",
+   "topicId": "cnp_tjm44",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "求导体棒在安培力作用下减速运动的位移时，用 BL·Σ(vΔt) = BLx 属于哪种方法？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "整体法"
+    },
+    {
+     "key": "B",
+     "text": "微元累加法"
+    },
+    {
+     "key": "C",
+     "text": "图像法求斜率"
+    },
+    {
+     "key": "D",
+     "text": "控制变量法"
+    }
+   ],
+   "answer": "B",
+   "explanation": "把运动过程分成很多小段，每段累加，属于微元法。",
+   "verify": "\"微元累加法\""
+  },
+  {
+   "id": "cnp_tje01_q1",
+   "topicId": "cnp_tje01",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "人站在加速上升的电梯里的体重计上，体重计示数大于人的重力，原因是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "体重计对人的支持力大于重力"
+    },
+    {
+     "key": "B",
+     "text": "人的重力变大了"
+    },
+    {
+     "key": "C",
+     "text": "人的质量变大了"
+    },
+    {
+     "key": "D",
+     "text": "人对体重计的压力小于支持力"
+    }
+   ],
+   "answer": "A",
+   "explanation": "加速度向上，N − mg = ma，N > mg；重力本身不变。",
+   "verify": "\"体重计对人的支持力大于重力\"",
+   "misconception_choice": "B"
+  },
+  {
+   "id": "cnp_tje02_q1",
+   "topicId": "cnp_tje02",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "在光滑水平面上运动的冰块，撤去推力后会怎样运动？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "逐渐减速直到停下"
+    },
+    {
+     "key": "B",
+     "text": "立即停下"
+    },
+    {
+     "key": "C",
+     "text": "做加速运动"
+    },
+    {
+     "key": "D",
+     "text": "做匀速直线运动"
+    }
+   ],
+   "answer": "D",
+   "explanation": "光滑面上水平方向不受力，冰块保持匀速直线运动。",
+   "verify": "\"做匀速直线运动\"",
+   "misconception_choice": "A"
+  },
+  {
+   "id": "cnp_tje03_q1",
+   "topicId": "cnp_tje03",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "关于速度与加速度，下列说法正确的是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "速度越大，加速度越大"
+    },
+    {
+     "key": "B",
+     "text": "速度变化越快，加速度越大"
+    },
+    {
+     "key": "C",
+     "text": "速度为零时加速度一定为零"
+    },
+    {
+     "key": "D",
+     "text": "加速度减小时速度一定减小"
+    }
+   ],
+   "answer": "B",
+   "explanation": "a = Δv/Δt 描述速度变化快慢；匀速飞行的飞机速度大但加速度为零。",
+   "verify": "\"速度变化越快，加速度越大\"",
+   "misconception_choice": "A"
+  },
+  {
+   "id": "cnp_tje04_q1",
+   "topicId": "cnp_tje04",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "货物随水平传送带一起向右加速运动（无相对滑动），货物受到的摩擦力方向是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "向右"
+    },
+    {
+     "key": "B",
+     "text": "向左"
+    },
+    {
+     "key": "C",
+     "text": "没有摩擦力"
+    },
+    {
+     "key": "D",
+     "text": "竖直向上"
+    }
+   ],
+   "answer": "A",
+   "explanation": "货物向右加速，合力向右，只有静摩擦力提供，方向向右，与运动方向相同。",
+   "verify": "\"向右\"",
+   "misconception_choice": "B"
+  },
+  {
+   "id": "cnp_tje05_q1",
+   "topicId": "cnp_tje05",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "两颗卫星绕地球做匀速圆周运动，轨道较高的卫星与轨道较低的卫星相比，运行速度怎样？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "较小"
+    },
+    {
+     "key": "B",
+     "text": "较大"
+    },
+    {
+     "key": "C",
+     "text": "相等"
+    },
+    {
+     "key": "D",
+     "text": "无法比较"
+    }
+   ],
+   "answer": "A",
+   "explanation": "v = √(GM/r)，r 越大 v 越小。",
+   "verify": "\"较小\"",
+   "misconception_choice": "B"
+  },
+  {
+   "id": "cnp_tje06_q1",
+   "topicId": "cnp_tje06",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "同一圆轨道上运行的两个航天器，后面的要追上前面的并对接，正确的做法是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "直接点火加速"
+    },
+    {
+     "key": "B",
+     "text": "直接点火减速并保持低轨"
+    },
+    {
+     "key": "C",
+     "text": "先减速降到较低轨道，再适时加速回到原轨道"
+    },
+    {
+     "key": "D",
+     "text": "保持速度不变等待"
+    }
+   ],
+   "answer": "C",
+   "explanation": "直接加速会进入更高轨道，周期更长，反而落后；先降低轨道周期变短，追上后再加速。",
+   "verify": "\"先减速降到较低轨道，再适时加速回到原轨道\"",
+   "misconception_choice": "A"
+  },
+  {
+   "id": "cnp_tje07_q1",
+   "topicId": "cnp_tje07",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "一列水波向右传播，水面上漂浮的一片树叶会怎样运动？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "随波向右移动"
+    },
+    {
+     "key": "B",
+     "text": "向左移动"
+    },
+    {
+     "key": "C",
+     "text": "静止不动"
+    },
+    {
+     "key": "D",
+     "text": "在原位置附近上下振动"
+    }
+   ],
+   "answer": "D",
+   "explanation": "介质中质点不随波迁移，只在平衡位置附近振动。",
+   "verify": "\"在原位置附近上下振动\"",
+   "misconception_choice": "A"
+  },
+  {
+   "id": "cnp_tje08_q1",
+   "topicId": "cnp_tje08",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "一束单色光从空气射入水中，下列物理量不变的是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "波长"
+    },
+    {
+     "key": "B",
+     "text": "传播速度"
+    },
+    {
+     "key": "C",
+     "text": "频率"
+    },
+    {
+     "key": "D",
+     "text": "频率和波长都不变"
+    }
+   ],
+   "answer": "C",
+   "explanation": "频率由光源决定不变；v = c/n、λ = λ₀/n 都变小。",
+   "verify": "\"频率\"",
+   "misconception_choice": "D"
+  },
+  {
+   "id": "cnp_tje09_q1",
+   "topicId": "cnp_tje09",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "用某频率的光照射金属发生光电效应，只增大光照强度，下列说法正确的是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "光电子最大初动能增大"
+    },
+    {
+     "key": "B",
+     "text": "遏止电压增大"
+    },
+    {
+     "key": "C",
+     "text": "金属逸出功减小"
+    },
+    {
+     "key": "D",
+     "text": "单位时间逸出的光电子数增多"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Ek = hν − W₀ 与光强无关；光强增大，光子数增多，光电流增大。",
+   "verify": "\"单位时间逸出的光电子数增多\"",
+   "misconception_choice": "A"
+  },
+  {
+   "id": "cnp_tje10_q1",
+   "topicId": "cnp_tje10",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "把放射性元素制成化合物并加热，它的半衰期会怎样？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "变短"
+    },
+    {
+     "key": "B",
+     "text": "不变"
+    },
+    {
+     "key": "C",
+     "text": "变长"
+    },
+    {
+     "key": "D",
+     "text": "先变短后变长"
+    }
+   ],
+   "answer": "B",
+   "explanation": "半衰期由核内部因素决定，不受物理、化学条件影响。",
+   "verify": "\"不变\"",
+   "misconception_choice": "A"
+  },
+  {
+   "id": "cnp_tje11_q1",
+   "topicId": "cnp_tje11",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "关于 β 衰变放出的电子，下列说法正确的是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "是原子的核外电子"
+    },
+    {
+     "key": "B",
+     "text": "原子核内本来就有电子"
+    },
+    {
+     "key": "C",
+     "text": "由原子核内中子转化为质子时产生"
+    },
+    {
+     "key": "D",
+     "text": "由质子转化为中子时产生"
+    }
+   ],
+   "answer": "C",
+   "explanation": "原子核中没有电子，β 电子是中子 → 质子 + 电子 时产生的。",
+   "verify": "\"由原子核内中子转化为质子时产生\"",
+   "misconception_choice": "A"
+  },
+  {
+   "id": "cnp_tje12_q1",
+   "topicId": "cnp_tje12",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "等量同种正点电荷连线的中点处，下列说法正确的是哪一个（取无穷远处电势为零）？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "场强为零，电势也为零"
+    },
+    {
+     "key": "B",
+     "text": "场强不为零，电势为零"
+    },
+    {
+     "key": "C",
+     "text": "场强和电势都不为零"
+    },
+    {
+     "key": "D",
+     "text": "场强为零，电势不为零"
+    }
+   ],
+   "answer": "D",
+   "explanation": "两电荷在中点场强等大反向，合场强为零；但电势是标量相加，为正值。",
+   "verify": "\"场强为零，电势不为零\"",
+   "misconception_choice": "A"
+  },
+  {
+   "id": "cnp_tje13_q1",
+   "topicId": "cnp_tje13",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "带电粒子在电场中只受电场力，它的运动轨迹与电场线重合的条件是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "电场线是直线，且粒子初速度为零或沿电场线"
+    },
+    {
+     "key": "B",
+     "text": "任何情况下都重合"
+    },
+    {
+     "key": "C",
+     "text": "电场线是曲线时也一定重合"
+    },
+    {
+     "key": "D",
+     "text": "粒子带正电就重合"
+    }
+   ],
+   "answer": "A",
+   "explanation": "电场线描述力的方向，轨迹由力和初速度共同决定。",
+   "verify": "\"电场线是直线，且粒子初速度为零或沿电场线\"",
+   "misconception_choice": "B"
+  },
+  {
+   "id": "cnp_tje14_q1",
+   "topicId": "cnp_tje14",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "带电粒子只在匀强磁场中运动，洛伦兹力的作用是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "只改变速度方向，不改变速度大小"
+    },
+    {
+     "key": "B",
+     "text": "使速度增大"
+    },
+    {
+     "key": "C",
+     "text": "使速度减小"
+    },
+    {
+     "key": "D",
+     "text": "同时改变速度大小和方向"
+    }
+   ],
+   "answer": "A",
+   "explanation": "F⊥v，洛伦兹力不做功，动能不变。",
+   "verify": "\"只改变速度方向，不改变速度大小\"",
+   "misconception_choice": "B"
+  },
+  {
+   "id": "cnp_tje15_q1",
+   "topicId": "cnp_tje15",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "穿过闭合线圈的磁通量在减小，感应电流的磁场方向是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "与原磁场方向相反"
+    },
+    {
+     "key": "B",
+     "text": "与原磁场方向相同"
+    },
+    {
+     "key": "C",
+     "text": "与原磁场垂直"
+    },
+    {
+     "key": "D",
+     "text": "没有磁场"
+    }
+   ],
+   "answer": "B",
+   "explanation": "楞次定律：阻碍磁通量变化，减小时“补充”，方向相同。",
+   "verify": "\"与原磁场方向相同\"",
+   "misconception_choice": "A"
+  },
+  {
+   "id": "cnp_tje16_q1",
+   "topicId": "cnp_tje16",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "关于感应电动势的大小，下列说法正确的是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "磁通量越大，感应电动势越大"
+    },
+    {
+     "key": "B",
+     "text": "磁通量变化越大，感应电动势一定越大"
+    },
+    {
+     "key": "C",
+     "text": "磁通量变化越快，感应电动势越大"
+    },
+    {
+     "key": "D",
+     "text": "磁通量为零时感应电动势一定为零"
+    }
+   ],
+   "answer": "C",
+   "explanation": "E = NΔΦ/Δt；中性面磁通量最大但电动势为零。",
+   "verify": "\"磁通量变化越快，感应电动势越大\"",
+   "misconception_choice": "A"
+  },
+  {
+   "id": "cnp_tje17_q1",
+   "topicId": "cnp_tje17",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "理想变压器原线圈电压不变，副线圈所接负载电阻减小，副线圈两端电压怎样？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "减小"
+    },
+    {
+     "key": "B",
+     "text": "增大"
+    },
+    {
+     "key": "C",
+     "text": "变为零"
+    },
+    {
+     "key": "D",
+     "text": "不变"
+    }
+   ],
+   "answer": "D",
+   "explanation": "U₂ = U₁n₂/n₁，与负载无关；负载变化影响的是电流和功率。",
+   "verify": "\"不变\"",
+   "misconception_choice": "A"
+  },
+  {
+   "id": "cnp_tje18_q1",
+   "topicId": "cnp_tje18",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "用交流电压表测正弦交流电压，表上读数表示什么？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "峰值"
+    },
+    {
+     "key": "B",
+     "text": "平均值"
+    },
+    {
+     "key": "C",
+     "text": "瞬时值"
+    },
+    {
+     "key": "D",
+     "text": "有效值"
+    }
+   ],
+   "answer": "D",
+   "explanation": "交流电表读数为有效值，U = Um/√2。",
+   "verify": "\"有效值\"",
+   "misconception_choice": "A"
+  },
+  {
+   "id": "cnp_tje19_q1",
+   "topicId": "cnp_tje19",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "一定质量的理想气体缓慢等温膨胀，下列说法正确的是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "内能减少"
+    },
+    {
+     "key": "B",
+     "text": "内能不变，气体从外界吸热"
+    },
+    {
+     "key": "C",
+     "text": "气体向外放热"
+    },
+    {
+     "key": "D",
+     "text": "内能增加"
+    }
+   ],
+   "answer": "B",
+   "explanation": "温度不变，内能不变；对外做功 W < 0，所以 Q > 0 吸热。",
+   "verify": "\"内能不变，气体从外界吸热\"",
+   "misconception_choice": "A"
+  },
+  {
+   "id": "cnp_tje20_q1",
+   "topicId": "cnp_tje20",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "关于温度与内能，下列说法正确的是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "温度高的物体内能一定大"
+    },
+    {
+     "key": "B",
+     "text": "温度相同的物体内能一定相同"
+    },
+    {
+     "key": "C",
+     "text": "温度高的物体分子平均动能一定大"
+    },
+    {
+     "key": "D",
+     "text": "0 ℃ 的物体内能为零"
+    }
+   ],
+   "answer": "C",
+   "explanation": "温度是分子平均动能的标志；内能还与分子数、分子势能有关。",
+   "verify": "\"温度高的物体分子平均动能一定大\"",
+   "misconception_choice": "A"
+  },
+  {
+   "id": "cnp_tje21_q1",
+   "topicId": "cnp_tje21",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "子弹射入静止在光滑水平面上的木块并留在其中，对子弹和木块系统，下列说法正确的是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "动量守恒，机械能不守恒"
+    },
+    {
+     "key": "B",
+     "text": "动量守恒，机械能也守恒"
+    },
+    {
+     "key": "C",
+     "text": "动量不守恒，机械能守恒"
+    },
+    {
+     "key": "D",
+     "text": "动量和机械能都不守恒"
+    }
+   ],
+   "answer": "A",
+   "explanation": "水平方向不受外力，动量守恒；摩擦生热，机械能减少。",
+   "verify": "\"动量守恒，机械能不守恒\"",
+   "misconception_choice": "B"
+  },
+  {
+   "id": "cnp_tje22_q1",
+   "topicId": "cnp_tje22",
+   "type": "choice",
+   "difficulty": "basic",
+   "prompt": "马拉车加速前进，马拉车的力与车拉马的力的关系是哪一个？",
+   "choices": [
+    {
+     "key": "A",
+     "text": "马拉车的力大于车拉马的力"
+    },
+    {
+     "key": "B",
+     "text": "两力是一对平衡力"
+    },
+    {
+     "key": "C",
+     "text": "大小相等，作用在不同物体上"
+    },
+    {
+     "key": "D",
+     "text": "两力相互抵消"
+    }
+   ],
+   "answer": "C",
+   "explanation": "相互作用力总是等大反向，作用在两个物体上；车加速是因为拉力大于车受的阻力。",
+   "verify": "\"大小相等，作用在不同物体上\"",
+   "misconception_choice": "A"
+  }
+ ],
+ "papers": [
+  {
+   "year": 2020,
+   "no": "1",
+   "type": "单选",
+   "score": 5,
+   "topic": "物理学史：α粒子散射实验与原子核式结构（四个经典实验图示辨析）",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+   "topics": [
+    "cnp_h166"
+   ],
+   "models": []
+  },
+  {
+   "year": 2020,
+   "no": "2",
+   "type": "单选",
+   "score": 5,
+   "topic": "万有引力与航天：地球静止轨道卫星与近地卫星周期、线速度、角速度、加速度比较",
+   "model": "卫星轨道比较（高轨低速长周期）",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+   "topics": [
+    "cnp_h043"
+   ],
+   "models": [
+    "cnp_tjm01"
+   ]
+  },
+  {
+   "year": 2020,
+   "no": "3",
+   "type": "单选",
+   "score": 5,
+   "topic": "电磁波谱：红外线与紫外线的光子能量、波长、传播速度、偏振",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+   "topics": [
+    "cnp_h140",
+    "cnp_h116"
+   ],
+   "models": []
+  },
+  {
+   "year": 2020,
+   "no": "4",
+   "type": "单选",
+   "score": 5,
+   "topic": "机械波：波形图、质点振动方向、加速度与位移（T/4后状态）",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+   "topics": [
+    "cnp_h105"
+   ],
+   "models": [
+    "cnp_tjm04"
+   ]
+  },
+  {
+   "year": 2020,
+   "no": "5",
+   "type": "单选",
+   "score": 5,
+   "topic": "理想气体等温变化（玻意耳定律）+热力学第一定律（气体膨胀对外做功、吸热）",
+   "model": "气压式水枪储气罐",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+   "topics": [
+    "cnp_h152",
+    "cnp_h159"
+   ],
+   "models": [
+    "cnp_tjm06"
+   ]
+  },
+  {
+   "year": 2020,
+   "no": "6",
+   "type": "多选",
+   "score": 5,
+   "topic": "电磁感应互感现象/变压器原理（无线充电能量传递与损耗）",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+   "topics": [
+    "cnp_h130",
+    "cnp_h133"
+   ],
+   "models": []
+  },
+  {
+   "year": 2020,
+   "no": "7",
+   "type": "多选",
+   "score": 5,
+   "topic": "带电粒子在匀强磁场中圆周运动（单边界/第一象限，半径与几何关系、电性判断）",
+   "model": "有界磁场几何找圆心",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+   "topics": [
+    "cnp_h121"
+   ],
+   "models": [
+    "cnp_tjm19"
+   ]
+  },
+  {
+   "year": 2020,
+   "no": "8",
+   "type": "多选",
+   "score": 5,
+   "topic": "机车以恒定功率启动：P=Fv、加速度减小、最大速度、动能定理",
+   "model": "机车恒功率启动",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+   "topics": [
+    "cnp_h046",
+    "cnp_h050"
+   ],
+   "models": [
+    "cnp_tjm07"
+   ]
+  },
+  {
+   "year": 2020,
+   "no": "9(1)",
+   "type": "实验",
+   "score": 6,
+   "topic": "研究平抛运动：测平抛初速度（Δy=gT²、铅垂线作用、实验操作要求）",
+   "model": "",
+   "uncertain": true,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+   "topics": [
+    "cnp_h030"
+   ],
+   "models": [
+    "cnp_tjm41"
+   ]
+  },
+  {
+   "year": 2020,
+   "no": "9(2)",
+   "type": "实验",
+   "score": 6,
+   "topic": "测电池组电动势和内阻（实物连线纠错、滑片初始位置、串联定值电阻改善电压表变化、U-I图像）",
+   "model": "",
+   "uncertain": true,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+   "topics": [
+    "cnp_h081"
+   ],
+   "models": [
+    "cnp_tjm39"
+   ]
+  },
+  {
+   "year": 2020,
+   "no": "10",
+   "type": "计算",
+   "score": 14,
+   "topic": "感生电动势（B均匀变化）：法拉第电磁感应定律、安培力大小方向、电功率",
+   "model": "闭合金属框在变化磁场中",
+   "uncertain": true,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+   "topics": [
+    "cnp_h126",
+    "cnp_h118"
+   ],
+   "models": [
+    "cnp_tjm25"
+   ]
+  },
+  {
+   "year": 2020,
+   "no": "11",
+   "type": "计算",
+   "score": 16,
+   "topic": "竖直面内圆周运动（绳球恰过最高点）+动量定理（瞬时冲量）+完全非弹性碰撞后仍过最高点",
+   "model": "绳-球竖直圆周+碰撞粘合",
+   "uncertain": true,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+   "topics": [
+    "cnp_h037",
+    "cnp_h092",
+    "cnp_h096"
+   ],
+   "models": [
+    "cnp_tjm14",
+    "cnp_tjm12",
+    "cnp_tjm11"
+   ]
+  },
+  {
+   "year": 2020,
+   "no": "12",
+   "type": "计算",
+   "score": 18,
+   "topic": "带电粒子在电场中加速、匀强电场中减速反射、漂移管匀速：多反射飞行时间质谱仪（时间与质量关系）",
+   "model": "质谱仪/电场加速+反射",
+   "uncertain": true,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+   "topics": [
+    "cnp_h065",
+    "cnp_h122"
+   ],
+   "models": [
+    "cnp_tjm22",
+    "cnp_tjm20"
+   ]
+  },
+  {
+   "year": 2021,
+   "no": "1",
+   "type": "单选",
+   "score": 5,
+   "topic": "物理学研究方法/物理学史：理想实验法（伽利略：力不是维持运动的原因）",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+   "topics": [
+    "cnp_h020"
+   ],
+   "models": []
+  },
+  {
+   "year": 2021,
+   "no": "2",
+   "type": "单选",
+   "score": 5,
+   "topic": "光的折射：光进入液体后波长变短、频率与光子能量不变",
+   "model": "浸没式光刻",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+   "topics": [
+    "cnp_h110"
+   ],
+   "models": [
+    "cnp_tjm34"
+   ]
+  },
+  {
+   "year": 2021,
+   "no": "3",
+   "type": "单选",
+   "score": 5,
+   "topic": "正弦交流电：周期、有效值、电表读数、电功率",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+   "topics": [
+    "cnp_h132"
+   ],
+   "models": [
+    "cnp_tjm30"
+   ]
+  },
+  {
+   "year": 2021,
+   "no": "4",
+   "type": "单选",
+   "score": 5,
+   "topic": "机械波：由波源起振方向与波速判断某时刻波形",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+   "topics": [
+    "cnp_h105"
+   ],
+   "models": [
+    "cnp_tjm05"
+   ]
+  },
+  {
+   "year": 2021,
+   "no": "5",
+   "type": "单选",
+   "score": 5,
+   "topic": "卫星变轨：椭圆轨道、开普勒第三定律、近火点加速/减速、受力",
+   "model": "卫星变轨（椭圆轨道相切）",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+   "topics": [
+    "cnp_h039",
+    "cnp_h043"
+   ],
+   "models": [
+    "cnp_tjm02"
+   ]
+  },
+  {
+   "year": 2021,
+   "no": "6",
+   "type": "多选",
+   "score": 5,
+   "topic": "热力学第一定律：等温压缩（缓慢）与绝热压缩（快速）内能、做功、吸放热",
+   "model": "空气弹簧气缸",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+   "topics": [
+    "cnp_h159",
+    "cnp_h152"
+   ],
+   "models": [
+    "cnp_tjm06"
+   ]
+  },
+  {
+   "year": 2021,
+   "no": "7",
+   "type": "多选",
+   "score": 5,
+   "topic": "反冲运动/动量定理：火箭推力与燃气喷射量、喷射速度的关系",
+   "model": "火箭反冲",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+   "topics": [
+    "cnp_h097",
+    "cnp_h092"
+   ],
+   "models": [
+    "cnp_tjm11"
+   ]
+  },
+  {
+   "year": 2021,
+   "no": "8",
+   "type": "多选",
+   "score": 5,
+   "topic": "等势面与电场线：电子运动轨迹、场强比较、电势高低、点电荷电性",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+   "topics": [
+    "cnp_h061",
+    "cnp_h056"
+   ],
+   "models": [
+    "cnp_tjm16"
+   ]
+  },
+  {
+   "year": 2021,
+   "no": "9(1)",
+   "type": "实验",
+   "score": 6,
+   "topic": "研究匀变速直线运动：频闪（手机录像）求瞬时速度、逐差法求加速度、偶然误差",
+   "model": "",
+   "uncertain": true,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+   "topics": [
+    "cnp_h005"
+   ],
+   "models": [
+    "cnp_tjm42"
+   ]
+  },
+  {
+   "year": 2021,
+   "no": "9(2)",
+   "type": "实验",
+   "score": 6,
+   "topic": "测定电源（充电宝）电动势和内阻：数字多用表、定值电阻、U-I数据纠错",
+   "model": "",
+   "uncertain": true,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+   "topics": [
+    "cnp_h081"
+   ],
+   "models": [
+    "cnp_tjm39"
+   ]
+  },
+  {
+   "year": 2021,
+   "no": "10",
+   "type": "计算",
+   "score": 14,
+   "topic": "竖直上抛+最高点弹簧弹开分裂（动量守恒，类爆炸）+平抛落地速度比",
+   "model": "爆炸/反冲分裂+平抛",
+   "uncertain": true,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+   "topics": [
+    "cnp_h093",
+    "cnp_h097",
+    "cnp_h031"
+   ],
+   "models": [
+    "cnp_tjm10"
+   ]
+  },
+  {
+   "year": 2021,
+   "no": "11",
+   "type": "计算",
+   "score": 16,
+   "topic": "电磁感应单杆切割：倾斜光滑导轨、恒定功率拉力、最大速度、位移/焦耳热（能量与动量方法）",
+   "model": "单杆切割（倾斜导轨，恒功率）",
+   "uncertain": true,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+   "topics": [
+    "cnp_h127",
+    "cnp_h128"
+   ],
+   "models": [
+    "cnp_tjm26",
+    "cnp_tjm27"
+   ]
+  },
+  {
+   "year": 2021,
+   "no": "12",
+   "type": "计算",
+   "score": 18,
+   "topic": "霍尔效应：半导体中电子与空穴两种载流子的洛伦兹力、霍尔电场力平衡分析",
+   "model": "霍尔元件",
+   "uncertain": true,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+   "topics": [
+    "cnp_h120"
+   ],
+   "models": [
+    "cnp_tjm23"
+   ]
+  },
+  {
+   "year": 2022,
+   "no": "1",
+   "type": "单选",
+   "score": 5,
+   "topic": "核聚变方程：质量数与电荷数守恒、质量亏损、聚变与裂变辨析",
+   "model": "核反应方程配平",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+   "topics": [
+    "cnp_h176",
+    "cnp_h175"
+   ],
+   "models": [
+    "cnp_tjm38"
+   ]
+  },
+  {
+   "year": 2022,
+   "no": "2",
+   "type": "单选",
+   "score": 5,
+   "topic": "点电荷电场：圆周上两点电势、场强比较，电势能与电场力做功",
+   "model": "",
+   "uncertain": true,
+   "source_url": "https://www.zxxk.com/soft/36954497.html",
+   "topics": [
+    "cnp_h055",
+    "cnp_h059"
+   ],
+   "models": [
+    "cnp_tjm16"
+   ]
+  },
+  {
+   "year": 2022,
+   "no": "3",
+   "type": "单选",
+   "score": 5,
+   "topic": "万有引力与航天：空间站（约400km）与地球静止卫星（约36000km）运行参量比较",
+   "model": "卫星轨道比较",
+   "uncertain": true,
+   "source_url": "https://www.zxxk.com/soft/36954497.html",
+   "topics": [
+    "cnp_h043"
+   ],
+   "models": [
+    "cnp_tjm01"
+   ]
+  },
+  {
+   "year": 2022,
+   "no": "5",
+   "type": "单选",
+   "score": 5,
+   "topic": "两列相向传播的机械波：频率比、起振时刻与方向、干涉条件",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+   "topics": [
+    "cnp_h108"
+   ],
+   "models": [
+    "cnp_tjm05"
+   ]
+  },
+  {
+   "year": 2022,
+   "no": "6",
+   "type": "多选",
+   "score": 5,
+   "topic": "理想气体绝热压缩+等压过程：内能、分子平均动能、做功（热力学第一定律）",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+   "topics": [
+    "cnp_h159",
+    "cnp_h153"
+   ],
+   "models": [
+    "cnp_tjm06"
+   ]
+  },
+  {
+   "year": 2022,
+   "no": "7",
+   "type": "多选",
+   "score": 5,
+   "topic": "电磁波谱与光的性质：能级跃迁能量差、衍射、遏止电压（光电效应）、双缝干涉条纹间距",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+   "topics": [
+    "cnp_h140",
+    "cnp_h168",
+    "cnp_h165",
+    "cnp_h113"
+   ],
+   "models": [
+    "cnp_tjm34",
+    "cnp_tjm36"
+   ]
+  },
+  {
+   "year": 2022,
+   "no": "8",
+   "type": "多选",
+   "score": 5,
+   "topic": "理想变压器（两级变压器远距离输电）动态分析：开关闭合后电表示数与功率变化",
+   "model": "远距离输电",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+   "topics": [
+    "cnp_h135",
+    "cnp_h133"
+   ],
+   "models": [
+    "cnp_tjm33",
+    "cnp_tjm32"
+   ]
+  },
+  {
+   "year": 2022,
+   "no": "9(1)",
+   "type": "实验",
+   "score": 6,
+   "topic": "验证动量守恒定律（斜槽碰撞，落点M/N/P）+10分度游标卡尺读数",
+   "model": "",
+   "uncertain": true,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+   "topics": [
+    "cnp_h094",
+    "cnp_h070"
+   ],
+   "models": [
+    "cnp_tjm43"
+   ]
+  },
+  {
+   "year": 2022,
+   "no": "9(2)",
+   "type": "实验",
+   "score": 6,
+   "topic": "测电池电动势和内阻：电路选择、U-I图像求E和r、电表内阻引起的系统误差修正",
+   "model": "",
+   "uncertain": true,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+   "topics": [
+    "cnp_h081"
+   ],
+   "models": [
+    "cnp_tjm39"
+   ]
+  },
+  {
+   "year": 2022,
+   "no": "10",
+   "type": "计算",
+   "score": 14,
+   "topic": "匀变速直线运动（摩擦力减速、动摩擦因数改变）+碰撞动量守恒",
+   "model": "冰壶碰撞（多过程匀减速+碰撞）",
+   "uncertain": true,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+   "topics": [
+    "cnp_h007",
+    "cnp_h014",
+    "cnp_h093"
+   ],
+   "models": [
+    "cnp_tjm09"
+   ]
+  },
+  {
+   "year": 2022,
+   "no": "11",
+   "type": "计算",
+   "score": 16,
+   "topic": "带电粒子电场加速+圆形匀强磁场中圆周运动：电性、加速电压、半径、运动时间",
+   "model": "电场加速+圆形磁场",
+   "uncertain": true,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+   "topics": [
+    "cnp_h065",
+    "cnp_h121"
+   ],
+   "models": [
+    "cnp_tjm20"
+   ]
+  },
+  {
+   "year": 2022,
+   "no": "12",
+   "type": "计算",
+   "score": 18,
+   "topic": "安培力推动导电液体：磁场方向判断、液柱受力平衡、电阻定律、液面持续上升的电压条件",
+   "model": "直流电磁泵",
+   "uncertain": true,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+   "topics": [
+    "cnp_h118",
+    "cnp_h069"
+   ],
+   "models": [
+    "cnp_tjm24"
+   ]
+  },
+  {
+   "year": 2023,
+   "no": "1",
+   "type": "单选",
+   "score": 5,
+   "topic": "万有引力与航天：不同周期（24h与12h）北斗卫星的加速度、角速度、线速度比较",
+   "model": "卫星轨道比较",
+   "uncertain": false,
+   "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+   "topics": [
+    "cnp_h043"
+   ],
+   "models": [
+    "cnp_tjm01"
+   ]
+  },
+  {
+   "year": 2023,
+   "no": "2",
+   "type": "单选",
+   "score": 5,
+   "topic": "理想气体等容降温（查理定律）+热力学第一定律：内能、做功、吸放热、压强",
+   "model": "氧气瓶",
+   "uncertain": false,
+   "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+   "topics": [
+    "cnp_h153",
+    "cnp_h159"
+   ],
+   "models": [
+    "cnp_tjm06"
+   ]
+  },
+  {
+   "year": 2023,
+   "no": "3",
+   "type": "单选",
+   "score": 5,
+   "topic": "核聚变：高温条件、电荷守恒、质能方程（太阳质量减少）、聚变与裂变方程辨析",
+   "model": "",
+   "uncertain": false,
+   "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+   "topics": [
+    "cnp_h176",
+    "cnp_h175"
+   ],
+   "models": [
+    "cnp_tjm38"
+   ]
+  },
+  {
+   "year": 2023,
+   "no": "4",
+   "type": "单选",
+   "score": 5,
+   "topic": "光的偏振说明光是横波（与全反射、干涉、衍射辨析）",
+   "model": "",
+   "uncertain": false,
+   "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+   "topics": [
+    "cnp_h116"
+   ],
+   "models": [
+    "cnp_tjm34"
+   ]
+  },
+  {
+   "year": 2023,
+   "no": "5",
+   "type": "单选",
+   "score": 5,
+   "topic": "牛顿第二定律+冲量+匀减速位移+功率（制动力与空气阻力共同作用）",
+   "model": "列车制动",
+   "uncertain": false,
+   "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+   "topics": [
+    "cnp_h023",
+    "cnp_h091",
+    "cnp_h046"
+   ],
+   "models": []
+  },
+  {
+   "year": 2023,
+   "no": "6",
+   "type": "多选",
+   "score": 5,
+   "topic": "远距离输电：升压/降压理想变压器、线路损耗功率、用户负载增加的动态分析",
+   "model": "远距离输电",
+   "uncertain": false,
+   "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+   "topics": [
+    "cnp_h135",
+    "cnp_h133"
+   ],
+   "models": [
+    "cnp_tjm33"
+   ]
+  },
+  {
+   "year": 2023,
+   "no": "7",
+   "type": "多选",
+   "score": 5,
+   "topic": "机械波：由波形求波速、周期，质点振动状态，波源振动方程",
+   "model": "",
+   "uncertain": false,
+   "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+   "topics": [
+    "cnp_h105"
+   ],
+   "models": [
+    "cnp_tjm04"
+   ]
+  },
+  {
+   "year": 2023,
+   "no": "8",
+   "type": "多选",
+   "score": 5,
+   "topic": "点电荷电场：等势面、动能定理判断电势、场强大小",
+   "model": "",
+   "uncertain": false,
+   "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+   "topics": [
+    "cnp_h061",
+    "cnp_h055"
+   ],
+   "models": [
+    "cnp_tjm16"
+   ]
+  },
+  {
+   "year": 2023,
+   "no": "9(1)",
+   "type": "实验",
+   "score": 6,
+   "topic": "验证机械能守恒定律（气垫导轨+光电门+托盘砝码连接体，图像斜率）",
+   "model": "连接体系统机械能守恒",
+   "uncertain": true,
+   "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+   "topics": [
+    "cnp_h052"
+   ],
+   "models": [
+    "cnp_tjm43"
+   ]
+  },
+  {
+   "year": 2023,
+   "no": "9(2)",
+   "type": "实验",
+   "score": 6,
+   "topic": "伏安法测电阻：欧姆表粗测读数、电表选择、分压电路、系统误差与偶然误差",
+   "model": "",
+   "uncertain": true,
+   "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+   "topics": [
+    "cnp_h071",
+    "cnp_h074"
+   ],
+   "models": [
+    "cnp_tjm40"
+   ]
+  },
+  {
+   "year": 2023,
+   "no": "10",
+   "type": "计算",
+   "score": 14,
+   "topic": "感生电动势（B=kt，三角形磁场占线框一半）+安培力与重力平衡求开始运动时刻",
+   "model": "线框在变化磁场中",
+   "uncertain": true,
+   "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+   "topics": [
+    "cnp_h126",
+    "cnp_h118"
+   ],
+   "models": [
+    "cnp_tjm25"
+   ]
+  },
+  {
+   "year": 2023,
+   "no": "11",
+   "type": "计算",
+   "score": 16,
+   "topic": "自由落体与竖直上抛相遇+完全非弹性碰撞（动量守恒）+机械能损失",
+   "model": "两物体相遇碰撞粘合",
+   "uncertain": true,
+   "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+   "topics": [
+    "cnp_h009",
+    "cnp_h096"
+   ],
+   "models": [
+    "cnp_tjm12"
+   ]
+  },
+  {
+   "year": 2023,
+   "no": "12",
+   "type": "计算",
+   "score": 18,
+   "topic": "带电粒子在磁场中的运动（初速度分解，螺旋/半圆，左手定则判B方向）+电子倍增与电流-电压关系图像",
+   "model": "信号放大器（电子倍增器）",
+   "uncertain": true,
+   "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+   "topics": [
+    "cnp_h121",
+    "cnp_h120"
+   ],
+   "models": [
+    "cnp_tjm19"
+   ]
+  },
+  {
+   "year": 2024,
+   "no": "1",
+   "type": "单选",
+   "score": 5,
+   "topic": "光的性质辨析：光电效应揭示粒子性、光进入介质波长变化、光纤全反射、油膜彩色条纹为薄膜干涉",
+   "model": "",
+   "uncertain": true,
+   "source_url": "https://www.zxxk.com/soft/48400054.html",
+   "topics": [
+    "cnp_h164",
+    "cnp_h110",
+    "cnp_h112",
+    "cnp_h113"
+   ],
+   "models": [
+    "cnp_tjm34"
+   ]
+  },
+  {
+   "year": 2024,
+   "no": "2",
+   "type": "单选",
+   "score": 5,
+   "topic": "理想气体绝热膨胀与等温压缩：内能、做功、压强（热力学第一定律）",
+   "model": "",
+   "uncertain": true,
+   "source_url": "https://www.zxxk.com/soft/48400054.html",
+   "topics": [
+    "cnp_h159",
+    "cnp_h152"
+   ],
+   "models": [
+    "cnp_tjm06"
+   ]
+  },
+  {
+   "year": 2024,
+   "no": "3",
+   "type": "单选",
+   "score": 5,
+   "topic": "振动图像与波形图结合：由t=1s波形和x=0振动图像推t=11s波形",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html",
+   "topics": [
+    "cnp_h106"
+   ],
+   "models": [
+    "cnp_tjm04"
+   ]
+  },
+  {
+   "year": 2024,
+   "no": "4",
+   "type": "单选",
+   "score": 5,
+   "topic": "电磁感应单杆切割（倾斜光滑导轨由静止下滑）：安培力F、a、v、I随时间变化图像",
+   "model": "单杆切割（斜导轨收尾速度）",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html",
+   "topics": [
+    "cnp_h127",
+    "cnp_h128"
+   ],
+   "models": [
+    "cnp_tjm26"
+   ]
+  },
+  {
+   "year": 2024,
+   "no": "5",
+   "type": "单选",
+   "score": 5,
+   "topic": "受力分析+牛顿第二定律：小车搬运重物由匀速变为加速时底板与侧板弹力变化",
+   "model": "",
+   "uncertain": true,
+   "source_url": "https://www.zxxk.com/soft/48400054.html",
+   "topics": [
+    "cnp_h023",
+    "cnp_h019"
+   ],
+   "models": [
+    "cnp_tjm08"
+   ]
+  },
+  {
+   "year": 2024,
+   "no": "6",
+   "type": "多选",
+   "score": 5,
+   "topic": "核反应方程（质量数电荷数守恒）、β衰变本质、半衰期不受温度影响",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html",
+   "topics": [
+    "cnp_h172",
+    "cnp_h173"
+   ],
+   "models": [
+    "cnp_tjm38"
+   ]
+  },
+  {
+   "year": 2024,
+   "no": "7",
+   "type": "多选",
+   "score": 5,
+   "topic": "赤道上随地球自转的物体与同步卫星：角速度、线速度、向心加速度、万有引力之比",
+   "model": "赤道物体vs同步卫星",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html",
+   "topics": [
+    "cnp_h043",
+    "cnp_h033"
+   ],
+   "models": [
+    "cnp_tjm03"
+   ]
+  },
+  {
+   "year": 2024,
+   "no": "8",
+   "type": "多选",
+   "score": 5,
+   "topic": "φ-x图像：电势能、动能、电场力做功与方向（负电荷）",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html",
+   "topics": [
+    "cnp_h062",
+    "cnp_h058"
+   ],
+   "models": [
+    "cnp_tjm17"
+   ]
+  },
+  {
+   "year": 2024,
+   "no": "9(1)",
+   "type": "实验",
+   "score": 6,
+   "topic": "闭合电路欧姆定律：电源输出功率与外电阻关系（R=r时最大）+测电源电动势和内阻（器材选择）",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html",
+   "topics": [
+    "cnp_h080",
+    "cnp_h081"
+   ],
+   "models": [
+    "cnp_tjm39"
+   ]
+  },
+  {
+   "year": 2024,
+   "no": "9(2)",
+   "type": "实验",
+   "score": 6,
+   "topic": "探究加速度与力的关系：补偿阻力判断（纸带）、加速度计算",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html",
+   "topics": [
+    "cnp_h022"
+   ],
+   "models": [
+    "cnp_tjm42"
+   ]
+  },
+  {
+   "year": 2024,
+   "no": "10",
+   "type": "计算",
+   "score": 14,
+   "topic": "动量定理（瞬时冲量）+竖直光滑半圆轨道机械能守恒+最高点完全非弹性碰撞+绳拉力（圆周向心力）",
+   "model": "竖直圆周+碰撞粘合",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html",
+   "topics": [
+    "cnp_h092",
+    "cnp_h037",
+    "cnp_h051",
+    "cnp_h096"
+   ],
+   "models": [
+    "cnp_tjm14",
+    "cnp_tjm12",
+    "cnp_tjm11"
+   ]
+  },
+  {
+   "year": 2024,
+   "no": "11",
+   "type": "计算",
+   "score": 16,
+   "topic": "电场与磁场叠加（速度选择器式匀速直线）、仅电场类平抛、仅磁场（半圆形边界）圆周运动",
+   "model": "复合场/速度选择器+有界磁场",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html",
+   "topics": [
+    "cnp_h120",
+    "cnp_h066",
+    "cnp_h121"
+   ],
+   "models": [
+    "cnp_tjm21",
+    "cnp_tjm19"
+   ]
+  },
+  {
+   "year": 2024,
+   "no": "12",
+   "type": "计算",
+   "score": 18,
+   "topic": "交流发电机：线框转动切割电流方向与瞬时电动势、电磁制动能量回收、匀减速+等比数列求最大距离",
+   "model": "线框转动发电（电动汽车能量回收）",
+   "uncertain": false,
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html",
+   "topics": [
+    "cnp_h131",
+    "cnp_h136"
+   ],
+   "models": [
+    "cnp_tjm31",
+    "cnp_tjm44"
+   ]
+  },
+  {
+   "year": 2025,
+   "no": "1",
+   "type": "单选",
+   "score": 5,
+   "topic": "比较不同轨道上卫星的物理量（万有引力与航天）",
+   "model": "卫星轨道比较",
+   "uncertain": false,
+   "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html",
+   "topics": [
+    "cnp_h043"
+   ],
+   "models": [
+    "cnp_tjm01"
+   ]
+  },
+  {
+   "year": 2025,
+   "no": "2",
+   "type": "单选",
+   "score": 5,
+   "topic": "质能方程；α衰变、β衰变的特点、本质及方程书写；半衰期",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html",
+   "topics": [
+    "cnp_h172",
+    "cnp_h173",
+    "cnp_h175"
+   ],
+   "models": [
+    "cnp_tjm38"
+   ]
+  },
+  {
+   "year": 2025,
+   "no": "3",
+   "type": "单选",
+   "score": 5,
+   "topic": "冲量与动量的定义和矢量性；动量定理；平衡状态",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html",
+   "topics": [
+    "cnp_h091",
+    "cnp_h092"
+   ],
+   "models": [
+    "cnp_tjm11"
+   ]
+  },
+  {
+   "year": 2025,
+   "no": "4",
+   "type": "单选",
+   "score": 5,
+   "topic": "理想气体状态方程；热力学第一定律的应用",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html",
+   "topics": [
+    "cnp_h154",
+    "cnp_h159"
+   ],
+   "models": [
+    "cnp_tjm06"
+   ]
+  },
+  {
+   "year": 2025,
+   "no": "5",
+   "type": "单选",
+   "score": 5,
+   "topic": "单缝衍射和小孔衍射图样；双缝干涉Δx=Lλ/d；能量子；光子的动量",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html",
+   "topics": [
+    "cnp_h115",
+    "cnp_h113",
+    "cnp_h163",
+    "cnp_h169"
+   ],
+   "models": [
+    "cnp_tjm34",
+    "cnp_tjm35"
+   ]
+  },
+  {
+   "year": 2025,
+   "no": "6",
+   "type": "多选",
+   "score": 5,
+   "topic": "变压器两端电路的动态分析",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html",
+   "topics": [
+    "cnp_h133"
+   ],
+   "models": [
+    "cnp_tjm32"
+   ]
+  },
+  {
+   "year": 2025,
+   "no": "7",
+   "type": "多选",
+   "score": 5,
+   "topic": "波的图像",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html",
+   "topics": [
+    "cnp_h105"
+   ],
+   "models": [
+    "cnp_tjm04"
+   ]
+  },
+  {
+   "year": 2025,
+   "no": "8",
+   "type": "多选",
+   "score": 5,
+   "topic": "比较电势能大小；点电荷与均匀球体（球壳）周围的场强；电势和电场线的关系",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html",
+   "topics": [
+    "cnp_h058",
+    "cnp_h055"
+   ],
+   "models": [
+    "cnp_tjm18"
+   ]
+  },
+  {
+   "year": 2025,
+   "no": "9(1)",
+   "type": "实验",
+   "score": 6,
+   "topic": "用频闪相机研究平抛运动；利用水平挡板探究平抛运动规律",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html",
+   "topics": [
+    "cnp_h030"
+   ],
+   "models": [
+    "cnp_tjm41"
+   ]
+  },
+  {
+   "year": 2025,
+   "no": "9(2)",
+   "type": "实验",
+   "score": 6,
+   "topic": "伏安法测量未知电阻",
+   "model": "",
+   "uncertain": false,
+   "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html",
+   "topics": [
+    "cnp_h071"
+   ],
+   "models": [
+    "cnp_tjm40"
+   ]
+  },
+  {
+   "year": 2025,
+   "no": "10",
+   "type": "计算",
+   "score": 14,
+   "topic": "动量守恒定律；动能定理；机械能守恒定律在曲线运动中的应用",
+   "model": "碰撞+曲线运动机械能守恒（具体情境未从来源获取）",
+   "uncertain": false,
+   "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html",
+   "topics": [
+    "cnp_h093",
+    "cnp_h050",
+    "cnp_h051"
+   ],
+   "models": [
+    "cnp_tjm12"
+   ]
+  },
+  {
+   "year": 2025,
+   "no": "11",
+   "type": "计算",
+   "score": 16,
+   "topic": "带电粒子由电场进入磁场（组合场）",
+   "model": "电场加速/偏转+磁场圆周（组合场）",
+   "uncertain": false,
+   "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html",
+   "topics": [
+    "cnp_h065",
+    "cnp_h066",
+    "cnp_h121"
+   ],
+   "models": [
+    "cnp_tjm20"
+   ]
+  },
+  {
+   "year": 2025,
+   "no": "12",
+   "type": "计算",
+   "score": 18,
+   "topic": "导体棒转动切割磁感线（E=BL²ω/2）",
+   "model": "导体棒转动切割",
+   "uncertain": false,
+   "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html",
+   "topics": [
+    "cnp_h127"
+   ],
+   "models": [
+    "cnp_tjm28"
+   ]
+  },
+  {
+   "year": 2026,
+   "no": "12",
+   "type": "计算",
+   "score": 18,
+   "topic": "压轴题：涉及积分/微元思想（视频标题“积分再度出现”）；另一视频称其为‘磁聚焦透镜’（带电粒子磁聚焦）；Neodrop估算稿称压轴为电磁感应导体棒切割",
+   "model": "磁聚焦透镜 或 电磁感应（不确定）",
+   "uncertain": true,
+   "source_url": "https://www.bilibili.com/video/BV13UJp6qEti/",
+   "topics": [
+    "cnp_h121",
+    "cnp_h128"
+   ],
+   "models": [
+    "cnp_tjm44"
+   ]
+  }
+ ],
+ "weights": {
+  "cnp_h001": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h002": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h003": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h004": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h005": {
+   "years": [
+    2021
+   ],
+   "n_years": 1,
+   "avg_score": 1.0,
+   "tier": "常考"
+  },
+  "cnp_h006": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h007": {
+   "years": [
+    2022
+   ],
+   "n_years": 1,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_h008": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h009": {
+   "years": [
+    2023
+   ],
+   "n_years": 1,
+   "avg_score": 1.3,
+   "tier": "常考"
+  },
+  "cnp_h010": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h011": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h012": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h013": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h014": {
+   "years": [
+    2022
+   ],
+   "n_years": 1,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_h015": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h016": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h017": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h018": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h019": {
+   "years": [
+    2024
+   ],
+   "n_years": 1,
+   "avg_score": 0.4,
+   "tier": "常考"
+  },
+  "cnp_h020": {
+   "years": [
+    2021
+   ],
+   "n_years": 1,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_h021": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h022": {
+   "years": [
+    2024
+   ],
+   "n_years": 1,
+   "avg_score": 1.0,
+   "tier": "常考"
+  },
+  "cnp_h023": {
+   "years": [
+    2023,
+    2024
+   ],
+   "n_years": 2,
+   "avg_score": 0.7,
+   "tier": "常考"
+  },
+  "cnp_h024": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h025": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h026": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h027": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h028": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h029": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h030": {
+   "years": [
+    2020,
+    2025
+   ],
+   "n_years": 2,
+   "avg_score": 2.0,
+   "tier": "常考"
+  },
+  "cnp_h031": {
+   "years": [
+    2021
+   ],
+   "n_years": 1,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_h032": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h033": {
+   "years": [
+    2024
+   ],
+   "n_years": 1,
+   "avg_score": 0.4,
+   "tier": "常考"
+  },
+  "cnp_h034": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h035": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h036": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h037": {
+   "years": [
+    2020,
+    2024
+   ],
+   "n_years": 2,
+   "avg_score": 1.5,
+   "tier": "常考"
+  },
+  "cnp_h038": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h039": {
+   "years": [
+    2021
+   ],
+   "n_years": 1,
+   "avg_score": 0.4,
+   "tier": "常考"
+  },
+  "cnp_h040": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h041": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h042": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h043": {
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "n_years": 6,
+   "avg_score": 4.2,
+   "tier": "必考"
+  },
+  "cnp_h044": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h045": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h046": {
+   "years": [
+    2020,
+    2023
+   ],
+   "n_years": 2,
+   "avg_score": 0.7,
+   "tier": "常考"
+  },
+  "cnp_h047": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h048": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h049": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h050": {
+   "years": [
+    2020,
+    2025
+   ],
+   "n_years": 2,
+   "avg_score": 1.2,
+   "tier": "常考"
+  },
+  "cnp_h051": {
+   "years": [
+    2024,
+    2025
+   ],
+   "n_years": 2,
+   "avg_score": 1.4,
+   "tier": "常考"
+  },
+  "cnp_h052": {
+   "years": [
+    2023
+   ],
+   "n_years": 1,
+   "avg_score": 1.0,
+   "tier": "常考"
+  },
+  "cnp_h053": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h054": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h055": {
+   "years": [
+    2022,
+    2023,
+    2025
+   ],
+   "n_years": 3,
+   "avg_score": 1.2,
+   "tier": "高频"
+  },
+  "cnp_h056": {
+   "years": [
+    2021
+   ],
+   "n_years": 1,
+   "avg_score": 0.4,
+   "tier": "常考"
+  },
+  "cnp_h057": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h058": {
+   "years": [
+    2024,
+    2025
+   ],
+   "n_years": 2,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_h059": {
+   "years": [
+    2022
+   ],
+   "n_years": 1,
+   "avg_score": 0.4,
+   "tier": "常考"
+  },
+  "cnp_h060": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h061": {
+   "years": [
+    2021,
+    2023
+   ],
+   "n_years": 2,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_h062": {
+   "years": [
+    2024
+   ],
+   "n_years": 1,
+   "avg_score": 0.4,
+   "tier": "常考"
+  },
+  "cnp_h063": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h064": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h065": {
+   "years": [
+    2020,
+    2022,
+    2025
+   ],
+   "n_years": 3,
+   "avg_score": 3.7,
+   "tier": "高频"
+  },
+  "cnp_h066": {
+   "years": [
+    2024,
+    2025
+   ],
+   "n_years": 2,
+   "avg_score": 1.8,
+   "tier": "常考"
+  },
+  "cnp_h067": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h068": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h069": {
+   "years": [
+    2022
+   ],
+   "n_years": 1,
+   "avg_score": 1.5,
+   "tier": "常考"
+  },
+  "cnp_h070": {
+   "years": [
+    2022
+   ],
+   "n_years": 1,
+   "avg_score": 0.5,
+   "tier": "常考"
+  },
+  "cnp_h071": {
+   "years": [
+    2023,
+    2025
+   ],
+   "n_years": 2,
+   "avg_score": 1.5,
+   "tier": "常考"
+  },
+  "cnp_h072": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h073": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h074": {
+   "years": [
+    2023
+   ],
+   "n_years": 1,
+   "avg_score": 0.5,
+   "tier": "常考"
+  },
+  "cnp_h075": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h076": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h077": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h078": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h079": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h080": {
+   "years": [
+    2024
+   ],
+   "n_years": 1,
+   "avg_score": 0.5,
+   "tier": "常考"
+  },
+  "cnp_h081": {
+   "years": [
+    2020,
+    2021,
+    2022,
+    2024
+   ],
+   "n_years": 4,
+   "avg_score": 3.5,
+   "tier": "高频"
+  },
+  "cnp_h082": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h083": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h084": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h085": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h086": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h087": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h088": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h089": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h090": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h091": {
+   "years": [
+    2023,
+    2025
+   ],
+   "n_years": 2,
+   "avg_score": 0.7,
+   "tier": "常考"
+  },
+  "cnp_h092": {
+   "years": [
+    2020,
+    2021,
+    2024,
+    2025
+   ],
+   "n_years": 4,
+   "avg_score": 2.3,
+   "tier": "高频"
+  },
+  "cnp_h093": {
+   "years": [
+    2021,
+    2022,
+    2025
+   ],
+   "n_years": 3,
+   "avg_score": 2.3,
+   "tier": "高频"
+  },
+  "cnp_h094": {
+   "years": [
+    2022
+   ],
+   "n_years": 1,
+   "avg_score": 0.5,
+   "tier": "常考"
+  },
+  "cnp_h095": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h096": {
+   "years": [
+    2020,
+    2023,
+    2024
+   ],
+   "n_years": 3,
+   "avg_score": 2.8,
+   "tier": "高频"
+  },
+  "cnp_h097": {
+   "years": [
+    2021
+   ],
+   "n_years": 1,
+   "avg_score": 1.2,
+   "tier": "常考"
+  },
+  "cnp_h098": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h099": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h100": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h101": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h102": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h103": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h104": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h105": {
+   "years": [
+    2020,
+    2021,
+    2023,
+    2025
+   ],
+   "n_years": 4,
+   "avg_score": 3.3,
+   "tier": "高频"
+  },
+  "cnp_h106": {
+   "years": [
+    2024
+   ],
+   "n_years": 1,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_h107": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h108": {
+   "years": [
+    2022
+   ],
+   "n_years": 1,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_h109": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h110": {
+   "years": [
+    2021,
+    2024
+   ],
+   "n_years": 2,
+   "avg_score": 1.0,
+   "tier": "常考"
+  },
+  "cnp_h111": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h112": {
+   "years": [
+    2024
+   ],
+   "n_years": 1,
+   "avg_score": 0.2,
+   "tier": "常考"
+  },
+  "cnp_h113": {
+   "years": [
+    2022,
+    2024,
+    2025
+   ],
+   "n_years": 3,
+   "avg_score": 0.6,
+   "tier": "高频"
+  },
+  "cnp_h114": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h115": {
+   "years": [
+    2025
+   ],
+   "n_years": 1,
+   "avg_score": 0.2,
+   "tier": "常考"
+  },
+  "cnp_h116": {
+   "years": [
+    2020,
+    2023
+   ],
+   "n_years": 2,
+   "avg_score": 1.2,
+   "tier": "常考"
+  },
+  "cnp_h117": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h118": {
+   "years": [
+    2020,
+    2022,
+    2023
+   ],
+   "n_years": 3,
+   "avg_score": 3.8,
+   "tier": "高频"
+  },
+  "cnp_h119": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h120": {
+   "years": [
+    2021,
+    2023,
+    2024
+   ],
+   "n_years": 3,
+   "avg_score": 5.4,
+   "tier": "高频"
+  },
+  "cnp_h121": {
+   "years": [
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "n_years": 5,
+   "avg_score": 5.4,
+   "tier": "必考"
+  },
+  "cnp_h122": {
+   "years": [
+    2020
+   ],
+   "n_years": 1,
+   "avg_score": 1.5,
+   "tier": "常考"
+  },
+  "cnp_h123": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h124": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h125": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h126": {
+   "years": [
+    2020,
+    2023
+   ],
+   "n_years": 2,
+   "avg_score": 2.3,
+   "tier": "常考"
+  },
+  "cnp_h127": {
+   "years": [
+    2021,
+    2024,
+    2025
+   ],
+   "n_years": 3,
+   "avg_score": 4.8,
+   "tier": "高频"
+  },
+  "cnp_h128": {
+   "years": [
+    2021,
+    2024
+   ],
+   "n_years": 2,
+   "avg_score": 1.8,
+   "tier": "常考"
+  },
+  "cnp_h129": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h130": {
+   "years": [
+    2020
+   ],
+   "n_years": 1,
+   "avg_score": 0.4,
+   "tier": "常考"
+  },
+  "cnp_h131": {
+   "years": [
+    2024
+   ],
+   "n_years": 1,
+   "avg_score": 1.5,
+   "tier": "常考"
+  },
+  "cnp_h132": {
+   "years": [
+    2021
+   ],
+   "n_years": 1,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_h133": {
+   "years": [
+    2020,
+    2022,
+    2023,
+    2025
+   ],
+   "n_years": 4,
+   "avg_score": 2.1,
+   "tier": "高频"
+  },
+  "cnp_h134": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h135": {
+   "years": [
+    2022,
+    2023
+   ],
+   "n_years": 2,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_h136": {
+   "years": [
+    2024
+   ],
+   "n_years": 1,
+   "avg_score": 1.5,
+   "tier": "常考"
+  },
+  "cnp_h137": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h138": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h139": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h140": {
+   "years": [
+    2020,
+    2022
+   ],
+   "n_years": 2,
+   "avg_score": 0.6,
+   "tier": "常考"
+  },
+  "cnp_h141": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h142": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h143": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h144": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h145": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h146": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h147": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h148": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h149": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h150": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h151": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h152": {
+   "years": [
+    2020,
+    2021,
+    2024
+   ],
+   "n_years": 3,
+   "avg_score": 1.2,
+   "tier": "高频"
+  },
+  "cnp_h153": {
+   "years": [
+    2022,
+    2023
+   ],
+   "n_years": 2,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_h154": {
+   "years": [
+    2025
+   ],
+   "n_years": 1,
+   "avg_score": 0.4,
+   "tier": "常考"
+  },
+  "cnp_h155": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h156": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h157": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h158": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h159": {
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "n_years": 6,
+   "avg_score": 2.5,
+   "tier": "必考"
+  },
+  "cnp_h160": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h161": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h162": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h163": {
+   "years": [
+    2025
+   ],
+   "n_years": 1,
+   "avg_score": 0.2,
+   "tier": "常考"
+  },
+  "cnp_h164": {
+   "years": [
+    2024
+   ],
+   "n_years": 1,
+   "avg_score": 0.2,
+   "tier": "常考"
+  },
+  "cnp_h165": {
+   "years": [
+    2022
+   ],
+   "n_years": 1,
+   "avg_score": 0.2,
+   "tier": "常考"
+  },
+  "cnp_h166": {
+   "years": [
+    2020
+   ],
+   "n_years": 1,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_h167": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h168": {
+   "years": [
+    2022
+   ],
+   "n_years": 1,
+   "avg_score": 0.2,
+   "tier": "常考"
+  },
+  "cnp_h169": {
+   "years": [
+    2025
+   ],
+   "n_years": 1,
+   "avg_score": 0.2,
+   "tier": "常考"
+  },
+  "cnp_h170": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h171": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h172": {
+   "years": [
+    2024,
+    2025
+   ],
+   "n_years": 2,
+   "avg_score": 0.7,
+   "tier": "常考"
+  },
+  "cnp_h173": {
+   "years": [
+    2024,
+    2025
+   ],
+   "n_years": 2,
+   "avg_score": 0.7,
+   "tier": "常考"
+  },
+  "cnp_h174": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_h175": {
+   "years": [
+    2022,
+    2023,
+    2025
+   ],
+   "n_years": 3,
+   "avg_score": 1.1,
+   "tier": "高频"
+  },
+  "cnp_h176": {
+   "years": [
+    2022,
+    2023
+   ],
+   "n_years": 2,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_h177": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_tjm01": {
+   "years": [
+    2020,
+    2022,
+    2023,
+    2025
+   ],
+   "n_years": 4,
+   "avg_score": 3.3,
+   "tier": "高频"
+  },
+  "cnp_tjm02": {
+   "years": [
+    2021
+   ],
+   "n_years": 1,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_tjm03": {
+   "years": [
+    2024
+   ],
+   "n_years": 1,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_tjm04": {
+   "years": [
+    2020,
+    2023,
+    2024,
+    2025
+   ],
+   "n_years": 4,
+   "avg_score": 3.3,
+   "tier": "高频"
+  },
+  "cnp_tjm05": {
+   "years": [
+    2021,
+    2022
+   ],
+   "n_years": 2,
+   "avg_score": 1.7,
+   "tier": "常考"
+  },
+  "cnp_tjm06": {
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "n_years": 6,
+   "avg_score": 5.0,
+   "tier": "必考"
+  },
+  "cnp_tjm07": {
+   "years": [
+    2020
+   ],
+   "n_years": 1,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_tjm08": {
+   "years": [
+    2024
+   ],
+   "n_years": 1,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_tjm45": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_tjm09": {
+   "years": [
+    2022
+   ],
+   "n_years": 1,
+   "avg_score": 2.3,
+   "tier": "常考"
+  },
+  "cnp_tjm10": {
+   "years": [
+    2021
+   ],
+   "n_years": 1,
+   "avg_score": 2.3,
+   "tier": "常考"
+  },
+  "cnp_tjm11": {
+   "years": [
+    2020,
+    2021,
+    2024,
+    2025
+   ],
+   "n_years": 4,
+   "avg_score": 3.3,
+   "tier": "高频"
+  },
+  "cnp_tjm12": {
+   "years": [
+    2020,
+    2023,
+    2024,
+    2025
+   ],
+   "n_years": 4,
+   "avg_score": 6.7,
+   "tier": "高频"
+  },
+  "cnp_tjm13": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_tjm14": {
+   "years": [
+    2020,
+    2024
+   ],
+   "n_years": 2,
+   "avg_score": 1.7,
+   "tier": "常考"
+  },
+  "cnp_tjm15": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_tjm16": {
+   "years": [
+    2021,
+    2022,
+    2023
+   ],
+   "n_years": 3,
+   "avg_score": 2.5,
+   "tier": "高频"
+  },
+  "cnp_tjm17": {
+   "years": [
+    2024
+   ],
+   "n_years": 1,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_tjm18": {
+   "years": [
+    2025
+   ],
+   "n_years": 1,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_tjm19": {
+   "years": [
+    2020,
+    2023,
+    2024
+   ],
+   "n_years": 3,
+   "avg_score": 5.2,
+   "tier": "高频"
+  },
+  "cnp_tjm20": {
+   "years": [
+    2020,
+    2022,
+    2025
+   ],
+   "n_years": 3,
+   "avg_score": 6.8,
+   "tier": "高频"
+  },
+  "cnp_tjm21": {
+   "years": [
+    2024
+   ],
+   "n_years": 1,
+   "avg_score": 1.3,
+   "tier": "常考"
+  },
+  "cnp_tjm22": {
+   "years": [
+    2020
+   ],
+   "n_years": 1,
+   "avg_score": 1.5,
+   "tier": "常考"
+  },
+  "cnp_tjm23": {
+   "years": [
+    2021
+   ],
+   "n_years": 1,
+   "avg_score": 3.0,
+   "tier": "常考"
+  },
+  "cnp_tjm24": {
+   "years": [
+    2022
+   ],
+   "n_years": 1,
+   "avg_score": 3.0,
+   "tier": "常考"
+  },
+  "cnp_tjm25": {
+   "years": [
+    2020,
+    2023
+   ],
+   "n_years": 2,
+   "avg_score": 4.7,
+   "tier": "常考"
+  },
+  "cnp_tjm26": {
+   "years": [
+    2021,
+    2024
+   ],
+   "n_years": 2,
+   "avg_score": 2.2,
+   "tier": "常考"
+  },
+  "cnp_tjm27": {
+   "years": [
+    2021
+   ],
+   "n_years": 1,
+   "avg_score": 1.3,
+   "tier": "常考"
+  },
+  "cnp_tjm28": {
+   "years": [
+    2025
+   ],
+   "n_years": 1,
+   "avg_score": 3.0,
+   "tier": "常考"
+  },
+  "cnp_tjm29": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_tjm30": {
+   "years": [
+    2021
+   ],
+   "n_years": 1,
+   "avg_score": 0.8,
+   "tier": "常考"
+  },
+  "cnp_tjm31": {
+   "years": [
+    2024
+   ],
+   "n_years": 1,
+   "avg_score": 1.5,
+   "tier": "常考"
+  },
+  "cnp_tjm32": {
+   "years": [
+    2022,
+    2025
+   ],
+   "n_years": 2,
+   "avg_score": 1.2,
+   "tier": "常考"
+  },
+  "cnp_tjm33": {
+   "years": [
+    2022,
+    2023
+   ],
+   "n_years": 2,
+   "avg_score": 1.2,
+   "tier": "常考"
+  },
+  "cnp_tjm34": {
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "n_years": 5,
+   "avg_score": 3.3,
+   "tier": "必考"
+  },
+  "cnp_tjm35": {
+   "years": [
+    2025
+   ],
+   "n_years": 1,
+   "avg_score": 0.4,
+   "tier": "常考"
+  },
+  "cnp_tjm36": {
+   "years": [
+    2022
+   ],
+   "n_years": 1,
+   "avg_score": 0.4,
+   "tier": "常考"
+  },
+  "cnp_tjm37": {
+   "years": [],
+   "n_years": 0,
+   "avg_score": 0.0,
+   "tier": "未考"
+  },
+  "cnp_tjm38": {
+   "years": [
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "n_years": 4,
+   "avg_score": 3.3,
+   "tier": "高频"
+  },
+  "cnp_tjm39": {
+   "years": [
+    2020,
+    2021,
+    2022,
+    2024
+   ],
+   "n_years": 4,
+   "avg_score": 4.0,
+   "tier": "高频"
+  },
+  "cnp_tjm40": {
+   "years": [
+    2023,
+    2025
+   ],
+   "n_years": 2,
+   "avg_score": 2.0,
+   "tier": "常考"
+  },
+  "cnp_tjm41": {
+   "years": [
+    2020,
+    2025
+   ],
+   "n_years": 2,
+   "avg_score": 2.0,
+   "tier": "常考"
+  },
+  "cnp_tjm42": {
+   "years": [
+    2021,
+    2024
+   ],
+   "n_years": 2,
+   "avg_score": 2.0,
+   "tier": "常考"
+  },
+  "cnp_tjm43": {
+   "years": [
+    2022,
+    2023
+   ],
+   "n_years": 2,
+   "avg_score": 2.0,
+   "tier": "常考"
+  },
+  "cnp_tjm44": {
+   "years": [
+    2024
+   ],
+   "n_years": 1,
+   "avg_score": 1.5,
+   "tier": "常考"
+  }
+ }
+}

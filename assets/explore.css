@@ -268,3 +268,10 @@ body.page-explore .site-footer { flex: none; }
     border-radius: 999px;
   }
 }
+
+/* 天津卷叠加层 */
+.tj-pill { border: 1px solid currentColor; }
+.tj-高频 { color: #c0392b; }
+.tj-中频 { color: #d35400; }
+.tj-低频 { color: #7f8c8d; }
+.tj-近年未考 { color: #95a5a6; }

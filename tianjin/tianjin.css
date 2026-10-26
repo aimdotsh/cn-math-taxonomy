@@ -1,0 +1,68 @@
+.tj { max-width: 1280px; margin: 0 auto; padding: 16px 20px 60px; }
+.tj-hero h1 { font-size: 26px; margin: 8px 0 6px; }
+.tj-hero h1 small { font-size: 14px; color: var(--warn); background: var(--warn-bg); padding: 2px 8px; border-radius: 999px; vertical-align: middle; }
+.lead { color: var(--muted); max-width: 860px; line-height: 1.6; }
+.tj-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 14px 0; }
+.stat { background: var(--bg-elev); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 12px 14px; }
+.stat b { display: block; font-size: 24px; color: var(--brand); }
+.stat span { color: var(--muted); font-size: 13px; }
+.tj-exam { background: var(--bg-elev); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 10px 14px; font-size: 14px; line-height: 1.7; color: var(--muted); }
+.tj-tabs { display: flex; gap: 8px; margin: 18px 0 12px; border-bottom: 1px solid var(--line); }
+.tj-tabs button { border: 0; background: none; padding: 10px 14px; font-size: 15px; cursor: pointer; color: var(--muted); border-bottom: 3px solid transparent; font-family: inherit; }
+.tj-tabs button.on { color: var(--brand); border-bottom-color: var(--brand); font-weight: 600; }
+.tj-tab { display: none; }
+.tj-tab.on { display: block; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 6px 0 12px; }
+.legend.small { margin-top: 8px; font-size: 12px; }
+.hint { color: var(--muted); font-size: 13px; }
+.chip { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 13px; border: 1px solid transparent; }
+.t-must { background: #b91c1c; color: #fff; }
+.t-high { background: #f97316; color: #fff; }
+.t-some { background: #fde68a; color: #7c2d12; }
+.t-none { background: var(--bg-muted); color: var(--muted); }
+.k-model { background: #e0e7ff; color: #3730a3; border-color: #6366f1; }
+.k-ch { background: #fae8ff; color: #86198f; border-color: #c026d3; }
+.k-mis { background: #fee2e2; color: #991b1b; border-color: #ef4444; }
+.book { margin: 18px 0 6px; font-size: 17px; }
+.chapter { background: var(--bg-elev); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 10px 12px; margin: 8px 0; }
+.chapter h4 { margin: 0 0 8px; font-size: 14px; display: flex; justify-content: space-between; gap: 8px; }
+.chapter h4 em { font-style: normal; color: var(--muted); font-weight: 400; font-size: 12px; }
+.cells { display: flex; flex-wrap: wrap; gap: 6px; }
+.cell { cursor: pointer; padding: 5px 9px; border-radius: 8px; font-size: 13px; border: 0; font-family: inherit; text-align: left; }
+.cell small { opacity: .85; margin-left: 4px; }
+.cell:hover { outline: 2px solid var(--brand); }
+.pop { background: var(--bg-elev); border: 1px solid var(--brand); border-radius: var(--radius-sm); padding: 12px 14px; margin: 8px 0; font-size: 14px; line-height: 1.6; }
+.pop a { color: var(--brand); cursor: pointer; text-decoration: underline; }
+.tj-three { display: grid; grid-template-columns: 260px 1fr 380px; gap: 14px; }
+.tj-side { background: var(--bg-elev); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 8px; max-height: 760px; overflow: auto; }
+.tj-side h5 { margin: 12px 6px 6px; font-size: 13px; color: var(--muted); }
+.mitem { display: flex; justify-content: space-between; gap: 6px; width: 100%; padding: 7px 8px; border: 0; background: none; border-radius: 8px; text-align: left; cursor: pointer; font-size: 14px; font-family: inherit; color: var(--text); }
+.mitem:hover, .mitem.on { background: var(--brand-soft); }
+.mitem .n { font-size: 12px; padding: 0 7px; border-radius: 999px; align-self: center; white-space: nowrap; }
+.tj-center { min-width: 0; }
+.graph-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-weight: 600; }
+.graph-head button { border: 1px solid var(--line); background: var(--bg-elev); border-radius: 8px; padding: 4px 10px; cursor: pointer; font-family: inherit; }
+#cy { height: 620px; background: var(--bg-elev); border: 1px solid var(--line); border-radius: var(--radius-sm); }
+.tj-detail { background: var(--bg-elev); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 14px 16px; max-height: 760px; overflow: auto; font-size: 14px; line-height: 1.65; }
+.tj-detail h3 { margin: 0 0 6px; font-size: 18px; }
+.tj-detail h4 { margin: 14px 0 6px; font-size: 14px; color: var(--muted); }
+.tj-detail ul { padding-left: 18px; margin: 4px 0; }
+.meta { color: var(--muted); font-size: 13px; }
+.q { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; margin: 8px 0; }
+.q .opts { display: grid; gap: 6px; margin-top: 8px; }
+.q .opt { text-align: left; border: 1px solid var(--line); background: var(--bg); padding: 7px 10px; border-radius: 8px; cursor: pointer; font-family: inherit; font-size: 14px; color: var(--text); }
+.q .opt.ok { background: var(--ok-bg); border-color: var(--ok); }
+.q .opt.bad { background: var(--bad-bg); border-color: var(--bad); }
+.q .num { display: flex; gap: 6px; margin-top: 8px; }
+.q .num input { flex: 1; padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px; font-size: 14px; }
+.q .num button { border: 0; background: var(--brand); color: #fff; border-radius: 8px; padding: 6px 12px; cursor: pointer; font-family: inherit; }
+.fb { margin-top: 8px; font-size: 13px; }
+.fb.ok { color: var(--ok); }
+.fb.bad { color: var(--bad); }
+.fb .mis { display: block; margin-top: 4px; background: var(--bad-bg); color: var(--bad); padding: 6px 8px; border-radius: 8px; }
+.tag { display: inline-block; font-size: 12px; padding: 1px 7px; border-radius: 999px; background: var(--bg-muted); color: var(--muted); margin: 2px 4px 2px 0; cursor: pointer; }
+table.pp { width: 100%; border-collapse: collapse; background: var(--bg-elev); font-size: 13px; margin-bottom: 18px; }
+table.pp th, table.pp td { border: 1px solid var(--line); padding: 6px 8px; vertical-align: top; text-align: left; }
+table.pp th { background: var(--bg-muted); }
+table.pp caption { text-align: left; font-weight: 600; font-size: 16px; padding: 8px 0; }
+@media (max-width: 1000px) { .tj-three { grid-template-columns: 1fr; } #cy { height: 420px; } .tj-side { max-height: 300px; } }

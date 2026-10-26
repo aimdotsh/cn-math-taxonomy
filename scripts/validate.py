@@ -65,7 +65,7 @@ CORE_FIELDS = ["id", "name", "domain", "grade", "semester", "chapter", "type",
 EXT_FIELDS = ["id", "name", "domain", "grade", "description", "external"]
 # cnm_001 初中正式；cnm_p001 小学正式；cnm_h001 高中正式。cne_p001 小学英语，cne_j001 初中英语，cne_h001 高中英语。
 # cnp_001 初中物理；cnp_h001 高中物理（必修一至选必三，grade 10–15）。cnc_p001 小学语文。
-ID_RE = re.compile(r"^(?:cnm_(?:p|h)?|cne_[pjh]|cnp_h?|cnc_p)\d{3,}$")
+ID_RE = re.compile(r"^(?:cnm_(?:p|h)?|cne_[pjh]|cnp_[hm]?|cnc_p)\d{3,}$")
 # 10、11 是必修第一、二册；12、13、14 是选择性必修第一、二、三册，不是教学年份。
 GRADES = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
 ALIASES_PATH = os.path.join(ROOT, "data", "id-aliases.json")
@@ -111,7 +111,8 @@ def is_physics_id(tid):
 
 
 def is_physics_senior_id(tid):
-    return str(tid).startswith("cnp_h")
+    # cnp_m：高中物理「模型与方法」层（天津版扩展，见 scripts/tj_*.py），按高中物理处理
+    return str(tid).startswith("cnp_h") or str(tid).startswith("cnp_m")
 
 
 def is_chinese_id(tid):
@@ -844,7 +845,7 @@ Q_DIFFICULTIES = ("basic", "standard", "advanced")
 Q_TYPES = ("numeric", "choice", "short", "self")
 Q_FIELDS = {"id", "topicId", "difficulty", "type", "prompt", "answer", "choices", "accept",
             "explanation", "verify", "unordered", "fixed_from_source", "figure", "hideChoiceText", "percent"}
-Q_ID_RE = re.compile(r"^((?:cnm_(?:p|h)?|cne_[pjh]|cnp_h?|cnc_p)\d{3,})_q([1-9]\d*)$")
+Q_ID_RE = re.compile(r"^((?:cnm_(?:p|h)?|cne_[pjh]|cnp_[hm]?|cnc_p)\d{3,})_q([1-9]\d*)$")
 NUM_RE = re.compile(r"^-?\d+(?:\.\d+)?(?:/\d+(?:\.\d+)?)?$")
 MIN_QUESTIONS_PER_TOPIC = 3
 MIN_AUTO_SHARE = 0.60

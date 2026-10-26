@@ -1,0 +1,2604 @@
+{
+  "region": "天津",
+  "subject": "physics",
+  "exam": "天津市普通高中学业水平等级性考试·物理（天津卷，自主命题）",
+  "textbook": "人教版 2019（必修第一至三册、选择性必修第一至三册），天津高中物理使用人教版",
+  "structure": {
+    "total": 100,
+    "minutes": 60,
+    "sections": [
+      {
+        "name": "单项选择题",
+        "numbers": "1–5",
+        "count": 5,
+        "score_each": 5
+      },
+      {
+        "name": "多项选择题",
+        "numbers": "6–8",
+        "count": 3,
+        "score_each": 5
+      },
+      {
+        "name": "实验题",
+        "numbers": "9(1)(2)",
+        "count": 2,
+        "score_each": 6,
+        "note": "固定一力一电"
+      },
+      {
+        "name": "计算题",
+        "numbers": "10–12",
+        "count": 3,
+        "scores": [
+          14,
+          16,
+          18
+        ]
+      }
+    ],
+    "note": "2025 年逐题分值已确认；2020–2024 实验、计算题分值按惯例推定。"
+  },
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "features": [
+    "选择题模块基本固定：卫星、机械波、气体＋热力学第一定律、原子或光、变压器、静电场，每年各约 1 题。",
+    "第 1 题常考物理学史或研究方法。",
+    "实验题固定一力一电：电学在测电源电动势和内阻与伏安法测电阻之间轮换。",
+    "计算第 10 题多为动量＋能量综合；第 11 题电磁场中的粒子或力学碰撞；第 12 题压轴多是现代科技装置＋电磁规律。",
+    "情境贴近国家科技成就：北斗、天问一号、空间站、光刻机、复兴号等。"
+  ],
+  "sources_note": "逐题考点综合网络整卷与考生回忆版整理（2022 年第 4 题缺失；2022 年第 2、3 题，2023 年全卷，2024 年第 1、2、5 题为回忆版，papers 里 recalled = true）。2026 年只查到压轴题零散信息，未计入。题目到知识点的映射为人工判断，AI 初稿，待教师审核。",
+  "topics": {
+    "cnp_h001": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h002": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h003": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h004": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h005": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 1.0,
+      "papers": [
+        {
+          "year": 2021,
+          "no": "9(1)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h006": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h007": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h008": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h009": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 1.33,
+      "papers": [
+        {
+          "year": 2023,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": true
+        }
+      ]
+    },
+    "cnp_h010": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h011": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h012": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h013": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h014": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 1.17,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h015": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h016": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h017": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h018": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h019": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 1.0,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "12",
+          "type": "计算",
+          "score": 18,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h020": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.83,
+      "papers": [
+        {
+          "year": 2021,
+          "no": "1",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h021": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h022": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 1.0,
+      "papers": [
+        {
+          "year": 2024,
+          "no": "9(2)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h023": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 0.69,
+      "papers": [
+        {
+          "year": 2023,
+          "no": "5",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2024,
+          "no": "5",
+          "type": "单选",
+          "score": 5,
+          "recalled": true
+        }
+      ]
+    },
+    "cnp_h024": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h025": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h026": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 0.92,
+      "papers": [
+        {
+          "year": 2023,
+          "no": "9(1)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        },
+        {
+          "year": 2024,
+          "no": "5",
+          "type": "单选",
+          "score": 5,
+          "recalled": true
+        }
+      ]
+    },
+    "cnp_h027": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h028": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h029": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h030": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 2.0,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "9(1)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "9(1)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h031": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.78,
+      "papers": [
+        {
+          "year": 2021,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h032": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h033": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h034": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h035": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h036": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h037": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.89,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h038": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h039": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.42,
+      "papers": [
+        {
+          "year": 2021,
+          "no": "5",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h040": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h041": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h042": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h043": {
+      "level": "高频",
+      "years": 6,
+      "hits": 6,
+      "avgScorePerYear": 4.58,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "2",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2021,
+          "no": "5",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2022,
+          "no": "3",
+          "type": "单选",
+          "score": 5,
+          "recalled": true
+        },
+        {
+          "year": 2023,
+          "no": "1",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2024,
+          "no": "7",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "1",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h044": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h045": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h046": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 0.69,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "8",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "5",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h047": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h048": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h049": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h050": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 1.19,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "8",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h051": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 1.56,
+      "papers": [
+        {
+          "year": 2024,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h052": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.5,
+      "papers": [
+        {
+          "year": 2023,
+          "no": "9(1)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h053": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h054": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h055": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 0.69,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "2",
+          "type": "单选",
+          "score": 5,
+          "recalled": true
+        },
+        {
+          "year": 2025,
+          "no": "8",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h056": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h057": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h058": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 0.69,
+      "papers": [
+        {
+          "year": 2024,
+          "no": "8",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "8",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h059": {
+      "level": "高频",
+      "years": 4,
+      "hits": 4,
+      "avgScorePerYear": 1.53,
+      "papers": [
+        {
+          "year": 2021,
+          "no": "8",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2022,
+          "no": "2",
+          "type": "单选",
+          "score": 5,
+          "recalled": true
+        },
+        {
+          "year": 2024,
+          "no": "8",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "8",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h060": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.42,
+      "papers": [
+        {
+          "year": 2023,
+          "no": "8",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h061": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 0.83,
+      "papers": [
+        {
+          "year": 2021,
+          "no": "8",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "8",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h062": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h063": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h064": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h065": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 2.83,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "12",
+          "type": "计算",
+          "score": 18,
+          "recalled": false
+        },
+        {
+          "year": 2022,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h066": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 2.22,
+      "papers": [
+        {
+          "year": 2024,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h067": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h068": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h069": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 1.0,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "12",
+          "type": "计算",
+          "score": 18,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h070": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.5,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "9(1)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h071": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 1.5,
+      "papers": [
+        {
+          "year": 2023,
+          "no": "9(2)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "9(2)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h072": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h073": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h074": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.5,
+      "papers": [
+        {
+          "year": 2023,
+          "no": "9(2)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h075": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.78,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h076": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h077": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h078": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h079": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h080": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.5,
+      "papers": [
+        {
+          "year": 2024,
+          "no": "9(1)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h081": {
+      "level": "高频",
+      "years": 4,
+      "hits": 4,
+      "avgScorePerYear": 3.5,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "9(2)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        },
+        {
+          "year": 2021,
+          "no": "9(2)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        },
+        {
+          "year": 2022,
+          "no": "9(2)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        },
+        {
+          "year": 2024,
+          "no": "9(1)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h082": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h083": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h084": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h085": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h086": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h087": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h088": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h089": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.21,
+      "papers": [
+        {
+          "year": 2025,
+          "no": "5",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h090": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.28,
+      "papers": [
+        {
+          "year": 2025,
+          "no": "3",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h091": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 0.56,
+      "papers": [
+        {
+          "year": 2023,
+          "no": "5",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "3",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h092": {
+      "level": "高频",
+      "years": 4,
+      "hits": 4,
+      "avgScorePerYear": 2.36,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        },
+        {
+          "year": 2021,
+          "no": "7",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2024,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "3",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h093": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 1.56,
+      "papers": [
+        {
+          "year": 2021,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h094": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.5,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "9(1)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h095": {
+      "level": "高频",
+      "years": 4,
+      "hits": 4,
+      "avgScorePerYear": 4.17,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        },
+        {
+          "year": 2022,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": true
+        },
+        {
+          "year": 2024,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h096": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h097": {
+      "level": "低频",
+      "years": 1,
+      "hits": 2,
+      "avgScorePerYear": 1.19,
+      "papers": [
+        {
+          "year": 2021,
+          "no": "7",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2021,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h098": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h099": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h100": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h101": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h102": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h103": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h104": {
+      "level": "中频",
+      "years": 3,
+      "hits": 3,
+      "avgScorePerYear": 1.25,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "4",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2021,
+          "no": "4",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2022,
+          "no": "5",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h105": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.42,
+      "papers": [
+        {
+          "year": 2023,
+          "no": "7",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h106": {
+      "level": "高频",
+      "years": 5,
+      "hits": 5,
+      "avgScorePerYear": 2.92,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "4",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2021,
+          "no": "4",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "7",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2024,
+          "no": "3",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "7",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h107": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h108": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.42,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "5",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h109": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h110": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.83,
+      "papers": [
+        {
+          "year": 2021,
+          "no": "2",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h111": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h112": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.28,
+      "papers": [
+        {
+          "year": 2024,
+          "no": "1",
+          "type": "单选",
+          "score": 5,
+          "recalled": true
+        }
+      ]
+    },
+    "cnp_h113": {
+      "level": "中频",
+      "years": 3,
+      "hits": 3,
+      "avgScorePerYear": 0.65,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "7",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2024,
+          "no": "1",
+          "type": "单选",
+          "score": 5,
+          "recalled": true
+        },
+        {
+          "year": 2025,
+          "no": "5",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h114": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h115": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 0.38,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "7",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "5",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h116": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 1.25,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "3",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "4",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h117": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h118": {
+      "level": "中频",
+      "years": 3,
+      "hits": 3,
+      "avgScorePerYear": 2.94,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        },
+        {
+          "year": 2022,
+          "no": "12",
+          "type": "计算",
+          "score": 18,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": true
+        }
+      ]
+    },
+    "cnp_h119": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h120": {
+      "level": "中频",
+      "years": 3,
+      "hits": 3,
+      "avgScorePerYear": 5.39,
+      "papers": [
+        {
+          "year": 2021,
+          "no": "12",
+          "type": "计算",
+          "score": 18,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "12",
+          "type": "计算",
+          "score": 18,
+          "recalled": true
+        },
+        {
+          "year": 2024,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h121": {
+      "level": "高频",
+      "years": 5,
+      "hits": 5,
+      "avgScorePerYear": 5.89,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "7",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2022,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "12",
+          "type": "计算",
+          "score": 18,
+          "recalled": true
+        },
+        {
+          "year": 2024,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h122": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 1.5,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "12",
+          "type": "计算",
+          "score": 18,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h123": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h124": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h125": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h126": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 1.94,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": true
+        }
+      ]
+    },
+    "cnp_h127": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 4.33,
+      "papers": [
+        {
+          "year": 2021,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "12",
+          "type": "计算",
+          "score": 18,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h128": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 2.17,
+      "papers": [
+        {
+          "year": 2021,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        },
+        {
+          "year": 2024,
+          "no": "4",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h129": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h130": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.42,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "6",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h131": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 3.0,
+      "papers": [
+        {
+          "year": 2024,
+          "no": "12",
+          "type": "计算",
+          "score": 18,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h132": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.83,
+      "papers": [
+        {
+          "year": 2021,
+          "no": "3",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h133": {
+      "level": "高频",
+      "years": 4,
+      "hits": 4,
+      "avgScorePerYear": 2.08,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "6",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2022,
+          "no": "8",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "6",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "6",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h134": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h135": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 0.83,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "8",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "6",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h136": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h137": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h138": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h139": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h140": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 0.58,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "3",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2022,
+          "no": "7",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h141": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h142": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h143": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h144": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h145": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h146": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h147": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h148": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h149": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h150": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h151": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h152": {
+      "level": "中频",
+      "years": 3,
+      "hits": 3,
+      "avgScorePerYear": 1.25,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "5",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2021,
+          "no": "6",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2024,
+          "no": "2",
+          "type": "单选",
+          "score": 5,
+          "recalled": true
+        }
+      ]
+    },
+    "cnp_h153": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 0.83,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "6",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "2",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h154": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.42,
+      "papers": [
+        {
+          "year": 2025,
+          "no": "4",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h155": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h156": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h157": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h158": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h159": {
+      "level": "高频",
+      "years": 6,
+      "hits": 6,
+      "avgScorePerYear": 2.5,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "5",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2021,
+          "no": "6",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2022,
+          "no": "6",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "2",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2024,
+          "no": "2",
+          "type": "单选",
+          "score": 5,
+          "recalled": true
+        },
+        {
+          "year": 2025,
+          "no": "4",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h160": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h161": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h162": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h163": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h164": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.28,
+      "papers": [
+        {
+          "year": 2024,
+          "no": "1",
+          "type": "单选",
+          "score": 5,
+          "recalled": true
+        }
+      ]
+    },
+    "cnp_h165": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.17,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "7",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h166": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.83,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "1",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h167": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h168": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.17,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "7",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h169": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "avgScorePerYear": 0.21,
+      "papers": [
+        {
+          "year": 2025,
+          "no": "5",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h170": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h171": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h172": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 0.69,
+      "papers": [
+        {
+          "year": 2024,
+          "no": "6",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "2",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h173": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 0.69,
+      "papers": [
+        {
+          "year": 2024,
+          "no": "6",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "2",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h174": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_h175": {
+      "level": "中频",
+      "years": 3,
+      "hits": 3,
+      "avgScorePerYear": 1.11,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "1",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "3",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "2",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h176": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "avgScorePerYear": 0.83,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "1",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "3",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_h177": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m001": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m002": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "papers": [
+        {
+          "year": 2023,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": true
+        }
+      ]
+    },
+    "cnp_m003": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m004": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m005": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m006": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m007": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m008": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m009": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        },
+        {
+          "year": 2024,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_m010": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m011": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m012": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "papers": [
+        {
+          "year": 2021,
+          "no": "5",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_m013": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "papers": [
+        {
+          "year": 2024,
+          "no": "7",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_m014": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "8",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_m015": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m016": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "papers": [
+        {
+          "year": 2024,
+          "no": "8",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_m017": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m018": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m019": {
+      "level": "高频",
+      "years": 4,
+      "hits": 4,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "9(2)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        },
+        {
+          "year": 2022,
+          "no": "9(2)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "9(2)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "9(2)",
+          "type": "实验",
+          "score": 6,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_m020": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m021": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m022": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m023": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m024": {
+      "level": "高频",
+      "years": 6,
+      "hits": 6,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        },
+        {
+          "year": 2021,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        },
+        {
+          "year": 2022,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": true
+        },
+        {
+          "year": 2024,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "10",
+          "type": "计算",
+          "score": 14,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_m025": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m026": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m027": {
+      "level": "高频",
+      "years": 4,
+      "hits": 4,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "7",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2022,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "12",
+          "type": "计算",
+          "score": 18,
+          "recalled": true
+        },
+        {
+          "year": 2024,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_m028": {
+      "level": "中频",
+      "years": 3,
+      "hits": 3,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "12",
+          "type": "计算",
+          "score": 18,
+          "recalled": false
+        },
+        {
+          "year": 2022,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_m029": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "papers": [
+        {
+          "year": 2021,
+          "no": "12",
+          "type": "计算",
+          "score": 18,
+          "recalled": false
+        },
+        {
+          "year": 2024,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_m030": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "papers": [
+        {
+          "year": 2021,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        },
+        {
+          "year": 2024,
+          "no": "4",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_m031": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m032": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m033": {
+      "level": "中频",
+      "years": 2,
+      "hits": 2,
+      "papers": [
+        {
+          "year": 2024,
+          "no": "12",
+          "type": "计算",
+          "score": 18,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "12",
+          "type": "计算",
+          "score": 18,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_m034": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "papers": [
+        {
+          "year": 2021,
+          "no": "11",
+          "type": "计算",
+          "score": 16,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_m035": {
+      "level": "中频",
+      "years": 3,
+      "hits": 3,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "8",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "6",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "6",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_m036": {
+      "level": "高频",
+      "years": 6,
+      "hits": 6,
+      "papers": [
+        {
+          "year": 2020,
+          "no": "5",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2021,
+          "no": "6",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2022,
+          "no": "6",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "2",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2024,
+          "no": "2",
+          "type": "单选",
+          "score": 5,
+          "recalled": true
+        },
+        {
+          "year": 2025,
+          "no": "4",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_m037": {
+      "level": "近年未考",
+      "years": 0
+    },
+    "cnp_m038": {
+      "level": "低频",
+      "years": 1,
+      "hits": 1,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "7",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    },
+    "cnp_m039": {
+      "level": "高频",
+      "years": 4,
+      "hits": 4,
+      "papers": [
+        {
+          "year": 2022,
+          "no": "1",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2023,
+          "no": "3",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2024,
+          "no": "6",
+          "type": "多选",
+          "score": 5,
+          "recalled": false
+        },
+        {
+          "year": 2025,
+          "no": "2",
+          "type": "单选",
+          "score": 5,
+          "recalled": false
+        }
+      ]
+    }
+  }
+}

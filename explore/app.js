@@ -23,6 +23,7 @@
   var selected = null;
   var currentAlias = null;
   var stage = '';
+  var tjTopics = {}, tjYears = '', tjYearCount = 0;
   var grade = '';
   var domain = '';
   var query = '';
@@ -150,6 +151,8 @@
     if (enHs) return enHs[1];
     var model = /^(高[一二]|选必[一二三]) (数学建模|数学探究) (\S+)$/.exec(text);
     if (model) return model[2] + ' ' + model[3];
+    var phyModel = /^(?:必修[一二三]|选必[一二三]) (高考模型|思想方法) \S+$/.exec(text);
+    if (phyModel) return '★ 高考模型与思想方法';
     var junior = /^\S+\s+(第\S+章)\s+(.+)$/.exec(text);
     if (junior) return junior[1] + ' ' + junior[2].replace(/\s+\d+(?:\.\d+)*$/, '');
     return text;
@@ -416,7 +419,9 @@
     parts.push(el('h1', { class: 'detail-title', text: topic.name }));
     parts.push(el('div', { class: 'pills' },
       el('span', { class: 'pill pill-' + (kind === 'primary' ? 'p' : kind === 'junior' ? 'j' : 'h'), text: stageLabel(topic.grade) }),
-      el('code', { class: 'id-code', text: topic.id })));
+      el('code', { class: 'id-code', text: topic.id }),
+      topic.layer ? el('span', { class: 'pill pill-h', text: topic.layer === 'method' ? '思想方法' : '高考模型' }) : null,
+      tjTopics[topic.id] ? el('span', { class: 'pill tj-pill tj-' + tjTopics[topic.id].level, text: '天津卷·' + tjTopics[topic.id].level }) : null));
     var diagHref = '../diagnose/?target=' + encodeURIComponent(topic.id);
     if (subject !== 'math') diagHref = '../diagnose/?subject=' + subject + '&target=' + encodeURIComponent(topic.id);
     parts.push(el('a', {
@@ -455,6 +460,24 @@
           return el('li', null,
             el('a', { href: '../explore/#' + encodeURIComponent(link.id) }, mathNames[link.id] || link.id),
             el('span', { class: 'muted', text: '：' + link.reason }));
+        }))));
+    }
+
+    if (topic.misconceptions && topic.misconceptions.length) {
+      parts.push(el('section', null,
+        el('h2', { text: '易错概念' }),
+        el('ul', { class: 'plain' }, topic.misconceptions.map(function (mc) {
+          return el('li', null, el('strong', { text: mc.text }), el('div', { class: 'muted', text: '纠正：' + mc.fix }));
+        }))));
+    }
+
+    var tj = tjTopics[topic.id];
+    if (tj && tj.papers && tj.papers.length) {
+      parts.push(el('section', null,
+        el('h2', { text: '天津卷考查记录（' + tjYears + '）' }),
+        el('p', { class: 'muted', text: '近 ' + tjYearCount + ' 年中有 ' + tj.years + ' 年考到' + (tj.avgScorePerYear ? '，平均每年约 ' + tj.avgScorePerYear + ' 分' : '') + '。带「回忆」的是考生回忆版。' }),
+        el('ul', { class: 'plain' }, tj.papers.map(function (h) {
+          return el('li', { text: h.year + ' 年 第 ' + h.no + ' 题（' + h.type + '，' + h.score + ' 分）' + (h.recalled ? ' · 回忆' : '') });
         }))));
     }
 
@@ -1149,6 +1172,17 @@
     deps = json[1].filter(function (edge) { return allow[edge.topicId] && allow[edge.prerequisiteId]; });
     aliases = (json[2] && json[2].aliases) || {};
     (json[3].items || []).forEach(function (item) { stdById.set(item.id, item); });
+    if (subject === 'physics') {
+      try {
+        var tjResp = await fetch('../data/regions/tianjin-physics.json');
+        if (tjResp.ok) {
+          var tjData = await tjResp.json();
+          tjTopics = tjData.topics || {};
+          tjYearCount = (tjData.years || []).length;
+          tjYears = tjYearCount ? tjData.years[0] + '–' + tjData.years[tjYearCount - 1] : '';
+        }
+      } catch (e) { /* 没有天津叠加层时不显示 */ }
+    }
     topics.forEach(function (topic, topicIndex) {
       byId.set(topic.id, topic);
       indexOf.set(topic.id, topicIndex);

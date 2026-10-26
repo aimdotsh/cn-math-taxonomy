@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>天津卷高中物理 · 知识图谱（试做版）</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="tianjin.css">
+</head>
+<body class="page-tj">
+<header class="site-header">
+  <a class="brand" href="../">
+    <span class="brand-copy">
+      <span class="brand-name">天津卷 · 高中物理</span>
+      <span class="brand-kicker">人教版 2019 · 考频 · 模型 · 易错</span>
+    </span>
+  </a>
+  <nav class="site-nav" aria-label="主导航">
+    <div class="page-links">
+      <a class="nav-link" href="../">首页</a>
+      <a class="nav-link" href="../explore/?subject=physics">全国通用图谱</a>
+      <a class="nav-link active" href="./" aria-current="page">天津专题</a>
+    </div>
+  </nav>
+</header>
+
+<main class="tj">
+  <section class="tj-hero">
+    <h1>天津卷高中物理知识图谱 <small>试做版</small></h1>
+    <p class="lead">在人教版 2019 六册 177 个章节点之上，叠加三层：<b>天津卷考频</b>（2020–2025 逐题考点）、<b>典型模型与方法</b>、<b>易错概念</b>。AI 生成初稿，未经教师审核。</p>
+    <div id="stats" class="tj-stats"></div>
+    <div id="exam" class="tj-exam"></div>
+  </section>
+
+  <nav class="tj-tabs" role="tablist">
+    <button class="on" data-tab="heat">考频热力图</button>
+    <button data-tab="models">模型与易错</button>
+    <button data-tab="papers">历年真题</button>
+  </nav>
+
+  <section id="tab-heat" class="tj-tab on">
+    <div class="legend">
+      <span class="chip t-must">必考 ≥5 年</span><span class="chip t-high">高频 3–4 年</span><span class="chip t-some">常考 1–2 年</span><span class="chip t-none">未考</span>
+      <span class="hint">点任一知识点，看它关联的天津卷模型与真题</span>
+    </div>
+    <div id="heat"></div>
+  </section>
+
+  <section id="tab-models" class="tj-tab">
+    <div class="tj-three">
+      <aside id="mlist" class="tj-side"></aside>
+      <div class="tj-center">
+        <div class="graph-head"><span id="gtitle">选择左侧模型</span><button id="fit" type="button">适配画面</button></div>
+        <div id="cy"></div>
+        <div class="legend small">
+          <span class="chip k-model">模型/方法</span><span class="chip k-ch">教材章节点</span><span class="chip k-mis">易错概念</span>
+          <span class="hint">实线 hard，虚线 soft；箭头指向先修</span>
+        </div>
+      </div>
+      <article id="detail" class="tj-detail"></article>
+    </div>
+  </section>
+
+  <section id="tab-papers" class="tj-tab">
+    <p class="hint">2022 第 4 题缺失；标 ※ 的条目来自回忆版或分值按惯例推定。2026 只有压轴题线索。</p>
+    <div id="papers"></div>
+  </section>
+</main>
+
+<script src="../assets/vendor/cytoscape.min.js"></script>
+<script src="../assets/vendor/dagre.min.js"></script>
+<script src="../assets/vendor/cytoscape-dagre.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

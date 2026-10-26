@@ -1,0 +1,725 @@
+{
+  "note": "高中物理易错概念（模型与方法层登记）。choiceTags：题目 id → {错误选项字母: 易错概念 id}，诊断答错时可直接定位易错概念。AI 初稿，未经教师审核。",
+  "misconceptions": [
+    {
+      "id": "mc_graph_xt_path",
+      "topicId": "cnp_m001",
+      "text": "把 x-t 或 v-t 图线当成物体的运动轨迹",
+      "fix": "图像只表示一个量随时间变化，直线运动的图线弯曲不等于物体走曲线"
+    },
+    {
+      "id": "mc_graph_vt_sign",
+      "topicId": "cnp_m001",
+      "text": "以为 v-t 图线穿过时间轴时加速度方向改变",
+      "fix": "斜率不变加速度就不变；穿过时间轴只表示速度方向改变"
+    },
+    {
+      "id": "mc_graph_area",
+      "topicId": "cnp_m001",
+      "text": "求位移时把时间轴下方的面积也当正值相加",
+      "fix": "时间轴下方的面积表示反向位移，求位移要带正负号"
+    },
+    {
+      "id": "mc_chase_equal_meet",
+      "topicId": "cnp_m002",
+      "text": "把「速度相等」和「追上」混为一谈",
+      "fix": "速度相等是距离取极值的时刻；追上要看位移关系"
+    },
+    {
+      "id": "mc_chase_brake_stop",
+      "topicId": "cnp_m002",
+      "text": "刹车问题直接代入题给时间，不判断车是否已经停下",
+      "fix": "先算停车时间 t₀ = v₀/a，题给时间超过 t₀ 时按停车时的位移算"
+    },
+    {
+      "id": "mc_dyneq_all_change",
+      "topicId": "cnp_m003",
+      "text": "以为动态平衡中各力都会变化，不去找不变的力",
+      "fix": "先找出大小、方向都不变的力和方向不变的力，再画矢量三角形"
+    },
+    {
+      "id": "mc_dyneq_min",
+      "topicId": "cnp_m003",
+      "text": "以为方向改变的力一定单调变化",
+      "fix": "方向改变的力在与方向不变的力垂直时最小，常是先减小后增大"
+    },
+    {
+      "id": "mc_incline_normal",
+      "topicId": "cnp_m004",
+      "text": "以为斜面对物体的支持力等于 mg",
+      "fix": "支持力等于 mg cosθ（无其他垂直斜面的力时）"
+    },
+    {
+      "id": "mc_incline_up_down",
+      "topicId": "cnp_m004",
+      "text": "以为物体上滑和下滑的加速度大小相同",
+      "fix": "上滑时摩擦力沿斜面向下，a = g(sinθ + μcosθ)；下滑时 a = g(sinθ − μcosθ)"
+    },
+    {
+      "id": "mc_instant_spring_jump",
+      "topicId": "cnp_m005",
+      "text": "以为剪断瞬间弹簧弹力也立刻变为零或突变",
+      "fix": "两端连物体的轻弹簧，剪断别处的瞬间弹力保持原值"
+    },
+    {
+      "id": "mc_instant_rope_keep",
+      "topicId": "cnp_m005",
+      "text": "以为剪断一根绳的瞬间，另一根轻绳的拉力不变",
+      "fix": "轻绳拉力可以突变，要按剪断后的运动状态重新分析"
+    },
+    {
+      "id": "mc_conveyor_friction_dir",
+      "topicId": "cnp_m006",
+      "text": "以为摩擦力方向总与传送带运动方向相反",
+      "fix": "摩擦力方向与物块相对传送带的运动方向相反"
+    },
+    {
+      "id": "mc_conveyor_after_equal",
+      "topicId": "cnp_m006",
+      "text": "以为共速后物块一定和传送带一起匀速，或仍保持原加速度",
+      "fix": "共速后重新受力分析：水平带一起匀速；倾斜带若 μ < tanθ 继续以 g(sinθ − μcosθ) 加速"
+    },
+    {
+      "id": "mc_board_same_a",
+      "topicId": "cnp_m007",
+      "text": "以为滑块和木板总是一起运动、加速度相同",
+      "fix": "先假设相对静止求共同加速度，再与最大静摩擦提供的加速度比较"
+    },
+    {
+      "id": "mc_board_friction_dir",
+      "topicId": "cnp_m007",
+      "text": "认为木板受到的摩擦力方向与滑块运动方向相反",
+      "fix": "木板受的摩擦力是滑块对它的反作用力，滑块相对木板向前滑时它向前"
+    },
+    {
+      "id": "mc_incprj_angle",
+      "topicId": "cnp_m008",
+      "text": "以为初速度越大，落到斜面时速度与斜面的夹角越大",
+      "fix": "tanα = 2tanθ，夹角与初速度无关"
+    },
+    {
+      "id": "mc_incprj_disp_vel",
+      "topicId": "cnp_m008",
+      "text": "把位移方向角和速度方向角混为一谈",
+      "fix": "落在斜面上时位移角等于 θ，速度角 α 满足 tanα = 2tanθ"
+    },
+    {
+      "id": "mc_vc_rope_zero",
+      "topicId": "cnp_m009",
+      "text": "以为绳模型最高点的速度可以为零",
+      "fix": "绳只能拉，最高点至少由重力提供向心力，v ≥ √(gR)"
+    },
+    {
+      "id": "mc_vc_rod_min",
+      "topicId": "cnp_m009",
+      "text": "以为杆模型最高点杆对球总是拉力",
+      "fix": "v < √(gR) 时杆提供支持力，v > √(gR) 时才是拉力"
+    },
+    {
+      "id": "mc_turn_centrifugal",
+      "topicId": "cnp_m010",
+      "text": "以为物体受到「离心力」",
+      "fix": "受力分析中没有离心力，向心力是某个实际力或合力的效果"
+    },
+    {
+      "id": "mc_turn_mass",
+      "topicId": "cnp_m010",
+      "text": "以为质量大的物体先滑动",
+      "fix": "临界角速度 √(μg/r) 与质量无关，半径大的先滑动"
+    },
+    {
+      "id": "mc_ds_radius",
+      "topicId": "cnp_m011",
+      "text": "把万有引力公式中的两星距离当成轨道半径",
+      "fix": "引力用 L，向心力用各自的 r，r₁ + r₂ = L"
+    },
+    {
+      "id": "mc_ds_speed",
+      "topicId": "cnp_m011",
+      "text": "以为质量大的星线速度大",
+      "fix": "质量大的星轨道半径小，角速度相同，线速度也小"
+    },
+    {
+      "id": "mc_orbit_speedup",
+      "topicId": "cnp_m012",
+      "text": "以为到高轨道要减速，或高轨道速度更大",
+      "fix": "低轨道加速做离心运动才能升高；稳定后高轨道速度更小"
+    },
+    {
+      "id": "mc_orbit_accel_point",
+      "topicId": "cnp_m012",
+      "text": "以为同一点在不同轨道上加速度不同",
+      "fix": "加速度 a = GM/r² 只与位置有关"
+    },
+    {
+      "id": "mc_eq_gravity_only",
+      "topicId": "cnp_m013",
+      "text": "以为赤道上的物体也是万有引力完全提供向心力",
+      "fix": "赤道上的物体受万有引力和支持力，二者合力才是向心力，远小于万有引力"
+    },
+    {
+      "id": "mc_eq_same_formula",
+      "topicId": "cnp_m013",
+      "text": "用 v = √(GM/r) 去比较赤道上的物体和卫星",
+      "fix": "赤道物体与同步卫星比较用相同的 ω；卫星之间比较才用 √(GM/r)"
+    },
+    {
+      "id": "mc_vs_const_power_accel",
+      "topicId": "cnp_m014",
+      "text": "以为恒定功率启动是匀加速运动",
+      "fix": "P 不变、v 增大则 F 减小，加速度减小"
+    },
+    {
+      "id": "mc_vs_max_speed",
+      "topicId": "cnp_m014",
+      "text": "以为匀加速结束时的速度就是最大速度",
+      "fix": "匀加速结束时功率刚达额定值，但 F > f，之后还要加速"
+    },
+    {
+      "id": "mc_mpe_friction_path",
+      "topicId": "cnp_m015",
+      "text": "以为滑动摩擦力做功只与初末位置的位移有关",
+      "fix": "滑动摩擦力做功等于 −f × 路程"
+    },
+    {
+      "id": "mc_mpe_cons_condition",
+      "topicId": "cnp_m015",
+      "text": "有摩擦力做功时仍用机械能守恒",
+      "fix": "机械能守恒只在只有重力、弹力做功时成立，否则用动能定理"
+    },
+    {
+      "id": "mc_fg_phi_slope",
+      "topicId": "cnp_m016",
+      "text": "把 φ-x 图像的纵坐标（电势）当成场强，以为电势为零处场强为零",
+      "fix": "场强看切线斜率，电势高低与场强大小没有必然关系"
+    },
+    {
+      "id": "mc_fg_ep_sign",
+      "topicId": "cnp_m016",
+      "text": "以为电势降低时任何电荷的电势能都减少",
+      "fix": "Ep = qφ，负电荷在电势低处电势能反而大"
+    },
+    {
+      "id": "mc_cap_U_const",
+      "topicId": "cnp_m017",
+      "text": "断开电源后仍以为两板电压不变",
+      "fix": "断开电源后电荷无处可去，Q 不变，U 随 C 变化"
+    },
+    {
+      "id": "mc_cap_E_d",
+      "topicId": "cnp_m017",
+      "text": "Q 不变时以为板距增大场强减小",
+      "fix": "E = U/d = Q/(Cd) = 4πkQ/(εS)，与 d 无关"
+    },
+    {
+      "id": "mc_acf_back",
+      "topicId": "cnp_m018",
+      "text": "以为电场一反向粒子就立即反向运动",
+      "fix": "电场反向只使加速度反向，粒子先减速，速度减到零后才反向"
+    },
+    {
+      "id": "mc_acf_release",
+      "topicId": "cnp_m018",
+      "text": "忽略释放时刻对运动形式的影响",
+      "fix": "t = 0 释放可能单向运动，t = T/4 释放则往复运动，要画 v-t 图判断"
+    },
+    {
+      "id": "mc_cc_inner_outer",
+      "topicId": "cnp_m019",
+      "text": "小电阻也用电流表内接法",
+      "fix": "小电阻与电流表内阻可比，内接会把电流表分压算进去，误差大，应外接"
+    },
+    {
+      "id": "mc_cc_divider",
+      "topicId": "cnp_m019",
+      "text": "要求电压从零开始调节时仍用限流式接法",
+      "fix": "限流式电压不能调到零，必须用分压式"
+    },
+    {
+      "id": "mc_rs_equiv",
+      "topicId": "cnp_m020",
+      "text": "以为等效替代时可以重新调节电路其他部分",
+      "fix": "替代前后电路其他部分必须保持不变，只换待测元件"
+    },
+    {
+      "id": "mc_rs_halfbias_err",
+      "topicId": "cnp_m020",
+      "text": "以为半偏法测得的电流表内阻偏大",
+      "fix": "并联电阻箱后总电流略增大，电阻箱分得电流大于一半，测量值偏小"
+    },
+    {
+      "id": "mc_bb_energy_cons",
+      "topicId": "cnp_m021",
+      "text": "以为子弹打木块过程机械能守恒",
+      "fix": "子弹嵌入木块是完全非弹性碰撞，有大量机械能转化为内能"
+    },
+    {
+      "id": "mc_bb_heat_disp",
+      "topicId": "cnp_m021",
+      "text": "求摩擦生热时用子弹或木块的对地位移",
+      "fix": "Q = f·Δx，Δx 是相对位移"
+    },
+    {
+      "id": "mc_sc_max_pe",
+      "topicId": "cnp_m022",
+      "text": "以为弹簧最短时前面的物体速度为零",
+      "fix": "弹簧最短时两物体速度相同，相对速度为零"
+    },
+    {
+      "id": "mc_sc_restore",
+      "topicId": "cnp_m022",
+      "text": "以为弹簧恢复原长时两物体速度相同",
+      "fix": "恢复原长时弹性势能为零，相当于弹性碰撞后的状态，两者速度一般不同"
+    },
+    {
+      "id": "mc_mb_ground_disp",
+      "topicId": "cnp_m023",
+      "text": "把人相对船的位移当成人的对地位移",
+      "fix": "人对地位移 + 船对地位移 = 船长（相对位移）"
+    },
+    {
+      "id": "mc_mb_inertia",
+      "topicId": "cnp_m023",
+      "text": "以为人停下后船由于惯性继续运动",
+      "fix": "总动量始终为零，人停下的瞬间船也停下"
+    },
+    {
+      "id": "mc_mb_speed",
+      "topicId": "cnp_m023",
+      "text": "以为人走得越快，船移动的距离越大",
+      "fix": "位移比只由质量比决定，与速度大小无关"
+    },
+    {
+      "id": "mc_mec_whole_process",
+      "topicId": "cnp_m024",
+      "text": "对包含碰撞的全过程直接用机械能守恒",
+      "fix": "非弹性碰撞瞬间有机械能损失，必须分段处理"
+    },
+    {
+      "id": "mc_mec_direction",
+      "topicId": "cnp_m024",
+      "text": "列动量守恒式时不规定正方向，速度方向弄错",
+      "fix": "先规定正方向，反向速度代负值"
+    },
+    {
+      "id": "mc_wm_single",
+      "topicId": "cnp_m025",
+      "text": "只考虑一个传播方向或最小的平移距离，得到唯一解",
+      "fix": "方向不确定时两个方向都要考虑，并加上 nλ"
+    },
+    {
+      "id": "mc_wm_period",
+      "topicId": "cnp_m025",
+      "text": "把两个时刻的时间间隔直接当成周期或半周期",
+      "fix": "Δt 与 T 的关系由波形平移距离决定：Δt = (n + Δx/λ)T"
+    },
+    {
+      "id": "mc_gb_angle",
+      "topicId": "cnp_m026",
+      "text": "把光线与界面的夹角当成入射角或折射角",
+      "fix": "入射角、折射角是光线与法线的夹角"
+    },
+    {
+      "id": "mc_gb_tir_dir",
+      "topicId": "cnp_m026",
+      "text": "以为光从空气射入玻璃也能发生全反射",
+      "fix": "全反射只发生在光从光密介质射向光疏介质时"
+    },
+    {
+      "id": "mc_bf_center",
+      "topicId": "cnp_m027",
+      "text": "找圆心时随意取点，不用速度垂线定圆心",
+      "fix": "圆心在入射、出射速度方向的垂线上，或在弦的中垂线上"
+    },
+    {
+      "id": "mc_bf_time",
+      "topicId": "cnp_m027",
+      "text": "以为速度越大，粒子在磁场中运动时间越长",
+      "fix": "周期 T = 2πm/(qB) 与速度无关，时间只取决于圆心角"
+    },
+    {
+      "id": "mc_cf_entry_speed",
+      "topicId": "cnp_m028",
+      "text": "粒子从偏转电场进入磁场时只用水平分速度求半径",
+      "fix": "进入磁场的速度是合速度 v = v₀/cosθ"
+    },
+    {
+      "id": "mc_cf_field_work",
+      "topicId": "cnp_m028",
+      "text": "以为洛伦兹力也会做功改变速率",
+      "fix": "洛伦兹力始终垂直速度，不做功"
+    },
+    {
+      "id": "mc_cf_r_U",
+      "topicId": "cnp_m028",
+      "text": "以为半径与加速电压成正比",
+      "fix": "v = √(2qU/m)，r ∝ √U"
+    },
+    {
+      "id": "mc_sf_charge_sign",
+      "topicId": "cnp_m029",
+      "text": "以为速度选择器只对一种电性的粒子有效",
+      "fix": "正负粒子所受电场力和洛伦兹力都同时反向，仍能平衡"
+    },
+    {
+      "id": "mc_sf_hall_sign",
+      "topicId": "cnp_m029",
+      "text": "判断霍尔电势高低时不区分载流子是正电荷还是电子",
+      "fix": "先用左手定则判断载流子偏向哪侧，电子偏向的一侧电势低"
+    },
+    {
+      "id": "mc_sr_uniform",
+      "topicId": "cnp_m030",
+      "text": "以为恒力拉动导体棒时棒做匀加速运动",
+      "fix": "安培力随速度增大，加速度减小，最终匀速"
+    },
+    {
+      "id": "mc_sr_heat",
+      "topicId": "cnp_m030",
+      "text": "用 Q = I²Rt 且电流取某一时刻值求焦耳热",
+      "fix": "电流变化时用能量守恒：Q = W外 − ΔEk"
+    },
+    {
+      "id": "mc_dr_final",
+      "topicId": "cnp_m031",
+      "text": "以为两根导体棒最终都会静止",
+      "fix": "等宽无外力时最终共速，相对速度为零，电流消失"
+    },
+    {
+      "id": "mc_dr_momentum",
+      "topicId": "cnp_m031",
+      "text": "导轨不等宽时仍用系统动量守恒",
+      "fix": "不等宽时两棒安培力大小不等，系统合外力不为零"
+    },
+    {
+      "id": "mc_fc_full_inside",
+      "topicId": "cnp_m032",
+      "text": "以为线框完全在磁场中运动时也有感应电流",
+      "fix": "磁通量不变就没有感应电流"
+    },
+    {
+      "id": "mc_fc_dir",
+      "topicId": "cnp_m032",
+      "text": "以为线框进入和离开磁场时电流方向相同",
+      "fix": "进入时磁通量增加，离开时减少，电流方向相反"
+    },
+    {
+      "id": "mc_rc_endpoint_speed",
+      "topicId": "cnp_m033",
+      "text": "转动切割时用棒端点速度 ωL 代入 E = BLv",
+      "fix": "棒上各点速度从 0 到 ωL 线性分布，应取平均值 ωL/2"
+    },
+    {
+      "id": "mc_rc_peak_position",
+      "topicId": "cnp_m033",
+      "text": "以为线圈平面与磁场垂直时电动势最大",
+      "fix": "垂直时磁通量最大，但变化率为零，电动势为零"
+    },
+    {
+      "id": "mc_im_charge",
+      "topicId": "cnp_m034",
+      "text": "求安培力冲量时用某一时刻的电流乘时间",
+      "fix": "电流在变，冲量 = B·L·(I平均·t) = BLq"
+    },
+    {
+      "id": "mc_im_avg",
+      "topicId": "cnp_m034",
+      "text": "把安培力当恒力，用匀变速运动公式求位移",
+      "fix": "安培力随速度减小，位移要用 q = BLx/R 求"
+    },
+    {
+      "id": "mc_td_cause",
+      "topicId": "cnp_m035",
+      "text": "以为原线圈电流不随负载变化，或因果顺序搞反",
+      "fix": "输出决定输入：负载变 → I₂ 变 → I₁ 变"
+    },
+    {
+      "id": "mc_td_line_loss",
+      "topicId": "cnp_m035",
+      "text": "用输电电压直接求线路损耗 P = U²/R线",
+      "fix": "损耗用导线上的电流或电压降：P损 = I²R线 = ΔU²/R线"
+    },
+    {
+      "id": "mc_cp_pressure",
+      "topicId": "cnp_m036",
+      "text": "不对活塞受力分析，直接把封闭气体压强当成大气压",
+      "fix": "竖直气缸中活塞重力、外力都会影响气体压强"
+    },
+    {
+      "id": "mc_cp_W_sign",
+      "topicId": "cnp_m036",
+      "text": "气体膨胀时以为外界对气体做功，或等温膨胀时以为内能增加",
+      "fix": "体积增大气体对外做功 W < 0；理想气体温度不变内能不变"
+    },
+    {
+      "id": "mc_lc_pressure_cm",
+      "topicId": "cnp_m037",
+      "text": "开口向下时仍用 p₀ + h",
+      "fix": "开口向下时水银柱重力向下，气体压强比大气压小 h"
+    },
+    {
+      "id": "mc_lc_isobaric",
+      "topicId": "cnp_m037",
+      "text": "以为温度升高封闭气体压强一定增大",
+      "fix": "开口向上、水银柱可自由移动时，压强由水银柱和大气压决定，保持不变，体积增大"
+    },
+    {
+      "id": "mc_lc_length",
+      "topicId": "cnp_m037",
+      "text": "用玻璃管总长代替气柱长度计算",
+      "fix": "玻意耳定律中的 L 是气柱长度"
+    },
+    {
+      "id": "mc_lp_count",
+      "topicId": "cnp_m038",
+      "text": "一群处于 n 能级的原子以为只能发出 n − 1 种光",
+      "fix": "一群原子可以经各种途径跃迁，最多 C(n,2) 种"
+    },
+    {
+      "id": "mc_lp_intensity",
+      "topicId": "cnp_m038",
+      "text": "以为光照强度越大，光电子最大初动能越大",
+      "fix": "最大初动能只由频率和逸出功决定，光强只影响光电子数目"
+    },
+    {
+      "id": "mc_ne_mass_number",
+      "topicId": "cnp_m039",
+      "text": "以为核反应中质量也守恒",
+      "fix": "质量数守恒不等于质量守恒，释放核能伴随质量亏损"
+    },
+    {
+      "id": "mc_ne_beta_source",
+      "topicId": "cnp_m039",
+      "text": "以为 β 衰变放出的电子来自核外",
+      "fix": "β 电子来自核内：一个中子转化为一个质子和一个电子"
+    }
+  ],
+  "choiceTags": {
+    "cnp_m001_q1": {
+      "A": "mc_graph_xt_path",
+      "C": "mc_graph_xt_path"
+    },
+    "cnp_m001_q3": {
+      "A": "mc_graph_vt_sign",
+      "C": "mc_graph_area"
+    },
+    "cnp_m002_q1": {
+      "A": "mc_chase_equal_meet",
+      "B": "mc_chase_brake_stop"
+    },
+    "cnp_m003_q1": {
+      "A": "mc_dyneq_min",
+      "B": "mc_dyneq_all_change"
+    },
+    "cnp_m003_q3": {
+      "A": "mc_dyneq_all_change"
+    },
+    "cnp_m004_q1": {
+      "B": "mc_incline_normal"
+    },
+    "cnp_m004_q3": {
+      "A": "mc_incline_normal"
+    },
+    "cnp_m005_q1": {
+      "A": "mc_instant_spring_jump"
+    },
+    "cnp_m005_q3": {
+      "A": "mc_instant_rope_keep"
+    },
+    "cnp_m006_q1": {
+      "A": "mc_conveyor_friction_dir"
+    },
+    "cnp_m006_q4": {
+      "A": "mc_conveyor_after_equal",
+      "C": "mc_conveyor_after_equal"
+    },
+    "cnp_m007_q1": {
+      "B": "mc_board_friction_dir"
+    },
+    "cnp_m008_q1": {
+      "A": "mc_incprj_angle"
+    },
+    "cnp_m008_q4": {
+      "B": "mc_incprj_disp_vel"
+    },
+    "cnp_m009_q1": {
+      "A": "mc_vc_rope_zero"
+    },
+    "cnp_m009_q4": {
+      "B": "mc_vc_rod_min"
+    },
+    "cnp_m010_q1": {
+      "A": "mc_turn_centrifugal"
+    },
+    "cnp_m010_q3": {
+      "A": "mc_turn_mass"
+    },
+    "cnp_m011_q1": {
+      "A": "mc_ds_radius",
+      "C": "mc_ds_speed"
+    },
+    "cnp_m011_q4": {
+      "A": "mc_ds_speed"
+    },
+    "cnp_m012_q1": {
+      "A": "mc_orbit_speedup"
+    },
+    "cnp_m012_q2": {
+      "A": "mc_orbit_accel_point"
+    },
+    "cnp_m013_q1": {
+      "B": "mc_eq_same_formula",
+      "C": "mc_eq_gravity_only"
+    },
+    "cnp_m013_q2": {
+      "B": "mc_eq_same_formula",
+      "C": "mc_eq_gravity_only"
+    },
+    "cnp_m014_q1": {
+      "A": "mc_vs_const_power_accel"
+    },
+    "cnp_m014_q4": {
+      "B": "mc_vs_max_speed"
+    },
+    "cnp_m015_q1": {
+      "A": "mc_mpe_friction_path",
+      "B": "mc_mpe_cons_condition"
+    },
+    "cnp_m016_q1": {
+      "A": "mc_fg_phi_slope"
+    },
+    "cnp_m016_q3": {
+      "B": "mc_fg_ep_sign"
+    },
+    "cnp_m017_q1": {
+      "A": "mc_cap_U_const"
+    },
+    "cnp_m017_q3": {
+      "B": "mc_cap_E_d",
+      "C": "mc_cap_U_const"
+    },
+    "cnp_m018_q1": {
+      "A": "mc_acf_back"
+    },
+    "cnp_m018_q3": {
+      "B": "mc_acf_release"
+    },
+    "cnp_m019_q1": {
+      "B": "mc_cc_inner_outer"
+    },
+    "cnp_m019_q3": {
+      "A": "mc_cc_divider"
+    },
+    "cnp_m020_q1": {
+      "A": "mc_rs_equiv"
+    },
+    "cnp_m020_q3": {
+      "B": "mc_rs_halfbias_err"
+    },
+    "cnp_m021_q1": {
+      "B": "mc_bb_energy_cons"
+    },
+    "cnp_m022_q1": {
+      "A": "mc_sc_max_pe",
+      "B": "mc_sc_restore"
+    },
+    "cnp_m022_q4": {
+      "A": "mc_sc_restore"
+    },
+    "cnp_m023_q1": {
+      "B": "mc_mb_inertia"
+    },
+    "cnp_m023_q4": {
+      "A": "mc_mb_speed",
+      "B": "mc_mb_ground_disp"
+    },
+    "cnp_m024_q1": {
+      "A": "mc_mec_whole_process"
+    },
+    "cnp_m025_q1": {
+      "B": "mc_wm_single",
+      "D": "mc_wm_period"
+    },
+    "cnp_m025_q4": {
+      "A": "mc_wm_single",
+      "B": "mc_wm_single"
+    },
+    "cnp_m026_q1": {
+      "A": "mc_gb_tir_dir"
+    },
+    "cnp_m027_q1": {
+      "A": "mc_bf_center"
+    },
+    "cnp_m027_q4": {
+      "A": "mc_bf_time"
+    },
+    "cnp_m028_q1": {
+      "B": "mc_cf_field_work"
+    },
+    "cnp_m028_q4": {
+      "B": "mc_cf_r_U",
+      "C": "mc_cf_field_work"
+    },
+    "cnp_m029_q1": {
+      "A": "mc_sf_charge_sign"
+    },
+    "cnp_m029_q4": {
+      "A": "mc_sf_hall_sign"
+    },
+    "cnp_m030_q1": {
+      "A": "mc_sr_uniform"
+    },
+    "cnp_m031_q1": {
+      "A": "mc_dr_final"
+    },
+    "cnp_m031_q4": {
+      "A": "mc_dr_momentum"
+    },
+    "cnp_m032_q1": {
+      "A": "mc_fc_full_inside"
+    },
+    "cnp_m032_q4": {
+      "A": "mc_fc_dir",
+      "C": "mc_fc_full_inside"
+    },
+    "cnp_m033_q1": {
+      "B": "mc_rc_endpoint_speed"
+    },
+    "cnp_m033_q3": {
+      "A": "mc_rc_peak_position"
+    },
+    "cnp_m034_q1": {
+      "A": "mc_im_charge"
+    },
+    "cnp_m034_q4": {
+      "B": "mc_im_avg"
+    },
+    "cnp_m035_q1": {
+      "A": "mc_td_cause"
+    },
+    "cnp_m035_q4": {
+      "A": "mc_td_line_loss"
+    },
+    "cnp_m036_q1": {
+      "A": "mc_cp_W_sign"
+    },
+    "cnp_m037_q1": {
+      "A": "mc_lc_pressure_cm"
+    },
+    "cnp_m037_q4": {
+      "A": "mc_lc_isobaric"
+    },
+    "cnp_m038_q1": {
+      "A": "mc_lp_count"
+    },
+    "cnp_m038_q4": {
+      "A": "mc_lp_intensity"
+    },
+    "cnp_m039_q1": {
+      "B": "mc_ne_mass_number"
+    },
+    "cnp_m039_q4": {
+      "A": "mc_ne_beta_source"
+    }
+  }
+}

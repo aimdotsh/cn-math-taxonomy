@@ -502,6 +502,9 @@
     // 高中数学不拆上下册。高一/高二是必修两册，选必一/二/三是选择性必修三册。
     const hs = /^(高[一二]|选必[一二三]) (数学建模|数学探究) (\S+)$/.exec(s);
     if (hs) return { volume: hs[1], chapterNo: hs[2], chapterName: hs[3], section: '' };
+    // 高中物理模型与方法层（cnp_m）：「必修一 高考模型 板块模型」「选必二 思想方法 电磁感应中的动量定理」
+    const pm2 = /^(必修[一二三]|选必[一二三]) (高考模型|思想方法) (\S+)$/.exec(s);
+    if (pm2) return { volume: pm2[1], chapterNo: pm2[2], chapterName: pm2[3], section: '' };
     const m = /^(\S+) (第\S+章) (\S+?)(?: (\S+))?$/.exec(s);
     if (!m) return { volume: '', chapterNo: '', chapterName: s, section: '' };
     return { volume: m[1], chapterNo: m[2], chapterName: m[3], section: m[4] || '' };

@@ -1,0 +1,770 @@
+{
+ "structure": {
+  "exam": "天津市普通高中学业水平等级性考试 物理（天津卷，天津市教育招生考试院自主命题）",
+  "full_score": 100,
+  "duration_min": 60,
+  "default_2020_2025": {
+   "单选": "第1-5题，每题5分，共25分",
+   "多选(不定项)": "第6-8题，每题5分，共15分（2020称‘不定项选择题’）",
+   "实验": "第9题分(1)(2)两小题，通常一力一电，各约6分，共12分",
+   "计算": "第10/11/12题，分值14/16/18，共48分",
+   "第II卷": "本卷共4题，共60分"
+  },
+  "by_year": {
+   "2020": "同上（PDF称‘二、不定项选择题’）",
+   "2021": "同上（PDF：‘本卷共8题，每题5分，共40分’‘本卷共4题，共60分’）",
+   "2022": "同上",
+   "2023": "同上（回忆版把两实验写成9、10题，共13题编号）",
+   "2024": "同上（学科网版标注‘实验题共6空每空2分’‘计算题一般是14+16+18’）",
+   "2025": "单选5题25分+多选3题15分+非选择题4题60分（9(1)6分、9(2)6分、10题14分、11题16分、12题18分）",
+   "2026": "未见官方结构变化报道；考试6月9日8:30-9:30，60分钟100分（来源6617/Neodrop）"
+  },
+  "sources": [
+   "http://www.jdxzz.com/gkzx/2025/1224/10351091.html",
+   "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+   "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html",
+   "https://www.douyin.com/shipin/7509927426290534434",
+   "https://www.zdushi.com/news/show_3830287.html"
+  ]
+ },
+ "papers": [
+  {
+   "year": 2020,
+   "paper_note": "整卷（解析卷）；原PDF按1-13连续编号，此处换算为天津官方题号9(1)(2)/10/11/12",
+   "questions": [
+    {
+     "no": 1,
+     "type": "单选",
+     "score": 5,
+     "topic": "物理学史：α粒子散射实验与原子核式结构（四个经典实验图示辨析）",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+     "context": "物理学史"
+    },
+    {
+     "no": 2,
+     "type": "单选",
+     "score": 5,
+     "topic": "万有引力与航天：地球静止轨道卫星与近地卫星周期、线速度、角速度、加速度比较",
+     "model": "卫星轨道比较（高轨低速长周期）",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+     "context": "北斗三号收官之星"
+    },
+    {
+     "no": 3,
+     "type": "单选",
+     "score": 5,
+     "topic": "电磁波谱：红外线与紫外线的光子能量、波长、传播速度、偏振",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+     "context": "新冠疫情红外测温/紫外消杀"
+    },
+    {
+     "no": 4,
+     "type": "单选",
+     "score": 5,
+     "topic": "机械波：波形图、质点振动方向、加速度与位移（T/4后状态）",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html"
+    },
+    {
+     "no": 5,
+     "type": "单选",
+     "score": 5,
+     "topic": "理想气体等温变化（玻意耳定律）+热力学第一定律（气体膨胀对外做功、吸热）",
+     "model": "气压式水枪储气罐",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html"
+    },
+    {
+     "no": 6,
+     "type": "多选",
+     "score": 5,
+     "topic": "电磁感应互感现象/变压器原理（无线充电能量传递与损耗）",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+     "context": "手机无线充电"
+    },
+    {
+     "no": 7,
+     "type": "多选",
+     "score": 5,
+     "topic": "带电粒子在匀强磁场中圆周运动（单边界/第一象限，半径与几何关系、电性判断）",
+     "model": "有界磁场几何找圆心",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html"
+    },
+    {
+     "no": 8,
+     "type": "多选",
+     "score": 5,
+     "topic": "机车以恒定功率启动：P=Fv、加速度减小、最大速度、动能定理",
+     "model": "机车恒功率启动",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+     "context": "复兴号动车"
+    },
+    {
+     "no": "9(1)",
+     "type": "实验",
+     "score": 6,
+     "topic": "研究平抛运动：测平抛初速度（Δy=gT²、铅垂线作用、实验操作要求）",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+     "uncertain_score": true
+    },
+    {
+     "no": "9(2)",
+     "type": "实验",
+     "score": 6,
+     "topic": "测电池组电动势和内阻（实物连线纠错、滑片初始位置、串联定值电阻改善电压表变化、U-I图像）",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+     "uncertain_score": true
+    },
+    {
+     "no": 10,
+     "type": "计算",
+     "score": 14,
+     "topic": "感生电动势（B均匀变化）：法拉第电磁感应定律、安培力大小方向、电功率",
+     "model": "闭合金属框在变化磁场中",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+     "uncertain_score": true
+    },
+    {
+     "no": 11,
+     "type": "计算",
+     "score": 16,
+     "topic": "竖直面内圆周运动（绳球恰过最高点）+动量定理（瞬时冲量）+完全非弹性碰撞后仍过最高点",
+     "model": "绳-球竖直圆周+碰撞粘合",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+     "uncertain_score": true
+    },
+    {
+     "no": 12,
+     "type": "计算",
+     "score": 18,
+     "topic": "带电粒子在电场中加速、匀强电场中减速反射、漂移管匀速：多反射飞行时间质谱仪（时间与质量关系）",
+     "model": "质谱仪/电场加速+反射",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/10672.html",
+     "uncertain_score": true,
+     "context": "现代科技仪器"
+    }
+   ]
+  },
+  {
+   "year": 2021,
+   "paper_note": "整卷（解析卷）；原PDF题号9-13换算为9(1)(2)/10/11/12",
+   "questions": [
+    {
+     "no": 1,
+     "type": "单选",
+     "score": 5,
+     "topic": "物理学研究方法/物理学史：理想实验法（伽利略：力不是维持运动的原因）",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+     "context": "物理学史/方法"
+    },
+    {
+     "no": 2,
+     "type": "单选",
+     "score": 5,
+     "topic": "光的折射：光进入液体后波长变短、频率与光子能量不变",
+     "model": "浸没式光刻",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+     "context": "光刻机"
+    },
+    {
+     "no": 3,
+     "type": "单选",
+     "score": 5,
+     "topic": "正弦交流电：周期、有效值、电表读数、电功率",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html"
+    },
+    {
+     "no": 4,
+     "type": "单选",
+     "score": 5,
+     "topic": "机械波：由波源起振方向与波速判断某时刻波形",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html"
+    },
+    {
+     "no": 5,
+     "type": "单选",
+     "score": 5,
+     "topic": "卫星变轨：椭圆轨道、开普勒第三定律、近火点加速/减速、受力",
+     "model": "卫星变轨（椭圆轨道相切）",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+     "context": "天问一号"
+    },
+    {
+     "no": 6,
+     "type": "多选",
+     "score": 5,
+     "topic": "热力学第一定律：等温压缩（缓慢）与绝热压缩（快速）内能、做功、吸放热",
+     "model": "空气弹簧气缸",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+     "context": "列车空气弹簧减振"
+    },
+    {
+     "no": 7,
+     "type": "多选",
+     "score": 5,
+     "topic": "反冲运动/动量定理：火箭推力与燃气喷射量、喷射速度的关系",
+     "model": "火箭反冲",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+     "context": "长征五号B发射天和核心舱"
+    },
+    {
+     "no": 8,
+     "type": "多选",
+     "score": 5,
+     "topic": "等势面与电场线：电子运动轨迹、场强比较、电势高低、点电荷电性",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html"
+    },
+    {
+     "no": "9(1)",
+     "type": "实验",
+     "score": 6,
+     "topic": "研究匀变速直线运动：频闪（手机录像）求瞬时速度、逐差法求加速度、偶然误差",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+     "uncertain_score": true
+    },
+    {
+     "no": "9(2)",
+     "type": "实验",
+     "score": 6,
+     "topic": "测定电源（充电宝）电动势和内阻：数字多用表、定值电阻、U-I数据纠错",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+     "uncertain_score": true
+    },
+    {
+     "no": 10,
+     "type": "计算",
+     "score": 14,
+     "topic": "竖直上抛+最高点弹簧弹开分裂（动量守恒，类爆炸）+平抛落地速度比",
+     "model": "爆炸/反冲分裂+平抛",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+     "uncertain_score": true
+    },
+    {
+     "no": 11,
+     "type": "计算",
+     "score": 16,
+     "topic": "电磁感应单杆切割：倾斜光滑导轨、恒定功率拉力、最大速度、位移/焦耳热（能量与动量方法）",
+     "model": "单杆切割（倾斜导轨，恒功率）",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+     "uncertain_score": true
+    },
+    {
+     "no": 12,
+     "type": "计算",
+     "score": 18,
+     "topic": "霍尔效应：半导体中电子与空穴两种载流子的洛伦兹力、霍尔电场力平衡分析",
+     "model": "霍尔元件",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11096.html",
+     "uncertain_score": true,
+     "context": "现代科技/传感器"
+    }
+   ]
+  },
+  {
+   "year": 2022,
+   "paper_note": "官方/网络版缺第2-4题；第2、3题内容取自学科网‘网络收集版’回忆，第4题未找到",
+   "questions": [
+    {
+     "no": 1,
+     "type": "单选",
+     "score": 5,
+     "topic": "核聚变方程：质量数与电荷数守恒、质量亏损、聚变与裂变辨析",
+     "model": "核反应方程配平",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+     "context": "羲和号太阳探测"
+    },
+    {
+     "no": 2,
+     "type": "单选",
+     "score": 5,
+     "topic": "点电荷电场：圆周上两点电势、场强比较，电势能与电场力做功",
+     "source_url": "https://www.zxxk.com/soft/36954497.html",
+     "uncertain": true,
+     "note": "来自网络收集版回忆，官方未公开"
+    },
+    {
+     "no": 3,
+     "type": "单选",
+     "score": 5,
+     "topic": "万有引力与航天：空间站（约400km）与地球静止卫星（约36000km）运行参量比较",
+     "model": "卫星轨道比较",
+     "source_url": "https://www.zxxk.com/soft/36954497.html",
+     "uncertain": true,
+     "context": "天宫课堂/中继卫星",
+     "note": "来自网络收集版回忆"
+    },
+    {
+     "no": 4,
+     "type": "单选",
+     "score": 5,
+     "topic": "缺失（官方未公开，未找到可靠回忆）",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+     "uncertain": true
+    },
+    {
+     "no": 5,
+     "type": "单选",
+     "score": 5,
+     "topic": "两列相向传播的机械波：频率比、起振时刻与方向、干涉条件",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html"
+    },
+    {
+     "no": 6,
+     "type": "多选",
+     "score": 5,
+     "topic": "理想气体绝热压缩+等压过程：内能、分子平均动能、做功（热力学第一定律）",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+     "context": "汽车涡轮增压"
+    },
+    {
+     "no": 7,
+     "type": "多选",
+     "score": 5,
+     "topic": "电磁波谱与光的性质：能级跃迁能量差、衍射、遏止电压（光电效应）、双缝干涉条纹间距",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html"
+    },
+    {
+     "no": 8,
+     "type": "多选",
+     "score": 5,
+     "topic": "理想变压器（两级变压器远距离输电）动态分析：开关闭合后电表示数与功率变化",
+     "model": "远距离输电",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html"
+    },
+    {
+     "no": "9(1)",
+     "type": "实验",
+     "score": 6,
+     "topic": "验证动量守恒定律（斜槽碰撞，落点M/N/P）+10分度游标卡尺读数",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+     "uncertain_score": true
+    },
+    {
+     "no": "9(2)",
+     "type": "实验",
+     "score": 6,
+     "topic": "测电池电动势和内阻：电路选择、U-I图像求E和r、电表内阻引起的系统误差修正",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+     "uncertain_score": true
+    },
+    {
+     "no": 10,
+     "type": "计算",
+     "score": 14,
+     "topic": "匀变速直线运动（摩擦力减速、动摩擦因数改变）+碰撞动量守恒",
+     "model": "冰壶碰撞（多过程匀减速+碰撞）",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+     "uncertain_score": true,
+     "context": "冬奥会冰壶"
+    },
+    {
+     "no": 11,
+     "type": "计算",
+     "score": 16,
+     "topic": "带电粒子电场加速+圆形匀强磁场中圆周运动：电性、加速电压、半径、运动时间",
+     "model": "电场加速+圆形磁场",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+     "uncertain_score": true
+    },
+    {
+     "no": 12,
+     "type": "计算",
+     "score": 18,
+     "topic": "安培力推动导电液体：磁场方向判断、液柱受力平衡、电阻定律、液面持续上升的电压条件",
+     "model": "直流电磁泵",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/11298.html",
+     "uncertain_score": true,
+     "context": "现代科技装置"
+    }
+   ]
+  },
+  {
+   "year": 2023,
+   "paper_note": "回忆还原版（北京高考在线/支点物理收录同一版本），原文按1-13编号，此处换算为9(1)(2)/10/11/12；计算题题序依回忆版，可能与官方顺序不一致",
+   "questions": [
+    {
+     "no": 1,
+     "type": "单选",
+     "score": 5,
+     "topic": "万有引力与航天：不同周期（24h与12h）北斗卫星的加速度、角速度、线速度比较",
+     "model": "卫星轨道比较",
+     "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+     "context": "北斗卫星"
+    },
+    {
+     "no": 2,
+     "type": "单选",
+     "score": 5,
+     "topic": "理想气体等容降温（查理定律）+热力学第一定律：内能、做功、吸放热、压强",
+     "model": "氧气瓶",
+     "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+     "context": "爬山携带氧气瓶"
+    },
+    {
+     "no": 3,
+     "type": "单选",
+     "score": 5,
+     "topic": "核聚变：高温条件、电荷守恒、质能方程（太阳质量减少）、聚变与裂变方程辨析",
+     "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+     "context": "太阳核聚变"
+    },
+    {
+     "no": 4,
+     "type": "单选",
+     "score": 5,
+     "topic": "光的偏振说明光是横波（与全反射、干涉、衍射辨析）",
+     "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf"
+    },
+    {
+     "no": 5,
+     "type": "单选",
+     "score": 5,
+     "topic": "牛顿第二定律+冲量+匀减速位移+功率（制动力与空气阻力共同作用）",
+     "model": "列车制动",
+     "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+     "context": "高温超导电动悬浮试验列车（据人人文库分类汇编题干）"
+    },
+    {
+     "no": 6,
+     "type": "多选",
+     "score": 5,
+     "topic": "远距离输电：升压/降压理想变压器、线路损耗功率、用户负载增加的动态分析",
+     "model": "远距离输电",
+     "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf"
+    },
+    {
+     "no": 7,
+     "type": "多选",
+     "score": 5,
+     "topic": "机械波：由波形求波速、周期，质点振动状态，波源振动方程",
+     "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf"
+    },
+    {
+     "no": 8,
+     "type": "多选",
+     "score": 5,
+     "topic": "点电荷电场：等势面、动能定理判断电势、场强大小",
+     "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf"
+    },
+    {
+     "no": "9(1)",
+     "type": "实验",
+     "score": 6,
+     "topic": "验证机械能守恒定律（气垫导轨+光电门+托盘砝码连接体，图像斜率）",
+     "model": "连接体系统机械能守恒",
+     "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+     "uncertain_score": true
+    },
+    {
+     "no": "9(2)",
+     "type": "实验",
+     "score": 6,
+     "topic": "伏安法测电阻：欧姆表粗测读数、电表选择、分压电路、系统误差与偶然误差",
+     "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+     "uncertain_score": true
+    },
+    {
+     "no": 10,
+     "type": "计算",
+     "score": 14,
+     "topic": "感生电动势（B=kt，三角形磁场占线框一半）+安培力与重力平衡求开始运动时刻",
+     "model": "线框在变化磁场中",
+     "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+     "uncertain_score": true,
+     "uncertain": true
+    },
+    {
+     "no": 11,
+     "type": "计算",
+     "score": 16,
+     "topic": "自由落体与竖直上抛相遇+完全非弹性碰撞（动量守恒）+机械能损失",
+     "model": "两物体相遇碰撞粘合",
+     "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+     "uncertain_score": true,
+     "uncertain": true
+    },
+    {
+     "no": 12,
+     "type": "计算",
+     "score": 18,
+     "topic": "带电粒子在磁场中的运动（初速度分解，螺旋/半圆，左手定则判B方向）+电子倍增与电流-电压关系图像",
+     "model": "信号放大器（电子倍增器）",
+     "source_url": "https://cdn.gaokzx.com/zixunzhan/202403/e56f3b8a-490e-4f79-9dc8-0dbe53f4d869.pdf",
+     "uncertain_score": true,
+     "uncertain": true,
+     "context": "现代科技仪器"
+    }
+   ]
+  },
+  {
+   "year": 2024,
+   "paper_note": "天津考试院未公开第1、2、5题；该三题取自学科网‘网络收集版’（回忆），标记uncertain",
+   "questions": [
+    {
+     "no": 1,
+     "type": "单选",
+     "score": 5,
+     "topic": "光的性质辨析：光电效应揭示粒子性、光进入介质波长变化、光纤全反射、油膜彩色条纹为薄膜干涉",
+     "source_url": "https://www.zxxk.com/soft/48400054.html",
+     "uncertain": true
+    },
+    {
+     "no": 2,
+     "type": "单选",
+     "score": 5,
+     "topic": "理想气体绝热膨胀与等温压缩：内能、做功、压强（热力学第一定律）",
+     "source_url": "https://www.zxxk.com/soft/48400054.html",
+     "uncertain": true,
+     "context": "压缩空气储能"
+    },
+    {
+     "no": 3,
+     "type": "单选",
+     "score": 5,
+     "topic": "振动图像与波形图结合：由t=1s波形和x=0振动图像推t=11s波形",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html"
+    },
+    {
+     "no": 4,
+     "type": "单选",
+     "score": 5,
+     "topic": "电磁感应单杆切割（倾斜光滑导轨由静止下滑）：安培力F、a、v、I随时间变化图像",
+     "model": "单杆切割（斜导轨收尾速度）",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html"
+    },
+    {
+     "no": 5,
+     "type": "单选",
+     "score": 5,
+     "topic": "受力分析+牛顿第二定律：小车搬运重物由匀速变为加速时底板与侧板弹力变化",
+     "source_url": "https://www.zxxk.com/soft/48400054.html",
+     "uncertain": true
+    },
+    {
+     "no": 6,
+     "type": "多选",
+     "score": 5,
+     "topic": "核反应方程（质量数电荷数守恒）、β衰变本质、半衰期不受温度影响",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html",
+     "context": "中国钍基熔盐堆"
+    },
+    {
+     "no": 7,
+     "type": "多选",
+     "score": 5,
+     "topic": "赤道上随地球自转的物体与同步卫星：角速度、线速度、向心加速度、万有引力之比",
+     "model": "赤道物体vs同步卫星",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html"
+    },
+    {
+     "no": 8,
+     "type": "多选",
+     "score": 5,
+     "topic": "φ-x图像：电势能、动能、电场力做功与方向（负电荷）",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html"
+    },
+    {
+     "no": "9(1)",
+     "type": "实验",
+     "score": 6,
+     "topic": "闭合电路欧姆定律：电源输出功率与外电阻关系（R=r时最大）+测电源电动势和内阻（器材选择）",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html",
+     "note": "学科网版排在实验第一题"
+    },
+    {
+     "no": "9(2)",
+     "type": "实验",
+     "score": 6,
+     "topic": "探究加速度与力的关系：补偿阻力判断（纸带）、加速度计算",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html"
+    },
+    {
+     "no": 10,
+     "type": "计算",
+     "score": 14,
+     "topic": "动量定理（瞬时冲量）+竖直光滑半圆轨道机械能守恒+最高点完全非弹性碰撞+绳拉力（圆周向心力）",
+     "model": "竖直圆周+碰撞粘合",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html"
+    },
+    {
+     "no": 11,
+     "type": "计算",
+     "score": 16,
+     "topic": "电场与磁场叠加（速度选择器式匀速直线）、仅电场类平抛、仅磁场（半圆形边界）圆周运动",
+     "model": "复合场/速度选择器+有界磁场",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html"
+    },
+    {
+     "no": 12,
+     "type": "计算",
+     "score": 18,
+     "topic": "交流发电机：线框转动切割电流方向与瞬时电动势、电磁制动能量回收、匀减速+等比数列求最大距离",
+     "model": "线框转动发电（电动汽车能量回收）",
+     "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/wuli/12251.html",
+     "context": "电动汽车制动能量回收"
+    }
+   ]
+  },
+  {
+   "year": 2025,
+   "paper_note": "考点表来自京东学子站转载学科网考点分析（逐题考点+分值）",
+   "questions": [
+    {
+     "no": 1,
+     "type": "单选",
+     "score": 5,
+     "topic": "比较不同轨道上卫星的物理量（万有引力与航天）",
+     "model": "卫星轨道比较",
+     "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html"
+    },
+    {
+     "no": 2,
+     "type": "单选",
+     "score": 5,
+     "topic": "质能方程；α衰变、β衰变的特点、本质及方程书写；半衰期",
+     "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html"
+    },
+    {
+     "no": 3,
+     "type": "单选",
+     "score": 5,
+     "topic": "冲量与动量的定义和矢量性；动量定理；平衡状态",
+     "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html"
+    },
+    {
+     "no": 4,
+     "type": "单选",
+     "score": 5,
+     "topic": "理想气体状态方程；热力学第一定律的应用",
+     "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html"
+    },
+    {
+     "no": 5,
+     "type": "单选",
+     "score": 5,
+     "topic": "单缝衍射和小孔衍射图样；双缝干涉Δx=Lλ/d；能量子；光子的动量",
+     "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html"
+    },
+    {
+     "no": 6,
+     "type": "多选",
+     "score": 5,
+     "topic": "变压器两端电路的动态分析",
+     "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html"
+    },
+    {
+     "no": 7,
+     "type": "多选",
+     "score": 5,
+     "topic": "波的图像",
+     "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html"
+    },
+    {
+     "no": 8,
+     "type": "多选",
+     "score": 5,
+     "topic": "比较电势能大小；点电荷与均匀球体（球壳）周围的场强；电势和电场线的关系",
+     "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html"
+    },
+    {
+     "no": "9(1)",
+     "type": "实验",
+     "score": 6,
+     "topic": "用频闪相机研究平抛运动；利用水平挡板探究平抛运动规律",
+     "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html"
+    },
+    {
+     "no": "9(2)",
+     "type": "实验",
+     "score": 6,
+     "topic": "伏安法测量未知电阻",
+     "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html"
+    },
+    {
+     "no": 10,
+     "type": "计算",
+     "score": 14,
+     "topic": "动量守恒定律；动能定理；机械能守恒定律在曲线运动中的应用",
+     "model": "碰撞+曲线运动机械能守恒（具体情境未从来源获取）",
+     "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html"
+    },
+    {
+     "no": 11,
+     "type": "计算",
+     "score": 16,
+     "topic": "带电粒子由电场进入磁场（组合场）",
+     "model": "电场加速/偏转+磁场圆周（组合场）",
+     "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html"
+    },
+    {
+     "no": 12,
+     "type": "计算",
+     "score": 18,
+     "topic": "导体棒转动切割磁感线（E=BL²ω/2）",
+     "model": "导体棒转动切割",
+     "source_url": "http://www.jdxzz.com/gkzx/2025/1224/10351091.html"
+    }
+   ]
+  },
+  {
+   "year": 2026,
+   "paper_note": "截至2026-10-26未找到逐题回忆或解析文字版；仅有压轴题零散信息，且来源互相不一致",
+   "questions": [
+    {
+     "no": 12,
+     "type": "计算",
+     "score": 18,
+     "topic": "压轴题：涉及积分/微元思想（视频标题“积分再度出现”）；另一视频称其为‘磁聚焦透镜’（带电粒子磁聚焦）；Neodrop估算稿称压轴为电磁感应导体棒切割",
+     "model": "磁聚焦透镜 或 电磁感应（不确定）",
+     "source_url": "https://www.bilibili.com/video/BV13UJp6qEti/",
+     "uncertain": true,
+     "other_sources": [
+      "https://www.163.com/v/video/VZUCG1VPC.html",
+      "https://www.douyin.com/video/7649815570192419508",
+      "https://neodrop.ai/zh-cn/post/7mshuEt7gGi"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "text": "题型结构稳定：5单选+3多选+2实验+3计算，60分钟13题（按小题计）；王学森评价‘题量适当、难度适中’，并指出天津卷官方不公开全卷、网传回忆版不准（2023多选题有2题回忆成单答案）",
+   "source_url": "https://www.zdushi.com/news/show_3830287.html"
+  },
+  {
+   "text": "分值：选择8题40分、实验2题（一力一电）各6分共12分、计算3题依次14/16/18共48分；热学、光学、原子物理选择题以记忆为主约15分",
+   "source_url": "https://www.douyin.com/shipin/7509927426290534434"
+  },
+  {
+   "text": "天津考试院对外公布的真题常缺若干选择题：2022缺第2-4题，2024未展示第1、2、5题，网络流传版本为回忆补全",
+   "source_url": "https://www.zxxk.com/soft/48400054.html"
+  },
+  {
+   "text": "第1题常为物理学史/物理学研究方法（2020 α粒子散射实验发现核式结构；2021 理想实验法），据称‘第一道选择题通常会涉及物理史或判断选项对错’",
+   "source_url": "http://www.b9zz.com/xueke/all/75820.html"
+  },
+  {
+   "text": "选择题高度情境化，大量取材国家科技成就与时事：北斗（2020、2023）、复兴号（2020）、新冠测温（2020）、光刻机/天和核心舱/天问一号（2021）、羲和号/冬奥冰壶（2022）、高温超导电动悬浮列车（2023）、钍基熔盐堆/压缩空气储能/电动汽车能量回收（2024）——据各年真题题干归纳",
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/"
+  },
+  {
+   "text": "每年必有：万有引力/卫星（2020-2025每年1题）、机械波图像（每年1题）、热学气体+热力学第一定律（每年1题）、原子物理/光学选择题、变压器或交流电（2020-2023、2025）——据逐题统计",
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/"
+  },
+  {
+   "text": "压轴第12题（18分）几乎都是‘现代科技装置’电磁综合：2020多反射飞行时间质谱仪、2021霍尔元件、2022直流电磁泵、2023信号放大器（电子倍增）、2024电动汽车能量回收发电机、2025导体棒转动切割；2026据视频为含积分思想的压轴（磁聚焦透镜，未证实）",
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/"
+  },
+  {
+   "text": "功与能、动量每年必考，常以计算题第10题出现（碰撞+圆周/抛体），命题趋势是多模型组合（斜面+弹簧+碰撞、传送带+圆周等）、注重实际情境与数学工具（多元方程组、图像分析）",
+   "source_url": "https://www.renrendoc.com/paper/478141741.html"
+  },
+  {
+   "text": "实验题固定两小题‘一力一电’：力学实验在平抛、匀变速（频闪/逐差）、验证动量守恒、验证机械能守恒、探究a-F间轮换；电学实验以测电源电动势内阻（2020/2021/2022/2024）和伏安法测电阻（2023/2025）为主",
+   "source_url": "http://www.zhidianwuli.com/gkzt/tianjin/"
+  },
+  {
+   "text": "2026年备考稿（AI估算性质）称天津卷实验题由验证性向探究性/方案设计转变、整体难度低于全国卷；为估算，非官方数据",
+   "source_url": "https://neodrop.ai/zh-cn/post/7mshuEt7gGi"
+  }
+ ]
+}

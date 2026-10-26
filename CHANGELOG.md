@@ -410,3 +410,8 @@
 ## 2026-10-17（第一版）
 
 - 生成初稿：289 个正式知识点、18 个小学外部节点、567 条先修边；九下章目为“（暂拟）”。
+
+## 2026-10-26 高中物理·天津版（fork 扩展）
+- 新增模型与方法层 `cnp_m001`–`cnp_m039`（39 个，134 条先修边，156 题，82 条易错概念），见 docs/tianjin-physics.md。
+- 新增天津卷叠加层 `data/regions/tianjin-physics.json`（2020–2025 逐题映射）和 `data/physics-misconceptions.json`。
+- validate.py 接受 `cnp_m` 编号；engine.js 能解析「必修一 高考模型 板块模型」类章节名；知识图谱详情页显示天津卷频度、考查记录和易错概念；sw.js 缓存升到 v4。

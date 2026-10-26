@@ -20716,5 +20716,809 @@
     "prerequisiteId": "cnc_p397",
     "strength": "hard",
     "reason": "写毕业赠言之前，要先会围绕一个意思选择材料。"
+  },
+  {
+    "topicId": "cnp_m001",
+    "prerequisiteId": "cnp_h006",
+    "strength": "hard",
+    "reason": "用「运动图像法（x-t、v-t、a-t 图像）」要先会「匀变速直线运动的速度与时间的关系」。"
+  },
+  {
+    "topicId": "cnp_m001",
+    "prerequisiteId": "cnp_h007",
+    "strength": "hard",
+    "reason": "用「运动图像法（x-t、v-t、a-t 图像）」要先会「匀变速直线运动的位移与时间的关系」。"
+  },
+  {
+    "topicId": "cnp_m001",
+    "prerequisiteId": "cnp_h004",
+    "strength": "hard",
+    "reason": "用「运动图像法（x-t、v-t、a-t 图像）」要先会「加速度」。"
+  },
+  {
+    "topicId": "cnp_m002",
+    "prerequisiteId": "cnp_h006",
+    "strength": "hard",
+    "reason": "用「追及与相遇模型」要先会「匀变速直线运动的速度与时间的关系」。"
+  },
+  {
+    "topicId": "cnp_m002",
+    "prerequisiteId": "cnp_h007",
+    "strength": "hard",
+    "reason": "用「追及与相遇模型」要先会「匀变速直线运动的位移与时间的关系」。"
+  },
+  {
+    "topicId": "cnp_m002",
+    "prerequisiteId": "cnp_h008",
+    "strength": "soft",
+    "reason": "「追及与相遇模型」会用到「速度与位移的关系和匀变速运动的推论」。"
+  },
+  {
+    "topicId": "cnp_m002",
+    "prerequisiteId": "cnp_m001",
+    "strength": "soft",
+    "reason": "「追及与相遇模型」会用到「运动图像法（x-t、v-t、a-t 图像）」。"
+  },
+  {
+    "topicId": "cnp_m003",
+    "prerequisiteId": "cnp_h019",
+    "strength": "hard",
+    "reason": "用「动态平衡（图解法、相似三角形法）」要先会「共点力的平衡」。"
+  },
+  {
+    "topicId": "cnp_m003",
+    "prerequisiteId": "cnp_h018",
+    "strength": "hard",
+    "reason": "用「动态平衡（图解法、相似三角形法）」要先会「力的分解」。"
+  },
+  {
+    "topicId": "cnp_m003",
+    "prerequisiteId": "cnp_h016",
+    "strength": "soft",
+    "reason": "「动态平衡（图解法、相似三角形法）」会用到「力的合成」。"
+  },
+  {
+    "topicId": "cnp_m004",
+    "prerequisiteId": "cnp_h023",
+    "strength": "hard",
+    "reason": "用「斜面模型（含摩擦的受力与运动）」要先会「牛顿第二定律」。"
+  },
+  {
+    "topicId": "cnp_m004",
+    "prerequisiteId": "cnp_h014",
+    "strength": "hard",
+    "reason": "用「斜面模型（含摩擦的受力与运动）」要先会「滑动摩擦力」。"
+  },
+  {
+    "topicId": "cnp_m004",
+    "prerequisiteId": "cnp_h018",
+    "strength": "hard",
+    "reason": "用「斜面模型（含摩擦的受力与运动）」要先会「力的分解」。"
+  },
+  {
+    "topicId": "cnp_m004",
+    "prerequisiteId": "cnp_h013",
+    "strength": "soft",
+    "reason": "「斜面模型（含摩擦的受力与运动）」会用到「静摩擦力」。"
+  },
+  {
+    "topicId": "cnp_m005",
+    "prerequisiteId": "cnp_h011",
+    "strength": "hard",
+    "reason": "用「弹簧、轻绳的瞬时加速度（突变）问题」要先会「弹力与胡克定律」。"
+  },
+  {
+    "topicId": "cnp_m005",
+    "prerequisiteId": "cnp_h023",
+    "strength": "hard",
+    "reason": "用「弹簧、轻绳的瞬时加速度（突变）问题」要先会「牛顿第二定律」。"
+  },
+  {
+    "topicId": "cnp_m005",
+    "prerequisiteId": "cnp_h019",
+    "strength": "soft",
+    "reason": "「弹簧、轻绳的瞬时加速度（突变）问题」会用到「共点力的平衡」。"
+  },
+  {
+    "topicId": "cnp_m006",
+    "prerequisiteId": "cnp_h014",
+    "strength": "hard",
+    "reason": "用「传送带模型」要先会「滑动摩擦力」。"
+  },
+  {
+    "topicId": "cnp_m006",
+    "prerequisiteId": "cnp_h023",
+    "strength": "hard",
+    "reason": "用「传送带模型」要先会「牛顿第二定律」。"
+  },
+  {
+    "topicId": "cnp_m006",
+    "prerequisiteId": "cnp_h008",
+    "strength": "soft",
+    "reason": "「传送带模型」会用到「速度与位移的关系和匀变速运动的推论」。"
+  },
+  {
+    "topicId": "cnp_m006",
+    "prerequisiteId": "cnp_m004",
+    "strength": "soft",
+    "reason": "「传送带模型」会用到「斜面模型（含摩擦的受力与运动）」。"
+  },
+  {
+    "topicId": "cnp_m007",
+    "prerequisiteId": "cnp_h023",
+    "strength": "hard",
+    "reason": "用「板块模型（滑块—木板）」要先会「牛顿第二定律」。"
+  },
+  {
+    "topicId": "cnp_m007",
+    "prerequisiteId": "cnp_h014",
+    "strength": "hard",
+    "reason": "用「板块模型（滑块—木板）」要先会「滑动摩擦力」。"
+  },
+  {
+    "topicId": "cnp_m007",
+    "prerequisiteId": "cnp_h026",
+    "strength": "hard",
+    "reason": "用「板块模型（滑块—木板）」要先会「连接体问题与整体法、隔离法」。"
+  },
+  {
+    "topicId": "cnp_m007",
+    "prerequisiteId": "cnp_h013",
+    "strength": "soft",
+    "reason": "「板块模型（滑块—木板）」会用到「静摩擦力」。"
+  },
+  {
+    "topicId": "cnp_m008",
+    "prerequisiteId": "cnp_h031",
+    "strength": "hard",
+    "reason": "用「斜面与平抛的结合」要先会「平抛运动的规律」。"
+  },
+  {
+    "topicId": "cnp_m008",
+    "prerequisiteId": "cnp_h029",
+    "strength": "hard",
+    "reason": "用「斜面与平抛的结合」要先会「运动的合成与分解」。"
+  },
+  {
+    "topicId": "cnp_m008",
+    "prerequisiteId": "cnp_h018",
+    "strength": "soft",
+    "reason": "「斜面与平抛的结合」会用到「力的分解」。"
+  },
+  {
+    "topicId": "cnp_m009",
+    "prerequisiteId": "cnp_h034",
+    "strength": "hard",
+    "reason": "用「竖直面内圆周运动（绳模型与杆模型）」要先会「向心力」。"
+  },
+  {
+    "topicId": "cnp_m009",
+    "prerequisiteId": "cnp_h037",
+    "strength": "hard",
+    "reason": "用「竖直面内圆周运动（绳模型与杆模型）」要先会「生活中的圆周运动」。"
+  },
+  {
+    "topicId": "cnp_m009",
+    "prerequisiteId": "cnp_h051",
+    "strength": "soft",
+    "reason": "「竖直面内圆周运动（绳模型与杆模型）」会用到「机械能守恒定律」。"
+  },
+  {
+    "topicId": "cnp_m010",
+    "prerequisiteId": "cnp_h034",
+    "strength": "hard",
+    "reason": "用「水平面圆周运动的临界问题（转盘、圆锥摆）」要先会「向心力」。"
+  },
+  {
+    "topicId": "cnp_m010",
+    "prerequisiteId": "cnp_h013",
+    "strength": "hard",
+    "reason": "用「水平面圆周运动的临界问题（转盘、圆锥摆）」要先会「静摩擦力」。"
+  },
+  {
+    "topicId": "cnp_m010",
+    "prerequisiteId": "cnp_h033",
+    "strength": "soft",
+    "reason": "「水平面圆周运动的临界问题（转盘、圆锥摆）」会用到「圆周运动的描述」。"
+  },
+  {
+    "topicId": "cnp_m011",
+    "prerequisiteId": "cnp_h040",
+    "strength": "hard",
+    "reason": "用「双星与多星模型」要先会「万有引力定律」。"
+  },
+  {
+    "topicId": "cnp_m011",
+    "prerequisiteId": "cnp_h034",
+    "strength": "hard",
+    "reason": "用「双星与多星模型」要先会「向心力」。"
+  },
+  {
+    "topicId": "cnp_m011",
+    "prerequisiteId": "cnp_h041",
+    "strength": "soft",
+    "reason": "「双星与多星模型」会用到「万有引力理论的成就」。"
+  },
+  {
+    "topicId": "cnp_m012",
+    "prerequisiteId": "cnp_h043",
+    "strength": "hard",
+    "reason": "用「卫星变轨与对接」要先会「人造卫星的运行规律」。"
+  },
+  {
+    "topicId": "cnp_m012",
+    "prerequisiteId": "cnp_h042",
+    "strength": "hard",
+    "reason": "用「卫星变轨与对接」要先会「宇宙速度」。"
+  },
+  {
+    "topicId": "cnp_m012",
+    "prerequisiteId": "cnp_h039",
+    "strength": "soft",
+    "reason": "「卫星变轨与对接」会用到「行星的运动」。"
+  },
+  {
+    "topicId": "cnp_m012",
+    "prerequisiteId": "cnp_h038",
+    "strength": "soft",
+    "reason": "「卫星变轨与对接」会用到「离心现象」。"
+  },
+  {
+    "topicId": "cnp_m013",
+    "prerequisiteId": "cnp_h043",
+    "strength": "hard",
+    "reason": "用「赤道上的物体、近地卫星与同步卫星的比较」要先会「人造卫星的运行规律」。"
+  },
+  {
+    "topicId": "cnp_m013",
+    "prerequisiteId": "cnp_h036",
+    "strength": "hard",
+    "reason": "用「赤道上的物体、近地卫星与同步卫星的比较」要先会「向心加速度」。"
+  },
+  {
+    "topicId": "cnp_m013",
+    "prerequisiteId": "cnp_h033",
+    "strength": "soft",
+    "reason": "「赤道上的物体、近地卫星与同步卫星的比较」会用到「圆周运动的描述」。"
+  },
+  {
+    "topicId": "cnp_m013",
+    "prerequisiteId": "cnp_m012",
+    "strength": "soft",
+    "reason": "「赤道上的物体、近地卫星与同步卫星的比较」会用到「卫星变轨与对接」。"
+  },
+  {
+    "topicId": "cnp_m014",
+    "prerequisiteId": "cnp_h046",
+    "strength": "hard",
+    "reason": "用「机车启动模型（恒定功率与恒定加速度）」要先会「功率」。"
+  },
+  {
+    "topicId": "cnp_m014",
+    "prerequisiteId": "cnp_h023",
+    "strength": "hard",
+    "reason": "用「机车启动模型（恒定功率与恒定加速度）」要先会「牛顿第二定律」。"
+  },
+  {
+    "topicId": "cnp_m014",
+    "prerequisiteId": "cnp_h050",
+    "strength": "soft",
+    "reason": "「机车启动模型（恒定功率与恒定加速度）」会用到「动能定理」。"
+  },
+  {
+    "topicId": "cnp_m015",
+    "prerequisiteId": "cnp_h050",
+    "strength": "hard",
+    "reason": "用「多过程问题的能量分析（动能定理与机械能守恒的选用）」要先会「动能定理」。"
+  },
+  {
+    "topicId": "cnp_m015",
+    "prerequisiteId": "cnp_h051",
+    "strength": "hard",
+    "reason": "用「多过程问题的能量分析（动能定理与机械能守恒的选用）」要先会「机械能守恒定律」。"
+  },
+  {
+    "topicId": "cnp_m015",
+    "prerequisiteId": "cnp_h045",
+    "strength": "soft",
+    "reason": "「多过程问题的能量分析（动能定理与机械能守恒的选用）」会用到「功」。"
+  },
+  {
+    "topicId": "cnp_m015",
+    "prerequisiteId": "cnp_m009",
+    "strength": "soft",
+    "reason": "「多过程问题的能量分析（动能定理与机械能守恒的选用）」会用到「竖直面内圆周运动（绳模型与杆模型）」。"
+  },
+  {
+    "topicId": "cnp_m016",
+    "prerequisiteId": "cnp_h059",
+    "strength": "hard",
+    "reason": "用「电场中的图像问题（φ-x、E-x、Ep-x）」要先会「电势」。"
+  },
+  {
+    "topicId": "cnp_m016",
+    "prerequisiteId": "cnp_h062",
+    "strength": "hard",
+    "reason": "用「电场中的图像问题（φ-x、E-x、Ep-x）」要先会「电势差与电场强度的关系」。"
+  },
+  {
+    "topicId": "cnp_m016",
+    "prerequisiteId": "cnp_h058",
+    "strength": "soft",
+    "reason": "「电场中的图像问题（φ-x、E-x、Ep-x）」会用到「电势能」。"
+  },
+  {
+    "topicId": "cnp_m016",
+    "prerequisiteId": "cnp_m001",
+    "strength": "soft",
+    "reason": "「电场中的图像问题（φ-x、E-x、Ep-x）」会用到「运动图像法（x-t、v-t、a-t 图像）」。"
+  },
+  {
+    "topicId": "cnp_m017",
+    "prerequisiteId": "cnp_h063",
+    "strength": "hard",
+    "reason": "用「电容器的动态分析（Q 不变与 U 不变）」要先会「电容器的电容」。"
+  },
+  {
+    "topicId": "cnp_m017",
+    "prerequisiteId": "cnp_h062",
+    "strength": "hard",
+    "reason": "用「电容器的动态分析（Q 不变与 U 不变）」要先会「电势差与电场强度的关系」。"
+  },
+  {
+    "topicId": "cnp_m017",
+    "prerequisiteId": "cnp_h060",
+    "strength": "soft",
+    "reason": "「电容器的动态分析（Q 不变与 U 不变）」会用到「电势差」。"
+  },
+  {
+    "topicId": "cnp_m018",
+    "prerequisiteId": "cnp_h065",
+    "strength": "hard",
+    "reason": "用「带电粒子在交变电场中的运动」要先会「带电粒子在电场中的加速」。"
+  },
+  {
+    "topicId": "cnp_m018",
+    "prerequisiteId": "cnp_h066",
+    "strength": "hard",
+    "reason": "用「带电粒子在交变电场中的运动」要先会「带电粒子在电场中的偏转」。"
+  },
+  {
+    "topicId": "cnp_m018",
+    "prerequisiteId": "cnp_h023",
+    "strength": "soft",
+    "reason": "「带电粒子在交变电场中的运动」会用到「牛顿第二定律」。"
+  },
+  {
+    "topicId": "cnp_m018",
+    "prerequisiteId": "cnp_m001",
+    "strength": "soft",
+    "reason": "「带电粒子在交变电场中的运动」会用到「运动图像法（x-t、v-t、a-t 图像）」。"
+  },
+  {
+    "topicId": "cnp_m019",
+    "prerequisiteId": "cnp_h071",
+    "strength": "hard",
+    "reason": "用「测量电路的选择（内接外接、限流分压、器材选取）」要先会「实验：导体电阻率的测量」。"
+  },
+  {
+    "topicId": "cnp_m019",
+    "prerequisiteId": "cnp_h073",
+    "strength": "hard",
+    "reason": "用「测量电路的选择（内接外接、限流分压、器材选取）」要先会「电表的改装」。"
+  },
+  {
+    "topicId": "cnp_m019",
+    "prerequisiteId": "cnp_h068",
+    "strength": "hard",
+    "reason": "用「测量电路的选择（内接外接、限流分压、器材选取）」要先会「欧姆定律与伏安特性曲线」。"
+  },
+  {
+    "topicId": "cnp_m019",
+    "prerequisiteId": "cnp_h072",
+    "strength": "soft",
+    "reason": "「测量电路的选择（内接外接、限流分压、器材选取）」会用到「串联电路和并联电路」。"
+  },
+  {
+    "topicId": "cnp_m020",
+    "prerequisiteId": "cnp_h073",
+    "strength": "hard",
+    "reason": "用「电阻测量的特殊方法（半偏法、等效替代、电桥）」要先会「电表的改装」。"
+  },
+  {
+    "topicId": "cnp_m020",
+    "prerequisiteId": "cnp_h079",
+    "strength": "hard",
+    "reason": "用「电阻测量的特殊方法（半偏法、等效替代、电桥）」要先会「闭合电路的欧姆定律」。"
+  },
+  {
+    "topicId": "cnp_m020",
+    "prerequisiteId": "cnp_h072",
+    "strength": "hard",
+    "reason": "用「电阻测量的特殊方法（半偏法、等效替代、电桥）」要先会「串联电路和并联电路」。"
+  },
+  {
+    "topicId": "cnp_m020",
+    "prerequisiteId": "cnp_h074",
+    "strength": "soft",
+    "reason": "「电阻测量的特殊方法（半偏法、等效替代、电桥）」会用到「实验：练习使用多用电表」。"
+  },
+  {
+    "topicId": "cnp_m021",
+    "prerequisiteId": "cnp_h093",
+    "strength": "hard",
+    "reason": "用「子弹打木块与摩擦生热（动量与能量）」要先会「动量守恒定律」。"
+  },
+  {
+    "topicId": "cnp_m021",
+    "prerequisiteId": "cnp_h095",
+    "strength": "hard",
+    "reason": "用「子弹打木块与摩擦生热（动量与能量）」要先会「弹性碰撞和非弹性碰撞」。"
+  },
+  {
+    "topicId": "cnp_m021",
+    "prerequisiteId": "cnp_h050",
+    "strength": "hard",
+    "reason": "用「子弹打木块与摩擦生热（动量与能量）」要先会「动能定理」。"
+  },
+  {
+    "topicId": "cnp_m021",
+    "prerequisiteId": "cnp_m007",
+    "strength": "soft",
+    "reason": "「子弹打木块与摩擦生热（动量与能量）」会用到「板块模型（滑块—木板）」。"
+  },
+  {
+    "topicId": "cnp_m022",
+    "prerequisiteId": "cnp_h093",
+    "strength": "hard",
+    "reason": "用「含弹簧的碰撞模型」要先会「动量守恒定律」。"
+  },
+  {
+    "topicId": "cnp_m022",
+    "prerequisiteId": "cnp_h048",
+    "strength": "hard",
+    "reason": "用「含弹簧的碰撞模型」要先会「弹性势能」。"
+  },
+  {
+    "topicId": "cnp_m022",
+    "prerequisiteId": "cnp_h095",
+    "strength": "hard",
+    "reason": "用「含弹簧的碰撞模型」要先会「弹性碰撞和非弹性碰撞」。"
+  },
+  {
+    "topicId": "cnp_m023",
+    "prerequisiteId": "cnp_h093",
+    "strength": "hard",
+    "reason": "用「人船模型」要先会「动量守恒定律」。"
+  },
+  {
+    "topicId": "cnp_m023",
+    "prerequisiteId": "cnp_h097",
+    "strength": "hard",
+    "reason": "用「人船模型」要先会「反冲现象与火箭」。"
+  },
+  {
+    "topicId": "cnp_m024",
+    "prerequisiteId": "cnp_h093",
+    "strength": "hard",
+    "reason": "用「动量与能量的多过程综合」要先会「动量守恒定律」。"
+  },
+  {
+    "topicId": "cnp_m024",
+    "prerequisiteId": "cnp_h051",
+    "strength": "hard",
+    "reason": "用「动量与能量的多过程综合」要先会「机械能守恒定律」。"
+  },
+  {
+    "topicId": "cnp_m024",
+    "prerequisiteId": "cnp_h095",
+    "strength": "hard",
+    "reason": "用「动量与能量的多过程综合」要先会「弹性碰撞和非弹性碰撞」。"
+  },
+  {
+    "topicId": "cnp_m024",
+    "prerequisiteId": "cnp_m015",
+    "strength": "soft",
+    "reason": "「动量与能量的多过程综合」会用到「多过程问题的能量分析（动能定理与机械能守恒的选用）」。"
+  },
+  {
+    "topicId": "cnp_m025",
+    "prerequisiteId": "cnp_h106",
+    "strength": "hard",
+    "reason": "用「机械波的多解问题」要先会「波的图像与振动图像」。"
+  },
+  {
+    "topicId": "cnp_m025",
+    "prerequisiteId": "cnp_h105",
+    "strength": "hard",
+    "reason": "用「机械波的多解问题」要先会「波的描述」。"
+  },
+  {
+    "topicId": "cnp_m026",
+    "prerequisiteId": "cnp_h110",
+    "strength": "hard",
+    "reason": "用「玻璃砖中的折射与全反射（光路几何）」要先会「光的折射」。"
+  },
+  {
+    "topicId": "cnp_m026",
+    "prerequisiteId": "cnp_h112",
+    "strength": "hard",
+    "reason": "用「玻璃砖中的折射与全反射（光路几何）」要先会「全反射」。"
+  },
+  {
+    "topicId": "cnp_m026",
+    "prerequisiteId": "cnp_h111",
+    "strength": "soft",
+    "reason": "「玻璃砖中的折射与全反射（光路几何）」会用到「实验：测量玻璃的折射率」。"
+  },
+  {
+    "topicId": "cnp_m027",
+    "prerequisiteId": "cnp_h121",
+    "strength": "hard",
+    "reason": "用「带电粒子在有界磁场中的运动（找圆心、半径与临界）」要先会「带电粒子在匀强磁场中的运动」。"
+  },
+  {
+    "topicId": "cnp_m027",
+    "prerequisiteId": "cnp_h120",
+    "strength": "hard",
+    "reason": "用「带电粒子在有界磁场中的运动（找圆心、半径与临界）」要先会「洛伦兹力」。"
+  },
+  {
+    "topicId": "cnp_m028",
+    "prerequisiteId": "cnp_h065",
+    "strength": "hard",
+    "reason": "用「带电粒子在组合场中的运动」要先会「带电粒子在电场中的加速」。"
+  },
+  {
+    "topicId": "cnp_m028",
+    "prerequisiteId": "cnp_h066",
+    "strength": "hard",
+    "reason": "用「带电粒子在组合场中的运动」要先会「带电粒子在电场中的偏转」。"
+  },
+  {
+    "topicId": "cnp_m028",
+    "prerequisiteId": "cnp_h121",
+    "strength": "hard",
+    "reason": "用「带电粒子在组合场中的运动」要先会「带电粒子在匀强磁场中的运动」。"
+  },
+  {
+    "topicId": "cnp_m028",
+    "prerequisiteId": "cnp_m027",
+    "strength": "soft",
+    "reason": "「带电粒子在组合场中的运动」会用到「带电粒子在有界磁场中的运动（找圆心、半径与临界）」。"
+  },
+  {
+    "topicId": "cnp_m029",
+    "prerequisiteId": "cnp_h120",
+    "strength": "hard",
+    "reason": "用「叠加场的应用（速度选择器、磁流体发电机、霍尔效应、电磁流量计）」要先会「洛伦兹力」。"
+  },
+  {
+    "topicId": "cnp_m029",
+    "prerequisiteId": "cnp_h055",
+    "strength": "hard",
+    "reason": "用「叠加场的应用（速度选择器、磁流体发电机、霍尔效应、电磁流量计）」要先会「电场强度」。"
+  },
+  {
+    "topicId": "cnp_m029",
+    "prerequisiteId": "cnp_h019",
+    "strength": "hard",
+    "reason": "用「叠加场的应用（速度选择器、磁流体发电机、霍尔效应、电磁流量计）」要先会「共点力的平衡」。"
+  },
+  {
+    "topicId": "cnp_m029",
+    "prerequisiteId": "cnp_h122",
+    "strength": "soft",
+    "reason": "「叠加场的应用（速度选择器、磁流体发电机、霍尔效应、电磁流量计）」会用到「质谱仪」。"
+  },
+  {
+    "topicId": "cnp_m030",
+    "prerequisiteId": "cnp_h127",
+    "strength": "hard",
+    "reason": "用「单杆切割模型（动力学与能量）」要先会「导体切割磁感线时的感应电动势」。"
+  },
+  {
+    "topicId": "cnp_m030",
+    "prerequisiteId": "cnp_h128",
+    "strength": "hard",
+    "reason": "用「单杆切割模型（动力学与能量）」要先会「电磁感应中的电路、能量与动力学问题」。"
+  },
+  {
+    "topicId": "cnp_m030",
+    "prerequisiteId": "cnp_h118",
+    "strength": "hard",
+    "reason": "用「单杆切割模型（动力学与能量）」要先会「安培力」。"
+  },
+  {
+    "topicId": "cnp_m030",
+    "prerequisiteId": "cnp_m014",
+    "strength": "soft",
+    "reason": "「单杆切割模型（动力学与能量）」会用到「机车启动模型（恒定功率与恒定加速度）」。"
+  },
+  {
+    "topicId": "cnp_m031",
+    "prerequisiteId": "cnp_h093",
+    "strength": "hard",
+    "reason": "用「双杆模型」要先会「动量守恒定律」。"
+  },
+  {
+    "topicId": "cnp_m031",
+    "prerequisiteId": "cnp_h128",
+    "strength": "hard",
+    "reason": "用「双杆模型」要先会「电磁感应中的电路、能量与动力学问题」。"
+  },
+  {
+    "topicId": "cnp_m031",
+    "prerequisiteId": "cnp_h125",
+    "strength": "soft",
+    "reason": "「双杆模型」会用到「楞次定律」。"
+  },
+  {
+    "topicId": "cnp_m031",
+    "prerequisiteId": "cnp_m030",
+    "strength": "soft",
+    "reason": "「双杆模型」会用到「单杆切割模型（动力学与能量）」。"
+  },
+  {
+    "topicId": "cnp_m032",
+    "prerequisiteId": "cnp_h126",
+    "strength": "hard",
+    "reason": "用「线框穿越磁场」要先会「法拉第电磁感应定律」。"
+  },
+  {
+    "topicId": "cnp_m032",
+    "prerequisiteId": "cnp_h127",
+    "strength": "hard",
+    "reason": "用「线框穿越磁场」要先会「导体切割磁感线时的感应电动势」。"
+  },
+  {
+    "topicId": "cnp_m032",
+    "prerequisiteId": "cnp_h125",
+    "strength": "hard",
+    "reason": "用「线框穿越磁场」要先会「楞次定律」。"
+  },
+  {
+    "topicId": "cnp_m032",
+    "prerequisiteId": "cnp_h128",
+    "strength": "soft",
+    "reason": "「线框穿越磁场」会用到「电磁感应中的电路、能量与动力学问题」。"
+  },
+  {
+    "topicId": "cnp_m033",
+    "prerequisiteId": "cnp_h127",
+    "strength": "hard",
+    "reason": "用「导体棒转动切割与线框转动发电」要先会「导体切割磁感线时的感应电动势」。"
+  },
+  {
+    "topicId": "cnp_m033",
+    "prerequisiteId": "cnp_h131",
+    "strength": "hard",
+    "reason": "用「导体棒转动切割与线框转动发电」要先会「交变电流的产生」。"
+  },
+  {
+    "topicId": "cnp_m033",
+    "prerequisiteId": "cnp_h126",
+    "strength": "soft",
+    "reason": "「导体棒转动切割与线框转动发电」会用到「法拉第电磁感应定律」。"
+  },
+  {
+    "topicId": "cnp_m034",
+    "prerequisiteId": "cnp_h092",
+    "strength": "hard",
+    "reason": "用「电磁感应中的动量定理（求电荷量、位移、时间）」要先会「动量定理」。"
+  },
+  {
+    "topicId": "cnp_m034",
+    "prerequisiteId": "cnp_h128",
+    "strength": "hard",
+    "reason": "用「电磁感应中的动量定理（求电荷量、位移、时间）」要先会「电磁感应中的电路、能量与动力学问题」。"
+  },
+  {
+    "topicId": "cnp_m034",
+    "prerequisiteId": "cnp_h118",
+    "strength": "hard",
+    "reason": "用「电磁感应中的动量定理（求电荷量、位移、时间）」要先会「安培力」。"
+  },
+  {
+    "topicId": "cnp_m034",
+    "prerequisiteId": "cnp_m030",
+    "strength": "soft",
+    "reason": "「电磁感应中的动量定理（求电荷量、位移、时间）」会用到「单杆切割模型（动力学与能量）」。"
+  },
+  {
+    "topicId": "cnp_m035",
+    "prerequisiteId": "cnp_h133",
+    "strength": "hard",
+    "reason": "用「理想变压器的动态分析与远距离输电」要先会「变压器」。"
+  },
+  {
+    "topicId": "cnp_m035",
+    "prerequisiteId": "cnp_h135",
+    "strength": "hard",
+    "reason": "用「理想变压器的动态分析与远距离输电」要先会「电能的输送」。"
+  },
+  {
+    "topicId": "cnp_m035",
+    "prerequisiteId": "cnp_h079",
+    "strength": "soft",
+    "reason": "「理想变压器的动态分析与远距离输电」会用到「闭合电路的欧姆定律」。"
+  },
+  {
+    "topicId": "cnp_m036",
+    "prerequisiteId": "cnp_h154",
+    "strength": "hard",
+    "reason": "用「气缸活塞模型（气体实验定律与热力学第一定律）」要先会「理想气体状态方程」。"
+  },
+  {
+    "topicId": "cnp_m036",
+    "prerequisiteId": "cnp_h159",
+    "strength": "hard",
+    "reason": "用「气缸活塞模型（气体实验定律与热力学第一定律）」要先会「热力学第一定律」。"
+  },
+  {
+    "topicId": "cnp_m036",
+    "prerequisiteId": "cnp_h019",
+    "strength": "hard",
+    "reason": "用「气缸活塞模型（气体实验定律与热力学第一定律）」要先会「共点力的平衡」。"
+  },
+  {
+    "topicId": "cnp_m036",
+    "prerequisiteId": "cnp_h160",
+    "strength": "soft",
+    "reason": "「气缸活塞模型（气体实验定律与热力学第一定律）」会用到「热力学第一定律与气体状态变化的综合」。"
+  },
+  {
+    "topicId": "cnp_m037",
+    "prerequisiteId": "cnp_h152",
+    "strength": "hard",
+    "reason": "用「玻璃管液柱模型」要先会「气体的等温变化」。"
+  },
+  {
+    "topicId": "cnp_m037",
+    "prerequisiteId": "cnp_h019",
+    "strength": "hard",
+    "reason": "用「玻璃管液柱模型」要先会「共点力的平衡」。"
+  },
+  {
+    "topicId": "cnp_m037",
+    "prerequisiteId": "cnp_h153",
+    "strength": "soft",
+    "reason": "「玻璃管液柱模型」会用到「气体的等压变化和等容变化」。"
+  },
+  {
+    "topicId": "cnp_m038",
+    "prerequisiteId": "cnp_h168",
+    "strength": "hard",
+    "reason": "用「能级跃迁与光电效应综合」要先会「玻尔的原子模型与能级」。"
+  },
+  {
+    "topicId": "cnp_m038",
+    "prerequisiteId": "cnp_h165",
+    "strength": "hard",
+    "reason": "用「能级跃迁与光电效应综合」要先会「爱因斯坦光电效应方程」。"
+  },
+  {
+    "topicId": "cnp_m038",
+    "prerequisiteId": "cnp_h167",
+    "strength": "soft",
+    "reason": "「能级跃迁与光电效应综合」会用到「氢原子光谱」。"
+  },
+  {
+    "topicId": "cnp_m039",
+    "prerequisiteId": "cnp_h172",
+    "strength": "hard",
+    "reason": "用「核反应方程与核能计算」要先会「原子核的衰变」。"
+  },
+  {
+    "topicId": "cnp_m039",
+    "prerequisiteId": "cnp_h175",
+    "strength": "hard",
+    "reason": "用「核反应方程与核能计算」要先会「核力与结合能」。"
+  },
+  {
+    "topicId": "cnp_m039",
+    "prerequisiteId": "cnp_h176",
+    "strength": "soft",
+    "reason": "「核反应方程与核能计算」会用到「核裂变与核聚变」。"
   }
 ]
